@@ -1,6 +1,7 @@
 body {
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 400; 
+	padding-bottom: 50px;
 }
 
 
@@ -58,10 +59,13 @@ html {
 	width: 80%;
 	color: #fff;
 }
-
 .content__wrap {
-	padding: 40px;
-	background: rgba(0,0,0,.54);
+	margin-top: 40px;
+}
+.col {
+	padding: 20px;
+	background: rgba(241,241,241,.7);
+	color: #222;
 }
 
 /* Header */
@@ -69,10 +73,9 @@ html {
 	margin-top: 30px;
 }
 .header .title {
-	
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 800; 
-	color: #000;
+	color: #3d3d3d;
 	letter-spacing: .05ex;
 	text-transform: uppercase;
 	position: relative;
@@ -84,7 +87,7 @@ html {
 }
 
 .header .line-1 {
-	font-size: 100px;
+	font-size: 96px;
 }
 .header .line-2 {
 	font-size: 44px;
@@ -98,7 +101,7 @@ html {
 .symbol.s-01 {
 	font-size: 64px;
 	top: -15px;
-	left:0;
+	left:-10px;
 }
 .symbol.s-02 {
 	font-size: 44px;
@@ -111,20 +114,31 @@ html {
 	margin-left: 290px;
 }
 .header .line-3 {
-	font-size: 40px;
+	font-size: 48px;
+	color: #0096c1;
 }
 .header .line-4 {
-	font-size: 53px;
+	font-size: 64px;
+	color: #0096c1;
 }
 .header .line-5 {
-	font-size: 30px;
+	font-size: 36px;
 	position: relative;
 }
 .header .amp {
 	position: absolute;
 	top: 0;
-	left: -25px;
+	left: -30px;
 	display: block;
+}
+
+.col .headline {
+	font-size: 16px;
+	height: 3em;
+	text-transform: uppercase;
+	margin-top: 10px;
+	border-bottom: 2px solid;
+	padding-bottom: 0.5em;
 }
 
 /* Navigation */
