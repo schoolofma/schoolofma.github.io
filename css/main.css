@@ -1,3 +1,8 @@
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; 
+}
+
 
 html {
   overflow-y: scroll;
@@ -48,18 +53,85 @@ html {
 .wrap {
 	position: relative;
 	z-index: 1;
-	padding: 40px;
-	background: rgba(0,0,0,.54);
+	
+	
 	width: 80%;
 	color: #fff;
 }
 
+.content__wrap {
+	padding: 40px;
+	background: rgba(0,0,0,.54);
+}
+
 /* Header */
-.header h1 {
-	text-align: center;
+.header {
+	margin-top: 30px;
+}
+.header .title {
+	
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800; 
+	color: #000;
+	letter-spacing: .05ex;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.header .line {
+	display: block;
+	line-height: 1;
+}
+
+.header .line-1 {
+	font-size: 100px;
+}
+.header .line-2 {
+	font-size: 44px;
+	margin-left: 260px;
+	position: relative;
+	padding-bottom: 75px;
+}
+.symbol {
+	position: absolute;
+}
+.symbol.s-01 {
+	font-size: 64px;
+	top: -15px;
+	left:0;
+}
+.symbol.s-02 {
+	font-size: 44px;
+	top: 40px;
+	left:10px;
+}
+.header .line-3,
+.header .line-4,
+.header .line-5 {
+	margin-left: 290px;
+}
+.header .line-3 {
+	font-size: 40px;
+}
+.header .line-4 {
+	font-size: 53px;
+}
+.header .line-5 {
+	font-size: 30px;
+	position: relative;
+}
+.header .amp {
+	position: absolute;
+	top: 0;
+	left: -25px;
+	display: block;
 }
 
 /* Navigation */
+.navbar {
+	margin: 40px 0;
+}
+
 .nav-list,
 .nav-item {
 	list-style: none;
@@ -71,4 +143,5 @@ html {
 	text-align: center;
 	color: #000;
 	display: block;
+	font-size: 18px;
 }
