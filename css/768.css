@@ -8,52 +8,50 @@
 }
 	.header .title {
 		margin-right: 2%;
-		border: 1px solid red;
 	}
 
 	.header .line-1 {
-		font-size: 44px;
+		font-size: 68px;
 	}
 	.header .line-2 {
-		font-size: 44px;
-		margin-left: 260px;
+		margin-left: 185px;
 		position: relative;
-		padding-bottom: 75px;
+		padding-bottom: 65px;
 	}
 	.symbol {
 		position: absolute;
 	}
 	.symbol.s-01 {
-		font-size: 64px;
+		font-size: 54px;
 		top: -15px;
 		left:-10px;
 	}
 	.symbol.s-02 {
 		font-size: 44px;
-		top: 40px;
-		left:10px;
+		top: 30px;
+		left:5px;
 	}
 	.header .line-3,
 	.header .line-4,
 	.header .line-5 {
-		margin-left: 290px;
+		margin-left: 200px;
 	}
 	.header .line-3 {
-		font-size: 48px;
+		font-size: 42px;
 		color: #0096c1;
 	}
 	.header .line-4 {
-		font-size: 64px;
+		font-size: 56px;
 		color: #0096c1;
 	}
 	.header .line-5 {
-		font-size: 36px;
+		font-size: 31px;
 		position: relative;
 	}
 	.header .amp {
 		position: absolute;
 		top: 0;
-		left: -30px;
+		left: -27px;
 		display: block;
 	}
 
