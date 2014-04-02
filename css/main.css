@@ -49,6 +49,10 @@ html {
   min-height: 50%;
 }
 
+p {
+	line-height: 1.6;
+}
+
 a {
 	color: #444;/*#428bca;*/
 	text-decoration: underline;
