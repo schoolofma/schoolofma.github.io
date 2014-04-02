@@ -28,7 +28,6 @@ html {
   */
 }
 
-
 .bg {
   position: fixed;
   z-index: 0;
@@ -48,6 +47,15 @@ html {
   margin: auto; 
   min-width: 50%;
   min-height: 50%;
+}
+
+a {
+	color: #444;/*#428bca;*/
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #000;
 }
 
 
@@ -77,6 +85,7 @@ html {
 	font-weight: 800; 
 	color: #3d3d3d;
 	letter-spacing: .05ex;
+	margin-right: 5%;
 	text-transform: uppercase;
 	position: relative;
 }
@@ -159,3 +168,58 @@ html {
 	display: block;
 	font-size: 18px;
 }
+
+/* Columns */
+.contact-list {
+	padding-left: 0;
+}
+.contact-item {
+	list-style: none;
+	padding-left: 25px;
+	position: relative;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+	
+	.contact-item a {
+		text-decoration: none;
+	}
+	.contact-item a:hover,
+	.contact-item a:active {
+		text-decoration: underline;
+	}
+
+	.contact-item .icon {
+		background-image: url(/i/icons.png);
+		background-repeat: no-repeat;
+		display: block;
+		width: 24px;
+		height: 19px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		/*margin-top: -9px;*/
+	}
+
+	.contact-item .icon-email {
+		background-position: 0 0;
+	}
+	.contact-item:hover .icon-email {
+		background-position: 0 -30px;
+	}
+
+	.contact-item .icon-twitter {
+		background-position: -24px 0;
+	}
+
+	.contact-item:hover .icon-twitter {
+		background-position: -24px -30px;
+	}
+
+	.contact-item .icon-fb {
+		background-position: -47px 0;
+	}
+
+	.contact-item:hover .icon-fb {
+		background-position: -47px -30px;
+	}
