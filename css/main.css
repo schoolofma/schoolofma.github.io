@@ -227,3 +227,10 @@ a:hover {
 	.contact-item:hover .icon-fb {
 		background-position: -47px -30px;
 	}
+
+@media only screen and (max-device-width: 768px) {
+	.header .title {
+		margin-right: 2%;
+		border: 1px solid red;
+	}
+}
