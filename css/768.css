@@ -1,0 +1,59 @@
+/*  small devices */
+
+
+	/* Header */
+.header {
+
+	margin-top: 30px;
+}
+	.header .title {
+		margin-right: 2%;
+		border: 1px solid red;
+	}
+
+	.header .line-1 {
+		font-size: 44px;
+	}
+	.header .line-2 {
+		font-size: 44px;
+		margin-left: 260px;
+		position: relative;
+		padding-bottom: 75px;
+	}
+	.symbol {
+		position: absolute;
+	}
+	.symbol.s-01 {
+		font-size: 64px;
+		top: -15px;
+		left:-10px;
+	}
+	.symbol.s-02 {
+		font-size: 44px;
+		top: 40px;
+		left:10px;
+	}
+	.header .line-3,
+	.header .line-4,
+	.header .line-5 {
+		margin-left: 290px;
+	}
+	.header .line-3 {
+		font-size: 48px;
+		color: #0096c1;
+	}
+	.header .line-4 {
+		font-size: 64px;
+		color: #0096c1;
+	}
+	.header .line-5 {
+		font-size: 36px;
+		position: relative;
+	}
+	.header .amp {
+		position: absolute;
+		top: 0;
+		left: -30px;
+		display: block;
+	}
+
