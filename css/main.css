@@ -228,3 +228,20 @@ a:hover {
 	.contact-item:hover .icon-fb {
 		background-position: -47px -30px;
 	}
+
+/* ===========================================
+	Form elements */
+
+::-webkit-input-placeholder {
+   color: #666;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #666;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #666;  
+}
+:-ms-input-placeholder {  
+   color: #666;  
+}
+
