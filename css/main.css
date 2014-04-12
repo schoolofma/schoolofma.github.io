@@ -207,10 +207,10 @@ a:hover {
 	}
 
 	.contact-item .icon-email {
-		background-position: -70px 0;
+		background-position: -71px 0;
 	}
 	.contact-item:hover .icon-email {
-		background-position: 0 -30px;
+		background-position: -71px -30px;
 	}
 
 	.contact-item .icon-twitter {
