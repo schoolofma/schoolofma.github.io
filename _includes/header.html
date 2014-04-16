@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="{{ site.baseurl }}/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="{{ site.baseurl }}/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="{{site.url}}/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="{{site.url}}/css/480.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				{% if page.layout == 'page' %}<a href="/">{% endif %}
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				{% if page.layout == 'page' %}</a>{% endif %}
+			</header>
+		</div>

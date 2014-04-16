@@ -1,0 +1,19 @@
+<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+{% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
+
+<nav class="navbar">
+    <ul class="row nav-list">
+        <li class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col">
+            <div {% if location == 'about' or page.layout == 'default' %}class="active" {% endif %}>
+                <a class="nav-link headline" href="/about/">About</a>
+            </div>
+        </li>
+        <li class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col">
+            <div {% if location == 'summer-2014' or page.layout == 'default'%}class="active" {% endif %}>
+            <a  href="/summer-2014/" class="nav-link headline">Summer 2014</a>
+            </div>
+        </li>
+    </ul>
+</nav>

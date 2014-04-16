@@ -1,7 +1,9 @@
 body {
 	background-color: #f1f1f1;
 	font-family: 'Open Sans', sans-serif;
+
 	font-weight: 400; 
+	font-size: 16px;
 	padding-bottom: 50px;
 }
 
@@ -63,6 +65,59 @@ a:hover {
 	color: #000;
 }
 
+.aside h2 {
+	font-size: 18px;
+	margin-top: 0;
+}
+
+h3,
+h4 {
+	font-family: 'Cousine';
+	margin: 2em 0 1em;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 21px;
+}
+.em {
+	font-family: 'Cousine';
+	margin: 2em 0;
+}
+.thanks {
+	text-align: center;
+	padding-top: 2em;
+	position: relative;
+}
+	.thanks:after {
+		content: '';
+		display: block;
+		width: 21px;
+		height: 17px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -10px;
+		background: -100px 0 url(../i/icons.png) no-repeat;
+	}
+.sub {
+	font-family: 'Cousine';
+	color: #666;
+}
+.title {
+	margin: 0.5em 0;
+}
+.title .sub {
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+.warning {
+	color: #ba0533;
+}
 
 .wrap {
 	position: relative;
@@ -76,9 +131,12 @@ a:hover {
 	margin-top: 40px;
 }
 .col {
-	padding: 20px;
-	background: rgba(241,241,241,.7);
-	color: #222;
+	padding: 25px;
+	background: rgba(241,241,241,.85);
+	color: #333;
+}
+.holder {
+	margin-bottom:3em;
 }
 
 /* Header */
@@ -147,36 +205,68 @@ a:hover {
 }
 
 .col .headline {
-	font-size: 16px;
+	font-size: 18px;
 	height: 3em;
 	text-transform: uppercase;
-	margin-top: 10px;
-	border-bottom: 2px solid;
 	padding-bottom: 0.5em;
+	border-bottom: 3px solid;
+}
+
+.application {
+	border: 0.75em solid;
+	background-color: background: rgba(241,241,241,.7);
+	padding: 1em;
+	/* font-size: 14px; */
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
 }
 
 /* Navigation */
 .navbar {
-	margin: 40px 0;
+	margin:0;
+	padding: 0;
 }
-
 .nav-list,
 .nav-item {
 	list-style: none;
 }
 .nav-list {
-	margin: 0;
+	padding: 0;
+	margin-bottom: 0;
 }
+	.nav-list .col {
+		padding-bottom: 0;
+	}
 .nav-link {
-	text-align: center;
 	color: #000;
 	display: block;
-	font-size: 18px;
+	text-decoration: none;
+	border-bottom: 2px solid;
+}
+.active {
+	/*border-bottom: 10px solid;*/
+}
+.nav-link {
+	color: #c0c0c0;
+	display: block;
+	text-decoration: none;
+	border-bottom: 3px solid;
+}
+.nav-link:hover {
+	text-decoration: none;
+}
+.active .nav-link{
+	text-decoration: none;
+	border-bottom: 0;
+	color: #000;
+	border-bottom: 3px solid;
 }
 
 /* Columns */
 .contact-list {
 	padding-left: 0;
+	margin-top: 1em;
 }
 .contact-item {
 	list-style: none;
@@ -245,3 +335,26 @@ a:hover {
    color: #666;  
 }
 
+/* ===========================================
+	Pages */
+.logo-list {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.logo-item {
+	margin-bottom: 1em;
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle;
+	margin-right: 2em;
+}
+.logo-item a {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.logo-item img {
+	display: block;
+	margin: 0 auto;
+}
