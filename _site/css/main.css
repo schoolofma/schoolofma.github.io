@@ -1,0 +1,247 @@
+body {
+	background-color: #f1f1f1;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400; 
+	padding-bottom: 50px;
+}
+
+
+html {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color : lighten($base-color, 75%);
+  -webkit-text-size-adjust : 100%;
+  -ms-text-size-adjust : 100%;
+  background-color : transparent;
+  /* Technique: http://css-tricks.com/perfect-full-page-background-image/ */
+  /*background-image: url(../i/bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
+  -webkit-background-size: 1534px 1024px; // fix not correct scaling in safari on ipad
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  */
+}
+
+.bg {
+  position: fixed;
+  z-index: 0;
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+.bg img {
+  position: absolute; 
+  display: block;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+p {
+	line-height: 1.6;
+}
+
+a {
+	color: #444;/*#428bca;*/
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #000;
+}
+
+
+.wrap {
+	position: relative;
+	z-index: 1;
+	
+	
+	width: 80%;
+	color: #fff;
+}
+.content__wrap {
+	margin-top: 40px;
+}
+.col {
+	padding: 20px;
+	background: rgba(241,241,241,.7);
+	color: #222;
+}
+
+/* Header */
+.header {
+	margin-top: 30px;
+}
+.header .title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800; 
+	color: #3d3d3d;
+	letter-spacing: .05ex;
+	margin-right: 5%;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.header .line {
+	display: block;
+	line-height: 1;
+}
+
+.header .line-1 {
+	font-size: 96px;
+}
+.header .line-2 {
+	font-size: 44px;
+	margin-left: 260px;
+	position: relative;
+	padding-bottom: 75px;
+}
+.symbol {
+	position: absolute;
+}
+.symbol.s-01 {
+	font-size: 64px;
+	top: -15px;
+	left:-10px;
+}
+.symbol.s-02 {
+	font-size: 44px;
+	top: 40px;
+	left:10px;
+}
+.header .line-3,
+.header .line-4,
+.header .line-5 {
+	margin-left: 290px;
+}
+.header .line-3 {
+	font-size: 48px;
+	color: #0096c1;
+}
+.header .line-4 {
+	font-size: 64px;
+	color: #0096c1;
+}
+.header .line-5 {
+	font-size: 36px;
+	position: relative;
+}
+.header .amp {
+	position: absolute;
+	top: 0;
+	left: -30px;
+	display: block;
+}
+
+.col .headline {
+	font-size: 16px;
+	height: 3em;
+	text-transform: uppercase;
+	margin-top: 10px;
+	border-bottom: 2px solid;
+	padding-bottom: 0.5em;
+}
+
+/* Navigation */
+.navbar {
+	margin: 40px 0;
+}
+
+.nav-list,
+.nav-item {
+	list-style: none;
+}
+.nav-list {
+	margin: 0;
+}
+.nav-link {
+	text-align: center;
+	color: #000;
+	display: block;
+	font-size: 18px;
+}
+
+/* Columns */
+.contact-list {
+	padding-left: 0;
+}
+.contact-item {
+	list-style: none;
+	padding-left: 25px;
+	position: relative;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+	
+	.contact-item a {
+		text-decoration: none;
+	}
+	.contact-item a:hover,
+	.contact-item a:active {
+		text-decoration: underline;
+	}
+
+	.contact-item .icon {
+		background-image: url(/i/icons.png);
+		background-repeat: no-repeat;
+		display: block;
+		width: 24px;
+		height: 19px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		/*margin-top: -9px;*/
+	}
+
+	.contact-item .icon-email {
+		background-position: -71px 0;
+	}
+	.contact-item:hover .icon-email {
+		background-position: -71px -30px;
+	}
+
+	.contact-item .icon-twitter {
+		background-position: 0 0;
+	}
+
+	.contact-item:hover .icon-twitter {
+		background-position: 0 -30px;
+	}
+
+	.contact-item .icon-fb {
+		background-position: -47px 0;
+	}
+
+	.contact-item:hover .icon-fb {
+		background-position: -47px -30px;
+	}
+
+/* ===========================================
+	Form elements */
+
+::-webkit-input-placeholder {
+   color: #666;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #666;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #666;  
+}
+:-ms-input-placeholder {  
+   color: #666;  
+}
+
