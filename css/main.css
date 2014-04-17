@@ -393,6 +393,8 @@ h5 {
 
 .pic {
 	width: 100%;
+	display: block;
+	margin-bottom: 1em;
 }
 .coach .text {
 	font-size: 14px;
