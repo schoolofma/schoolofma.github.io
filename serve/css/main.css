@@ -1,0 +1,401 @@
+body {
+	background-color: #f1f1f1;
+	font-family: 'Open Sans', sans-serif;
+
+	font-weight: 400; 
+	font-size: 16px;
+	padding-bottom: 50px;
+}
+
+
+html {
+  overflow-y: scroll;
+  -webkit-overflow-scrolling: touch;
+  -webkit-tap-highlight-color : lighten($base-color, 75%);
+  -webkit-text-size-adjust : 100%;
+  -ms-text-size-adjust : 100%;
+  background-color : transparent;
+  /* Technique: http://css-tricks.com/perfect-full-page-background-image/ */
+  /*background-image: url(../i/bg.jpg);
+  background-position: center top;
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  
+  //-webkit-background-size: cover;
+  //-moz-background-size: cover;
+  //-o-background-size: cover;
+  //background-size: cover;
+  -webkit-background-size: 1534px 1024px; // fix not correct scaling in safari on ipad
+  filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='.myBackground.jpg', sizingMethod='scale');
+  -ms-filter: "progid:DXImageTransform.Microsoft.AlphaImageLoader(src='myBackground.jpg', sizingMethod='scale')";
+  */
+}
+
+.bg {
+  position: fixed;
+  z-index: 0;
+  top: -50%; 
+  left: -50%; 
+  width: 200%; 
+  height: 200%;
+}
+
+.bg img {
+  position: absolute; 
+  display: block;
+  top: 0; 
+  left: 0; 
+  right: 0; 
+  bottom: 0; 
+  margin: auto; 
+  min-width: 50%;
+  min-height: 50%;
+}
+
+p {
+	line-height: 1.6;
+}
+
+a {
+	color: #444;/*#428bca;*/
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #000;
+}
+
+.aside h2 {
+	font-size: 18px;
+	margin-top: 0;
+}
+
+h3,
+h4,
+h5 {
+	font-family: 'Cousine';
+	margin: 2em 0 1em;
+}
+
+h3 {
+	font-size: 24px;
+}
+
+h4 {
+	font-size: 21px;
+}
+
+h5 {
+	font-size: 18px;
+}
+.em {
+	font-family: 'Cousine';
+	margin: 2em 0;
+}
+.thanks {
+	text-align: center;
+	padding-top: 2em;
+	position: relative;
+}
+	.thanks:after {
+		content: '';
+		display: block;
+		width: 21px;
+		height: 17px;
+		position: absolute;
+		top: 0;
+		left: 50%;
+		margin-left: -10px;
+		background: -100px 0 url(../i/icons.png) no-repeat;
+	}
+.sub {
+	font-family: 'Cousine';
+	color: #666;
+}
+	.sub a {
+		color: #666;
+	}
+.title {
+	margin: 0.5em 0;
+}
+.title .sub {
+	text-transform: uppercase;
+	font-size: 16px;
+
+}
+.warning {
+	color: #1c97be;
+}
+
+.wrap {
+	position: relative;
+	z-index: 1;
+	
+	
+	width: 80%;
+	color: #fff;
+}
+.content__wrap {
+	margin-top: 40px;
+}
+.col {
+	padding: 25px;
+	background: rgba(241,241,241,0.78);
+	color: #333;
+}
+.holder {
+	margin-bottom:3em;
+}
+
+/* Header */
+.header {
+	margin-top: 30px;
+}
+.header .title {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 800; 
+	color: #3d3d3d;
+	letter-spacing: .05ex;
+	margin-right: 5%;
+	text-transform: uppercase;
+	position: relative;
+}
+
+.header .line {
+	display: block;
+	line-height: 1;
+}
+
+.header .line-1 {
+	font-size: 96px;
+}
+.header .line-2 {
+	font-size: 44px;
+	margin-left: 260px;
+	position: relative;
+	padding-bottom: 75px;
+}
+.symbol {
+	position: absolute;
+}
+.symbol.s-01 {
+	font-size: 64px;
+	top: -15px;
+	left:-10px;
+}
+.symbol.s-02 {
+	font-size: 44px;
+	top: 40px;
+	left:10px;
+}
+.header .line-3,
+.header .line-4,
+.header .line-5 {
+	margin-left: 290px;
+}
+.header .line-3 {
+	font-size: 48px;
+	color: #0096c1;
+}
+.header .line-4 {
+	font-size: 64px;
+	color: #0096c1;
+}
+.header .line-5 {
+	font-size: 36px;
+	position: relative;
+}
+.header .amp {
+	position: absolute;
+	top: 0;
+	left: -30px;
+	display: block;
+}
+
+.col .headline {
+	font-size: 18px;
+	height: 3em;
+	text-transform: uppercase;
+	padding-bottom: 0.5em;
+	border-bottom: 3px solid;
+}
+
+.application {
+	border: 0.75em solid;
+	background-color: background: rgba(241,241,241,.7);
+	padding: 1em;
+	/* font-size: 14px; */
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 14px;
+}
+
+/* Navigation */
+.navbar {
+	margin:0;
+	padding: 0;
+}
+.nav-list,
+.nav-item {
+	list-style: none;
+}
+.nav-list {
+	padding: 0;
+	margin-bottom: 0;
+}
+	.nav-list .col {
+		padding-bottom: 0;
+	}
+.nav-link {
+	color: #000;
+	display: block;
+	text-decoration: none;
+	border-bottom: 2px solid;
+}
+.active {
+	/*border-bottom: 10px solid;*/
+}
+.nav-link {
+	color: #c0c0c0;
+	display: block;
+	text-decoration: none;
+	border-bottom: 3px solid;
+}
+.nav-link:hover {
+	text-decoration: none;
+}
+.active .nav-link{
+	text-decoration: none;
+	border-bottom: 0;
+	color: #000;
+	border-bottom: 3px solid;
+}
+
+/* Columns */
+.contact-list {
+	padding-left: 0;
+	margin-top: 1em;
+}
+.contact-item {
+	list-style: none;
+	padding-left: 25px;
+	position: relative;
+	margin-left: 0;
+	margin-bottom: 10px;
+}
+	
+	.contact-item a {
+		text-decoration: none;
+	}
+	.contact-item a:hover,
+	.contact-item a:active {
+		text-decoration: underline;
+	}
+
+	.contact-item .icon {
+		background-image: url(/i/icons.png);
+		background-repeat: no-repeat;
+		display: block;
+		width: 24px;
+		height: 19px;
+		position: absolute;
+		left: 0;
+		top: 0;
+		/*margin-top: -9px;*/
+	}
+
+	.contact-item .icon-email {
+		background-position: -71px 0;
+	}
+	.contact-item:hover .icon-email {
+		background-position: -71px -30px;
+	}
+
+	.contact-item .icon-twitter {
+		background-position: 0 0;
+	}
+
+	.contact-item:hover .icon-twitter {
+		background-position: 0 -30px;
+	}
+
+	.contact-item .icon-fb {
+		background-position: -47px 0;
+	}
+
+	.contact-item:hover .icon-fb {
+		background-position: -47px -30px;
+	}
+
+/* ===========================================
+	Form elements */
+
+::-webkit-input-placeholder {
+   color: #666;
+}
+:-moz-placeholder { /* Firefox 18- */
+   color: #666;  
+}
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #666;  
+}
+:-ms-input-placeholder {  
+   color: #666;  
+}
+
+/* ===========================================
+	Pages */
+.logo-list {
+	list-style: none;
+	margin:0;
+	padding: 0;
+}
+.logo-item {
+	margin-bottom: 1em;
+	display: inline-block;
+	*display: inline;
+	vertical-align: middle;
+	margin-right: 2em;
+}
+.logo-item a {
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+.logo-item img {
+	display: block;
+	margin: 0 auto;
+}
+.program {
+	margin-top: 3em;
+}
+.coach-list {
+	padding-left: 0;
+	margin-left: 0;
+}
+.coach {
+	list-style: none;
+	margin-bottom: 2em;
+}
+	.coach .name {
+		margin-top: 0;
+	}
+
+	.name .sub {
+		font-size: 14px;
+		text-transform: uppercase;
+		letter-spacing: 0.03ex;
+	}
+
+	.name .sub a {
+		text-decoration: none;
+	}
+
+.pic {
+	width: 100%;
+	display: block;
+	margin-bottom: 1em;
+}
+.coach .text {
+	font-size: 14px;
+}
