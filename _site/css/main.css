@@ -419,3 +419,13 @@ h5 {
 .coach .text {
 	font-size: 14px;
 }
+
+/* FAQ section 
+=================== */
+.question h4 {
+	font-size: 17px;
+	color: #418239;
+}
+.answer {
+	margin-bottom: 3em;
+}
