@@ -53,11 +53,11 @@ html {
 }
 
 p {
-	line-height: 1.6;
+	line-height: 1.7;
 }
 
 a {
-	color: #444;/*#428bca;*/
+	color: #555;/*#428bca;*/
 	text-decoration: underline;
 }
 
@@ -222,7 +222,7 @@ h5 {
 
 .application {
 	border: 0.75em solid;
-	background-color: background: rgba(241,241,241,.7);
+	background-color: rgba(241,241,241,.7);
 	padding: 1em;
 	/* font-size: 14px; */
 	text-transform: uppercase;
@@ -269,6 +269,26 @@ h5 {
 	border-bottom: 0;
 	color: #000;
 	border-bottom: 3px solid;
+}
+.nav-link__home {
+	text-indent: -9878px;
+	position: relative;
+}
+.nav-link__home .icon-home {
+	display: block;
+	width: 18px;
+	height: 20px;
+	position:absolute;
+	top: 2px;
+	left: 0;
+}
+.active .nav-link__home .icon-home,
+.nav-link__home:hover .icon-home { 
+	background: -126px 0 url(/i/icons.png) no-repeat;
+}
+
+.nav-link__home .icon-home {
+	background: -126px -30px url(/i/icons.png) no-repeat;
 }
 
 /* Columns */
