@@ -61,7 +61,7 @@
     <ul class="row nav-list">
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
             <div class="active" >
-                <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+                <a class="nav-link headline" href="/">Home</a>
             </div>
         </li>
         <li class="col-xs-12 col-sm-12 col-md-5 col-lg-5 col">
@@ -82,7 +82,8 @@
 						<p>Hello, World!</p> 
 						<p>School of Machines, Making & Make-Believe is an organisation dedicated to the imaginative and non-sensical exploration of art and technology. We’re passionate about interactivity and storytelling. We enjoy learning and playing with tools that make our brains and our dreams come to life! Wanna join us?</p>
 						<p>We’re currently accepting applications for two, one-month, full-time experimental learning programs taking place this Summer in Berlin, Germany. We invite creative people of all kinds-- artists, technologists, writers, magicians, the curious, the risk-takers-- all are encouraged to apply! Each program will admit only 10-15 students.</p>
-						<p>Interested?</p><p> <a href="/summer-2014">Find out about our Summer 2014 programs</a>!</p>
+						<p>Interested?</p>
+						<p><a href="/summer-2014">Find out about our Summer 2014 programs</a>.</p>
 						
 						
 						<div class="em thanks">
