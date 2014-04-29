@@ -84,19 +84,7 @@
 							<section>
 	<article>
 		<p>If you have a question and don't see it&nbsp;answered here, send us&nbsp;an&nbsp;<a href="mailto:info@schoolofma.org" subject="Question about the School!">email</a> and&nbsp;we&nbsp;can add it&nbsp;to&nbsp;this section.</p>
-		<dl>	
-			<dt class="question">
-				<h4>First things first, what are the dates exactly?</h4>
-			</dt>
-			<dd class="answer">
-				<p>Great question! Our July Responsive Spaces program runs from June 30th-July 25th. The August Let's Get Physical (Computing) program runs from August 4th-August 29th. Each program runs for four weeks exactly. Disclaimer: With all the fun and excitement, time will fly by, and in the end it might feel like just one amazing 96hr. unfathomable trip of joy! But it will definitely be a full four weeks.</p>
-			</dd>
-			<dt class="question">
-				<h4>And the program will be based where?</h4>
-			</dt>
-			<dd class="answer">
-				<p>At <a href="http://www.thewye.de/" title="The WYE" target="_blank">The WYE</a>, an Art & Technology hub in the heart of Berlin, Kreuzberg! It's about a five minute walk from the bridge seen in the great german flick, <a href="https://www.youtube.com/watch?v=ppeZQ8inevE" title="Run Lola Run" target="_blank">Run Lola Run</a>. We can totally do that run together when you're here!</p>
-			</dd>
+		<dl>
 			<dt class="question">
 				<h4>The School sounds like a&nbsp;perfect fit for&nbsp;me! How much does it&nbsp;cost?</h4>
 			</dt>
@@ -151,7 +139,7 @@
 				<h4>You say the program is full-time, what does that mean exactly?</h4>
 			</dt>
 			<dd class="answer">
-				<p>Most days we will have a morning check-in beginning at&nbsp;10am, and then a morning class 'til around lunchtime. Some days there will be&nbsp;a&nbsp;class or a talk going on until 9pm, with free-time in&nbsp;the middle of&nbsp;the day to&nbsp;work or extra tutoring if you need it. Each day will vary but there should be a rough schedule at the beginning of&nbsp;every week and we&nbsp;will try our hardest to&nbsp;stick with. Again, it's a mix of&nbsp;lectures, labs, artist talks, plus lots of&nbsp;time to experiment! Fun times!</p>
+				<p>Most days we will have a morning check-in beginning at&nbsp;10am, and then a morning class 'til around lunchtime. some days there will be&nbsp;a&nbsp;class or a talk going on until 9pm, with free-time in&nbsp;the middle of&nbsp;the day to&nbsp;work or extra tutoring if you need it. Each day will vary slightly but there should be a rough schedule at the beginning of&nbsp;every week that we&nbsp;will try our hardest to&nbsp;stick with. Again, it's a mix of&nbsp;lectures, labs, artist talks, plus lots of&nbsp;time to experiment! Good times!</p>
 			</dd>
 			<dt class="question">
 				<h4>You're offering two one-month courses, what's the difference between the two?</h4>
@@ -169,8 +157,11 @@
 				<h4>Thanks! You keep saying "we", but who is organising all this?</h4>
 			</dt>
 			<dd class="answer">
-				<p>Well, that would be me! Hi, I'm <a href="https://twitter.com/onna_no_hito" title="Rachel">Rachel</a>, nice to meet you:) I've been helping to organise workshops, meetups, conferences, and all kinds of&nbsp;tech- (and non-tech) related events, for years. I've worked in&nbsp;audio, vfx and over the last couple of&nbsp;years, started learning about this magical world of&nbsp;art & tech! So as you can see, my entire life is finally starting to come together and make some sense! yay, that actually happens!</p><p>I participated in&nbsp;some amazing programs last year in&nbsp;NY&nbsp;&mdash;&nbsp;shout out to&nbsp;<a href="http://itp.nyu.edu/camp/2014/" title="ITP" Camp>ITP Camp</a> and <a href="http://sfpc.io/" title="SFPC">School For Poetic Computation</a>, yo! SFPC clarified a lot and gave me direction, which I can't thank them all enough for! Zach, Amit, Taeyoon, Jen and the first class of SFPC were a huge inspiration and I will try to live up to that in whatever it is the School&nbsp;of&nbsp;Machines, Making&nbsp;&&nbsp;Make-Believe becomes! Honestly, I&nbsp;was thinking about something like this even before then. Partcipating in&nbsp;those programs just helped me solidify in&nbsp;my mind what I want to do for the rest of&nbsp;my life: learn, and play forever with machines, making and make-believe!</p><p>I&nbsp;wanted to&nbsp;bring the same kind of&nbsp;experience to&nbsp;Europe. So&nbsp;I&nbsp;miraculously found an&nbsp;amazing community of&nbsp;coders, makers and dreamers (and a&nbsp;<a href="http://taniaabanina.com/" title="Tania Abanina">lovely web designer</a>) to join&nbsp;me in&nbsp;creating what will prove to&nbsp;be one amazing Summer in&nbsp;Berlin! Needless to&nbsp;say, we do&nbsp;hope you will <a href="https://docs.google.com/forms/d/1ZlwObVR731vCtswdFUE1vqUVln0WrYRoBx9qZuZD2ao/viewform" title="join us" Camp>join&nbsp;us</a>! </p>
-
+<<<<<<< HEAD
+				<p>Well, that would be me! Hi, I'm <a href="https://twitter.com/onna_no_hito" title="Rachel">Rachel</a>, nice to meet you:) I've been helping to organise workshops, meetups, conferences, and all kinds of&nbsp;tech-related and non-tech events, for years. I've worked in&nbsp;audio, vfx and over the last couple of&nbsp;years, started learning about this magical world of&nbsp;art & tech! So as you can see, my entire life is finally starting to come together and make some sense! yay!</p><p>I participated in&nbsp;some amazing programs last year in&nbsp;NY&nbsp;&mdash;&nbsp;shout out to&nbsp;<a href="http://itp.nyu.edu/camp/2014/" title="ITP" Camp>ITP Camp</a> and <a href="http://sfpc.io/" title="SFPC">SFPC</a>, yo! But I&nbsp;was thinking about something like this even before then. Partcipating in&nbsp;those programs just helped me solidify in&nbsp;my mind what I want to do for the rest of&nbsp;my life: learn, and play forever with machines, making and make-believe! I&nbsp;wanted to&nbsp;bring the same kind of&nbsp;experience to&nbsp;Europe. So&nbsp;I&nbsp;miraculously found an&nbsp;amazing community of&nbsp;coders, makers and dreamers (and a&nbsp;<a href="http://taniaabanina.com/" title="Tania Abanina">lovely web designer</a>) to join&nbsp;me in&nbsp;creating what will prove to&nbsp;be one amazing Summer in&nbsp;Berlin! Needless to&nbsp;say, we do&nbsp;hope you will join&nbsp;us! </p>
+=======
+				<p>Well, that would be me! Hi, I'm <a href="https://twitter.com/onna_no_hito" title="Rachel">Rachel</a>, nice to meet you:) I've been helping to organise workshops, meetups, conferences, and all kinds of tech-related (and non-tech) events, for years. I've worked in audio, vfx and over the last couple of years, started learning about this magical world of art & tech! So as you can see, my entire life is finally starting to come together and make some sense! yay, that actually happens!</p><p>I participated in some amazing programs last year in NY--shout out to <a href="http://itp.nyu.edu/camp/2014/" title="ITP" Camp>ITP Camp</a> and <a href="http://sfpc.io/" title="SFPC">SFPC</a>, yo! But I was thinking about something like this even before then. Partcipating in those programs just helped me solidify in my mind what I want to do for the rest of my life: learn, and play forever with machines, making and make-believe! I wanted to bring the same kind of experience to Europe. So I miraculously found an amazing community of coders, makers and dreamers (and a <a href="http://taniaabanina.com/" title="Tania Abanina">lovely web designer</a>) to join me in creating what will prove to be one amazing Summer in Berlin! Needless to say, we do hope you will join us! </p>
+>>>>>>> fac27939052ac051066e779f5d8b6d9af0f683a3
 			</dd>
 
 		</dl>
