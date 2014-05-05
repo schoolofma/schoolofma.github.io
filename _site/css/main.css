@@ -444,33 +444,57 @@ h5 {
 		zoom: 1;
 		position:relative;
 	}
-	.actual-02 .link:before {
+	.actual-item .link:before {
 		display: block;
 		content: '';
 		position: absolute;
+		top: 50%;
+		margin-top: -10px;
+		left: -55px;
+	}
+	.actual-item .link:after {
+		display: block;
+		content: '';
+		position: absolute;
+		top: 50%;
+		
+		right: -55px;
+	}
+	.actual-02 .link:before {
+		margin-top: -10px;
 		background: -150px 0 url(../i/icons.png) no-repeat;
 		width: 47px;
 		height: 17px;
-		top: 50%;
-		margin-top: -9px;
-		left: -55px;
 	}
 	.actual-02:hover .link:before {
 		background-position: -150px -30px;
 	}
 	.actual-02 .link:after {
-		display: block;
-		content: '';
-		position: absolute;
+		margin-top: -10px;
 		background: -200px 0 url(../i/icons.png) no-repeat;
 		width: 47px;
 		height: 17px;
-		top: 50%;
-		margin-top: -9px;
-		right: -55px;
 	}
 	.actual-02:hover .link:after {
 		background-position: -200px -30px;
+	}
+	.actual-01 .link:before {
+		background: -250px 0 url(../i/icons.png) no-repeat;
+		width: 45px;
+		height: 22px;
+		margin-top: -13px;
+	}
+	.actual-01:hover .link:before {
+		background-position: -250px -30px;
+	}
+	.actual-01 .link:after {
+		background: -300px 0 url(../i/icons.png) no-repeat;
+		width: 45px;
+		height: 22px;
+		margin-top: -13px;
+	}
+	.actual-01:hover .link:after {
+		background-position: -300px -30px;
 	}
 .coach-list {
 	padding-left: 0;
