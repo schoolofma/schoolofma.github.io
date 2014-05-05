@@ -73,7 +73,7 @@ a:hover {
 h3,
 h4,
 h5 {
-	font-family: 'Cousine';
+	font-family: 'Cousine', 'Open Sans', sans-serif;
 	margin: 2em 0 1em;
 }
 
@@ -89,7 +89,7 @@ h5 {
 	font-size: 18px;
 }
 .em {
-	font-family: 'Cousine';
+	font-family: 'Cousine', 'Open Sans', sans-serif;
 	margin: 2em 0;
 }
 .thanks {
@@ -109,7 +109,7 @@ h5 {
 		background: -100px 0 url(../i/icons.png) no-repeat;
 	}
 .sub {
-	font-family: 'Cousine';
+	font-family: 'Cousine', 'Open Sans', sans-serif;
 	color: #666;
 }
 	.sub a {
@@ -291,6 +291,42 @@ h5 {
 	background: -126px -30px url(/i/icons.png) no-repeat;
 }
 
+.nav-item__programs {
+	position: relative;
+	z-index: 1;
+}
+
+.nav-item__programs .actual__wrap {
+	position: absolute;
+	font-size: 12px;
+	bottom: 10px;	
+	top: 10px;
+	right: 25px;
+	z-index: 2;
+	/*border: 1px solid red;*/
+	width:170px;
+}
+/*
+.actual {
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+.actual-item {
+	position: absolute;
+	text-align: left;
+}
+.actual-01 {
+	width: 100%;
+	top: 5px;
+	left: 0;
+}
+.actual-02 {
+	width: 100%;
+	top: 30px;
+	left: 0;
+}
+*/
 /* Columns */
 .contact-list {
 	padding-left: 0;
@@ -389,6 +425,23 @@ h5 {
 .program {
 	margin-top: 3em;
 }
+.actual__wrap {
+	margin: 1em 0;
+
+}
+	.actual__wrap .actual {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		font-size: 18px;
+		font-family: 'Cousine', 'Open Sans', sans-serif, 'Open Sans', sans-serif;
+	}
+	.actual .link {
+		text-decoration: none;
+		padding: 1.5em 0;
+		display: block;
+	}
 .coach-list {
 	padding-left: 0;
 	margin-left: 0;
