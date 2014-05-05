@@ -427,7 +427,6 @@ h5 {
 }
 .actual__wrap {
 	margin: 1em 0;
-
 }
 	.actual__wrap .actual {
 		margin: 0;
@@ -440,7 +439,38 @@ h5 {
 	.actual .link {
 		text-decoration: none;
 		padding: 1.5em 0;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		position:relative;
+	}
+	.actual-02 .link:before {
 		display: block;
+		content: '';
+		position: absolute;
+		background: -150px 0 url(../i/icons.png) no-repeat;
+		width: 47px;
+		height: 17px;
+		top: 50%;
+		margin-top: -9px;
+		left: -55px;
+	}
+	.actual-02:hover .link:before {
+		background-position: -150px -30px;
+	}
+	.actual-02 .link:after {
+		display: block;
+		content: '';
+		position: absolute;
+		background: -200px 0 url(../i/icons.png) no-repeat;
+		width: 47px;
+		height: 17px;
+		top: 50%;
+		margin-top: -9px;
+		right: -55px;
+	}
+	.actual-02:hover .link:after {
+		background-position: -200px -30px;
 	}
 .coach-list {
 	padding-left: 0;
