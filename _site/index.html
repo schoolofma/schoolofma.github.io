@@ -12,10 +12,10 @@
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
     <!-- Bootstrap -->
-    <link href="css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-    <link href="css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
-    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="css/768.css" />
-    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="css/480.css" />
+    <link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -57,16 +57,30 @@
  -->
 
 
+
 <nav class="navbar">
     <ul class="row nav-list">
-        <li class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col">
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
             <div class="active" >
-                <a class="nav-link headline" href="">Home</a>
+                <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
             </div>
         </li>
-        <li class="col-xs-12 col-sm-12 col-md-12 col-lg-6 col">
+        <li class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col nav-item__programs">
             <div >
-            <a  href="summer-2014/" class="nav-link headline">Summer 2014</a>
+            <a  href="/programs/" class="nav-link headline">Programs</a>
+            </div>
+            <!--
+            <div class="actual__wrap">
+                <ul class="actual">
+                    <li class="actual-item actual-01"><a href="/programs/july-2014-responsive-spaces/">07/2014 Responsive Spaces</a></li>
+                    <li class="actual-item  actual-02"><a href="/programs/august-2014-let's-get-physical/">08/2014 Let's Get Physical!</a></li>
+                </ul>
+            </div>
+            -->
+        </li>
+        <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col">
+            <div >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
             </div>
         </li>
     </ul>
@@ -77,13 +91,15 @@
 						<p>Hello, World!</p> 
 						<p>School of Machines, Making & Make-Believe is an organisation dedicated to the imaginative and non-sensical exploration of art and technology. We’re passionate about interactivity and storytelling. We enjoy learning and playing with tools that make our brains and our dreams come to life! Wanna join us?</p>
 						<p>We’re currently accepting applications for two, one-month, full-time experimental learning programs taking place this Summer in Berlin, Germany. We invite creative people of all kinds-- artists, technologists, writers, magicians, the curious, the risk-takers-- all are encouraged to apply! Each program will admit only 10-15 students.</p>
-						<p>Interested?</p><p> <a href="summer-2014">Find out about our Summer 2014 programs</a>.</p>
+						<p>Interested?</p><p> <a href="/programs">Find out about our Summer 2014 programs</a>!</p>
 						
 						
 						<div class="em thanks">
 							<p>Hosted by <a href="http://www.thewye.de/" title="The WYE" target="_blank">The WYE</a>.</p>
 
-							<p>In collaboration with <a href="www.fablab-berlin.org" title="FabLab Berlin" target="_blank">FablabBerlin</a> and <a href="http://www.opentechschool.org/" title="OpenTechSchool" target="_blank">OpenTechSchool</a>.<br>With&nbsp;support&nbsp;from <a href="http://www.arthackday.net/" title="ArtHackDay target="_blank"">ArtHackDay</a>, <a href="http://retune.de/" title="Retune - creative technology platform berlin" target="_blank">Retune</a>, <a href="nand.io" title="Studio NAND" target="_blank">Studio NAND</a>, <a href="http://www.onformative.com/" title="Onformative" target="_blank">Onformative</a>, <a href="https://www.tinkersoup.de/" title="TinkerSoup" target="_blank">TinkerSoup</a>, <a href="http://www.geekettes.io/" title="Berlin Geekettes" target="_blank">Berlin Geekettes</a>, and <a href="http://createdigitalmotion.com/" title="Create Digital Motion" target="_blank">Create Digital Motion</a>.</p>
+							<p>In collaboration with <a href="www.fablab-berlin.org" title="FabLab Berlin" target="_blank">FabLabBerlin</a> and <a href="http://www.opentechschool.org/" title="OpenTechSchool" target="_blank">OpenTechSchool</a>.</p>
+							
+							<p>With&nbsp;support&nbsp;from <a href="http://www.arthackday.net/" title="ArtHackDay" target="_blank">ArtHackDay</a>, <a href="http://retune.de/" title="Retune - creative technology platform berlin" target="_blank">Retune</a>, <a href="http://nand.io" title="Studio NAND" target="_blank">Studio NAND</a>, <a href="http://www.onformative.com/" title="Onformative" target="_blank">Onformative</a>, <a href="https://www.tinkersoup.de/" title="TinkerSoup" target="_blank">TinkerSoup</a>, <a href="http://www.geekettes.io/" title="Berlin Geekettes" target="_blank">Berlin Geekettes</a>, <a href="http://nkprojekt.de" title="NK" target="_blank">NK</a>, and <a href="http://createdigitalmotion.com/" title="Create Digital Motion" target="_blank">Create Digital Motion</a>.</p>
 						</div>
 					</div>
 
@@ -224,7 +240,7 @@
 
 	</div><!-- /container -->
 
-    <div class="bg"><img src="../i/bg-test.jpg"></div>
+    <div class="bg"><img src="/i/bg-testSmall.jpg"></div>
 
 </body>
 
