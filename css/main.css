@@ -115,6 +115,9 @@ h5 {
 	.sub a {
 		color: #666;
 	}
+	.sub a:hover {
+		color: #333;
+	}
 .title {
 	margin: 0.5em 0;
 }
@@ -251,18 +254,16 @@ h5 {
 	text-decoration: none;
 	border-bottom: 2px solid;
 }
-.active {
-	/*border-bottom: 10px solid;*/
-}
+
 .nav-link {
 	color: #c0c0c0;
 	display: block;
 	text-decoration: none;
 	border-bottom: 3px solid;
 }
-.nav-link:hover {
-	text-decoration: none;
-}
+	.nav-link:hover {
+		text-decoration: none;
+	}
 .active .nav-link{
 	text-decoration: none;
 	border-bottom: 0;
@@ -273,22 +274,22 @@ h5 {
 	text-indent: -9878px;
 	position: relative;
 }
-.nav-link__home .icon-home {
-	display: block;
-	width: 18px;
-	height: 20px;
-	position:absolute;
-	top: 2px;
-	left: 0;
-}
-.active .nav-link__home .icon-home,
-.nav-link__home:hover .icon-home { 
-	background: -126px 0 url(/i/icons.png) no-repeat;
-}
+	.nav-link__home .icon-home {
+		display: block;
+		width: 18px;
+		height: 20px;
+		position:absolute;
+		top: 2px;
+		left: 0;
+	}
+	.active .nav-link__home .icon-home,
+	.nav-link__home:hover .icon-home { 
+		background: -126px 0 url(/i/icons.png) no-repeat;
+	}
 
-.nav-link__home .icon-home {
-	background: -126px -30px url(/i/icons.png) no-repeat;
-}
+	.nav-link__home .icon-home {
+		background: -126px -30px url(/i/icons.png) no-repeat;
+	}
 
 .nav-item__programs {
 	position: relative;
@@ -425,7 +426,7 @@ h5 {
 	margin-top: 3em;
 }
 .actual__wrap {
-	margin: 1em 0;
+	margin: 0 0 2em;
 }
 	.actual__wrap .actual {
 		margin: 0;
@@ -434,7 +435,7 @@ h5 {
 		text-align: center;
 		font-size: 18px;
 		font-family: 'Cousine', 'Open Sans', sans-serif, 'Open Sans', sans-serif;
-		color: #418239;
+		
 	}
 	.actual .link {
 		text-decoration: none;
@@ -444,6 +445,15 @@ h5 {
 		zoom: 1;
 		position:relative;
 	}
+	.actual-item {
+		margin-top: 2em;
+	}
+		.actual-item .link {
+			color: #418239;
+		}
+		.actual-item .link:hover {
+			color: #2f7027;
+		}
 	.actual-item .link:before {
 		display: block;
 		content: '';
@@ -459,6 +469,9 @@ h5 {
 		top: 50%;
 		
 		right: -55px;
+	}
+	.actual-02 .link{
+		
 	}
 	.actual-02 .link:before {
 		margin-top: -10px;
@@ -495,6 +508,12 @@ h5 {
 	}
 	.actual-01:hover .link:after {
 		background-position: -300px -30px;
+	}
+	.actual .description {
+		font-size: 14px;
+		width: 90%;
+		margin: 0 auto;
+		text-align: left;
 	}
 .coach-list {
 	padding-left: 0;
