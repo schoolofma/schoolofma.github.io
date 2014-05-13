@@ -53,11 +53,11 @@ html {
 }
 
 p {
-	line-height: 1.6;
+	line-height: 1.7;
 }
 
 a {
-	color: #444;/*#428bca;*/
+	color: #555;/*#428bca;*/
 	text-decoration: underline;
 }
 
@@ -73,7 +73,7 @@ a:hover {
 h3,
 h4,
 h5 {
-	font-family: 'Cousine';
+	font-family: 'Cousine', 'Open Sans', sans-serif;
 	margin: 2em 0 1em;
 }
 
@@ -89,7 +89,7 @@ h5 {
 	font-size: 18px;
 }
 .em {
-	font-family: 'Cousine';
+	font-family: 'Cousine', 'Open Sans', sans-serif;
 	margin: 2em 0;
 }
 .thanks {
@@ -109,11 +109,14 @@ h5 {
 		background: -100px 0 url(../i/icons.png) no-repeat;
 	}
 .sub {
-	font-family: 'Cousine';
+	font-family: 'Cousine', 'Open Sans', sans-serif;
 	color: #666;
 }
 	.sub a {
 		color: #666;
+	}
+	.sub a:hover {
+		color: #333;
 	}
 .title {
 	margin: 0.5em 0;
@@ -221,13 +224,12 @@ h5 {
 }
 
 .application {
-	border: 0.75em solid;
-	background-color: background: rgba(241,241,241,.7);
+	border: 0.5em solid;
+	background-color: rgba(241,241,241,.7);
 	padding: 1em;
-	/* font-size: 14px; */
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 /* Navigation */
@@ -252,25 +254,79 @@ h5 {
 	text-decoration: none;
 	border-bottom: 2px solid;
 }
-.active {
-	/*border-bottom: 10px solid;*/
-}
+
 .nav-link {
 	color: #c0c0c0;
 	display: block;
 	text-decoration: none;
 	border-bottom: 3px solid;
 }
-.nav-link:hover {
-	text-decoration: none;
-}
+	.nav-link:hover {
+		text-decoration: none;
+	}
 .active .nav-link{
 	text-decoration: none;
 	border-bottom: 0;
 	color: #000;
 	border-bottom: 3px solid;
 }
+.nav-link__home {
+	text-indent: -9878px;
+	position: relative;
+}
+	.nav-link__home .icon-home {
+		display: block;
+		width: 18px;
+		height: 20px;
+		position:absolute;
+		top: 2px;
+		left: 0;
+	}
+	.active .nav-link__home .icon-home,
+	.nav-link__home:hover .icon-home { 
+		background: -126px 0 url(/i/icons.png) no-repeat;
+	}
 
+	.nav-link__home .icon-home {
+		background: -126px -30px url(/i/icons.png) no-repeat;
+	}
+
+.nav-item__programs {
+	position: relative;
+	z-index: 1;
+}
+
+.nav-item__programs .actual__wrap {
+	position: absolute;
+	font-size: 12px;
+	bottom: 10px;	
+	top: 10px;
+	right: 25px;
+	z-index: 2;
+	/*border: 1px solid red;*/
+	width:170px;
+}
+/*
+.actual {
+	margin: 0;
+	list-style: none;
+	position: relative;
+}
+.actual-item {
+	position: absolute;
+	text-align: left;
+}
+.actual-01 {
+	width: 100%;
+	top: 5px;
+	left: 0;
+}
+.actual-02 {
+	width: 100%;
+	top: 30px;
+	left: 0;
+}
+*/
 /* Columns */
 .contact-list {
 	padding-left: 0;
@@ -369,6 +425,96 @@ h5 {
 .program {
 	margin-top: 3em;
 }
+.actual__wrap {
+	margin: 0 0 2em;
+}
+	.actual__wrap .actual {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		text-align: center;
+		font-size: 18px;
+		font-family: 'Cousine', 'Open Sans', sans-serif, 'Open Sans', sans-serif;
+		
+	}
+	.actual .link {
+		text-decoration: none;
+		padding: 1.5em 0;
+		display: inline-block;
+		*display: inline;
+		zoom: 1;
+		position:relative;
+	}
+	.actual-item {
+		margin-top: 1em;
+	}
+		.actual-item .link {
+			color: #418239;
+		}
+		.actual-item .link:hover {
+			color: #2f7027;
+		}
+	.actual-item .link:before {
+		display: block;
+		content: '';
+		position: absolute;
+		top: 50%;
+		margin-top: -10px;
+		left: -55px;
+	}
+	.actual-item .link:after {
+		display: block;
+		content: '';
+		position: absolute;
+		top: 50%;
+		
+		right: -55px;
+	}
+	.actual-02 .link{
+		
+	}
+	.actual-02 .link:before {
+		margin-top: -10px;
+		background: -150px 0 url(../i/icons.png) no-repeat;
+		width: 47px;
+		height: 17px;
+	}
+	.actual-02:hover .link:before {
+		background-position: -150px -30px;
+	}
+	.actual-02 .link:after {
+		margin-top: -10px;
+		background: -200px 0 url(../i/icons.png) no-repeat;
+		width: 47px;
+		height: 17px;
+	}
+	.actual-02:hover .link:after {
+		background-position: -200px -30px;
+	}
+	.actual-01 .link:before {
+		background: -250px 0 url(../i/icons.png) no-repeat;
+		width: 45px;
+		height: 22px;
+		margin-top: -13px;
+	}
+	.actual-01:hover .link:before {
+		background-position: -250px -30px;
+	}
+	.actual-01 .link:after {
+		background: -300px 0 url(../i/icons.png) no-repeat;
+		width: 45px;
+		height: 22px;
+		margin-top: -13px;
+	}
+	.actual-01:hover .link:after {
+		background-position: -300px -30px;
+	}
+	.actual .description {
+		font-size: 14px;
+		width: 90%;
+		margin: 0 auto;
+		text-align: left;
+	}
 .coach-list {
 	padding-left: 0;
 	margin-left: 0;
@@ -398,4 +544,14 @@ h5 {
 }
 .coach .text {
 	font-size: 14px;
+}
+
+/* FAQ section 
+=================== */
+.question h4 {
+	font-size: 17px;
+	color: #418239;
+}
+.answer {
+	margin-bottom: 3em;
 }

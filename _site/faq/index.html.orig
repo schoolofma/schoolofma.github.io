@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/preview.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				<a href="/">
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				</a>
+			</header>
+		</div>
+
+		<div class="content__wrap">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-9 col-lg-9 ">
+
+					<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+
+
+<nav class="navbar">
+    <ul class="row nav-list">
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
+            <div >
+                <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+            </div>
+        </li>
+        <li class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col nav-item__programs">
+            <div >
+            <a  href="/programs/" class="nav-link headline">Programs</a>
+            </div>
+            <!--
+            <div class="actual__wrap">
+                <ul class="actual">
+                    <li class="actual-item actual-01"><a href="/programs/july-2014-responsive-spaces/">07/2014 Responsive Spaces</a></li>
+                    <li class="actual-item  actual-02"><a href="/programs/august-2014-let's-get-physical/">08/2014 Let's Get Physical!</a></li>
+                </ul>
+            </div>
+            -->
+        </li>
+        <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col">
+            <div class="active" >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+				
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+
+							<section>
+	<article>
+		<p>If you have a question and don't see it&nbsp;answered here, send us&nbsp;an&nbsp;<a href="mailto:info@schoolofma.org" subject="Question about the School!">email</a> and&nbsp;we&nbsp;can add it&nbsp;to&nbsp;this section.</p>
+		<dl>
+			<dt class="question">
+				<h4>The School sounds like a&nbsp;perfect fit for&nbsp;me! How much does it&nbsp;cost?</h4>
+			</dt>
+			<dd class="answer">
+				<p>Tuition is&nbsp;€1250 for a&nbsp;full-time, one-month program.</p>
+			</dd>
+
+			<dt class="question">
+				<h4>What does the cost cover?</h4>
+			</dt>
+			<dd class="answer">
+				<p>The money we&nbsp;receive will go&nbsp;entirely back into the school to&nbsp;pay for our awesome facility (<a href="http://www.thewye.de/" title="The WYE">The&nbsp;WYE</a>), awesome instructors, admin, taxes, etc. We&nbsp;will also cover the cost of&nbsp;basic materials and components for the classroom, as&nbsp;much as&nbsp;we&nbsp;can anyway, until the money runs out!</p>
+			</dd>
+			<dt class="question">
+				<h4>What does the tuition NOT cover?</h4>
+			</dt>
+			<dd class="answer">
+				<p>The tuition does not cover housing or&nbsp;travel. Berlin&nbsp;is&nbsp;relatively inexpensive, though. And we've heard stories where people supposedly rented temp space from a&nbsp;realtor, threw a&nbsp;mattress in&nbsp;each room and boom, instant accomodations! We&nbsp;can't promise anything like that but will definitely look into it&nbsp;and see if&nbsp;it's an&nbsp;option.</p>
+			</dd>
+			<dt class="question">
+				<h4>It's still a&nbsp;lot of&nbsp;money. Anything else you can say to&nbsp;convince&nbsp;me?</h4>
+			</dt>
+			<dd class="answer">
+				<p>We've tried to&nbsp;keep the costs down as&nbsp;much as&nbsp;humanly possible! In&nbsp;an attempt to&nbsp;be transparent, we&nbsp;will be&nbsp;posting all of&nbsp;our finances online. That being said, you're not just paying for classes. The money is&nbsp;being used to&nbsp;allow an amazing community of&nbsp;people to&nbsp;come together, all of&nbsp;whom are passionate about dreaming up&nbsp;ideas and seeing how far they can push the technology, the art and themselves. It's a&nbsp;unique opportunity to&nbsp;collaborate with and learn from everyone participating and to&nbsp;create something amazing from nothing. Even in&nbsp;a&nbsp;parallel universe I&nbsp;think it&nbsp;would cost €1250, if&nbsp;not more! But good luck getting a&nbsp;cheap ticket to&nbsp;that place.</p>
+			</dd>
+			<dt class="question">
+				<h4>What about sponsors?</h4>
+			</dt>
+			<dd class="answer">
+				<p>If we find paying sponsors and all other costs are covered, we&nbsp;will bring the price of&nbsp;tuition down or refund some money. That being said, if you know of&nbsp;any glorious people willing to&nbsp;help fund us &mdash; by&nbsp;all means&nbsp;&mdash;&nbsp;give them my number! +49 176 995 88 920</p>
+			</dd>
+
+			<dt class="question">
+				<h4>Thanks for answering my&nbsp;money questions, now about the School. Can I&nbsp;attend part-time?</h4>
+			</dt>
+			<dd class="answer">
+				<p>Sorry, only people who can dedicate the entire month to&nbsp;learning, playing and having the time of&nbsp;their life should apply.</p>
+			</dd>
+			<dt class="question">
+				<h4>What kind of&nbsp;students are you looking for?</h4>
+			</dt>
+			<dd class="answer">
+				<p>The curious and inquisitive kind, creative people or&nbsp;the kind of&nbsp;people who yearn to&nbsp;be&nbsp;creative. We,&nbsp;also really like nice people and those who enjoy helping others and sharing knowledge. Hi-five if&nbsp;this sounds like you!</p>
+			</dd>
+			<dt class="question">
+				<h4>Do&nbsp;I&nbsp;need to&nbsp;know how to&nbsp;program or&nbsp;build circuits before signing&nbsp;up?</h4>
+			</dt>
+			<dd class="answer">
+				<p>No,&nbsp;but you can! We&nbsp;don't expect any prior knowledge but if&nbsp;you do&nbsp;have some, you may be&nbsp;able to&nbsp;push yourself further much faster. We&nbsp;have some really great instructors and no&nbsp;doubt you will learn a&nbsp;lot from them and from the other students, regardless of&nbsp;your current skill level. This is&nbsp;not about being the smartest, it's&nbsp;about learning to&nbsp;expose your creative innards to&nbsp;the world in&nbsp;your own unique way and working with new tools and people who can help make it&nbsp;happen.</p>
+			</dd>
+			<dt class="question">
+				<h4>You say the program is full-time, what does that mean exactly?</h4>
+			</dt>
+			<dd class="answer">
+				<p>Most days we will have a morning check-in beginning at&nbsp;10am, and then a morning class 'til around lunchtime. some days there will be&nbsp;a&nbsp;class or a talk going on until 9pm, with free-time in&nbsp;the middle of&nbsp;the day to&nbsp;work or extra tutoring if you need it. Each day will vary slightly but there should be a rough schedule at the beginning of&nbsp;every week that we&nbsp;will try our hardest to&nbsp;stick with. Again, it's a mix of&nbsp;lectures, labs, artist talks, plus lots of&nbsp;time to experiment! Good times!</p>
+			</dd>
+			<dt class="question">
+				<h4>You're offering two one-month courses, what's the difference between the two?</h4>
+			</dt>
+			<dd class="answer">
+				<p>Each program will have a theme. July's theme is Responsive Spaces and focuses on the magic you can create through use of&nbsp;code! August will be more about playing with hardware and other circuitry to make things happen-using motors to make things move&mdash; for example. Do robots move? Consider that a hint:) We're separating the "software" course from the "hardware" course in&nbsp;an attempt to help you focus on one area and actually try and get kinda good at it! There will be elements of&nbsp;each in&nbsp;both programs, for example both will use sensors and in&nbsp;order to use Arduino you must do some coding. They almost can't escape each other but they are two different beasts and we want to give them the distinction and love they deserve.</p>
+			</dd>
+			<dt class="question">	
+				<h4>Do you offer any help with obtaining a visa?</h4>
+			</dt>
+			<dd class="answer">
+				<p>Each program is only one-month long currently which means you should be able to visit on a tourist visa. If you are selected to attend the School, we can send you an official letter of&nbsp;participation if that helps, but we don't have the capacity to help out much more than that.</p>
+			</dd>
+			<dt class="question">	
+				<h4>Thanks! You keep saying "we", but who is organising all this?</h4>
+			</dt>
+			<dd class="answer">
+<<<<<<< HEAD
+				<p>Well, that would be me! Hi, I'm <a href="https://twitter.com/onna_no_hito" title="Rachel">Rachel</a>, nice to meet you:) I've been helping to organise workshops, meetups, conferences, and all kinds of&nbsp;tech-related and non-tech events, for years. I've worked in&nbsp;audio, vfx and over the last couple of&nbsp;years, started learning about this magical world of&nbsp;art & tech! So as you can see, my entire life is finally starting to come together and make some sense! yay!</p><p>I participated in&nbsp;some amazing programs last year in&nbsp;NY&nbsp;&mdash;&nbsp;shout out to&nbsp;<a href="http://itp.nyu.edu/camp/2014/" title="ITP" Camp>ITP Camp</a> and <a href="http://sfpc.io/" title="SFPC">SFPC</a>, yo! But I&nbsp;was thinking about something like this even before then. Partcipating in&nbsp;those programs just helped me solidify in&nbsp;my mind what I want to do for the rest of&nbsp;my life: learn, and play forever with machines, making and make-believe! I&nbsp;wanted to&nbsp;bring the same kind of&nbsp;experience to&nbsp;Europe. So&nbsp;I&nbsp;miraculously found an&nbsp;amazing community of&nbsp;coders, makers and dreamers (and a&nbsp;<a href="http://taniaabanina.com/" title="Tania Abanina">lovely web designer</a>) to join&nbsp;me in&nbsp;creating what will prove to&nbsp;be one amazing Summer in&nbsp;Berlin! Needless to&nbsp;say, we do&nbsp;hope you will join&nbsp;us! </p>
+=======
+				<p>Well, that would be me! Hi, I'm <a href="https://twitter.com/onna_no_hito" title="Rachel">Rachel</a>, nice to meet you:) I've been helping to organise workshops, meetups, conferences, and all kinds of tech-related (and non-tech) events, for years. I've worked in audio, vfx and over the last couple of years, started learning about this magical world of art & tech! So as you can see, my entire life is finally starting to come together and make some sense! yay, that actually happens!</p><p>I participated in some amazing programs last year in NY--shout out to <a href="http://itp.nyu.edu/camp/2014/" title="ITP" Camp>ITP Camp</a> and <a href="http://sfpc.io/" title="SFPC">SFPC</a>, yo! But I was thinking about something like this even before then. Partcipating in those programs just helped me solidify in my mind what I want to do for the rest of my life: learn, and play forever with machines, making and make-believe! I wanted to bring the same kind of experience to Europe. So I miraculously found an amazing community of coders, makers and dreamers (and a <a href="http://taniaabanina.com/" title="Tania Abanina">lovely web designer</a>) to join me in creating what will prove to be one amazing Summer in Berlin! Needless to say, we do hope you will join us! </p>
+>>>>>>> fac27939052ac051066e779f5d8b6d9af0f683a3
+			</dd>
+
+		</dl>
+
+
+	</article>	
+</section>
+
+						</div>
+						
+					</div>
+
+				</div>
+					
+				<div class="col-xs-12 col-sm-6 col-md-3 col-lg-3  col">
+					<section id="application" class="holder application">
+    <p>Deadline for&nbsp;submitting application is&nbsp;May&nbsp;26,&nbsp;2014.</p>
+    <p>Please use&nbsp;this&nbsp;<a href="https://docs.google.com/forms/d/1ZlwObVR731vCtswdFUE1vqUVln0WrYRoBx9qZuZD2ao/viewform">form</a>.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="headline">Contact information</h2>
+    <ul class="contact-list">   
+        <li class="contact-item"><span class="icon icon-email"></span> <a href="mailto:info@schoolofma.org">info@schoolofma.org</a></li>
+        <li class="contact-item"><span class="icon icon-twitter"></span> <a href="https://twitter.com/schoolofmaaa">schoolofmaaa</a></li>
+        <li class="contact-item"><span class="icon icon-fb"></span> <a href="https://www.facebook.com/pages/School-of-Machines-Making-and-Make-Believe/736062943100977">School of Machines, Making&nbsp;&amp;&nbsp;Make-Believe</a></li>
+    </ul>
+</section>
+
+<div class="newsletter">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: transparent; 
+            clear:left; 
+            margin: 30px auto 0;
+        }
+
+        #mc_embed_signup form {
+            padding: 0;
+        }
+
+        #mc_embed_signup .field {
+            width: 100%;
+            float: left;
+        }
+
+        #mc_embed_signup label {
+            font-weight: normal;
+            padding: 0;
+        }
+        #mc_embed_signup input {
+            background: transparent;
+            border-color: #444;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom-width: 3px;
+            color: #444;
+        }
+        #mc_embed_signup input:focus {
+            border-color: #000;
+            outline: none;
+            background: #59a55c;
+            color: #222;
+        }
+        #mc_embed_signup input.email,
+        #mc_embed_signup input.button {
+            clear: none;                            
+            margin: 0;
+        }
+        #mc_embed_signup input.email {
+            float: left;
+            width: 76%;
+            min-width: 110px;
+        }
+        #mc_embed_signup input.button {
+            float: right;
+            font-weight: normal;
+            width: 18%;
+            min-width: 33px;
+            background: transparent;
+            border-radius: 0;
+            color: #444;
+            font-size: 40px;
+        }
+        #mc_embed_signup input.button:hover,
+        #mc_embed_signup input.button:focus {
+            color: #59a55c;
+            background: transparent;
+        }
+        #mc_embed_signup .sub {
+            font-size: 13px;
+            display: block;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+    <form action="http://schoolofma.us8.list-manage2.com/subscribe/post?u=8a582affe02962d9e73f8ee6d&amp;id=d71088c8ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+        <div class="clear">
+            <label for="mce-EMAIL">Subscribe to&nbsp;our&nbsp;newsletter</label>
+            <p class="sub">Receive updates about our&nbsp;programs and events</p>
+        </div>
+        <div class="field">
+            <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+            <div style="position: absolute; left: -5000px;"><input type="text" name="b_8a582affe02962d9e73f8ee6d_d71088c8ff" value=""></div>
+            <input type="submit" value="⍄" name="subscribe" id="mc-embedded-subscribe" class="button">
+        </div>
+    </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+</div>
+
+				</div>
+				
+			</div>
+		</div>
+
+
+	</div><!-- /container -->
+
+    <div class="bg"><img src="/i/bg-testSmall.jpg"></div>
+
+</body>
+
+</html> 
