@@ -221,13 +221,12 @@ h5 {
 }
 
 .application {
-	border: 0.75em solid;
+	border: 0.5em solid;
 	background-color: rgba(241,241,241,.7);
 	padding: 1em;
-	/* font-size: 14px; */
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 14px;
+	font-size: 18px;
 }
 
 /* Navigation */
