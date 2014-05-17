@@ -80,6 +80,9 @@ h5 {
 h3 {
 	font-size: 32px;
 }
+.program__short-description h3 {
+	font-size: 26px
+}
 
 h4 {
 	font-size: 24px;
@@ -160,11 +163,13 @@ h6 {
 			border-bottom: 3px solid; 
 		}
 .banner-apply__title {
-	margin: 2.5em 0;
+	margin: 1em 0;
+	text-align: left;
 }
 	.banner-apply__title a {
 		border: 2px solid;
 		padding: 0.5em;
+		text-decoration: none;
 	}
 .sub,
 small {
