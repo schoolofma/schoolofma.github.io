@@ -253,6 +253,11 @@ small {
 	margin-bottom:3em;
 }
 
+.center {
+	margin: 0 auto;
+	display: block;
+}
+
 /* Header */
 
 .header .title {
