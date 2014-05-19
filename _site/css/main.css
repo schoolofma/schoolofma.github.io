@@ -237,8 +237,7 @@ small {
 .wrap {
 	position: relative;
 	z-index: 1;
-	
-	
+	max-width: 1200px;
 	width: 80%;
 	color: #fff;
 }
