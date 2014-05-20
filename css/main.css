@@ -346,6 +346,9 @@ small {
 	text-align: center;
 	font-size: 18px;
 }
+	.application p {
+		margin-bottom: 1em;
+	}
 
 /* Navigation */
 .navbar {
