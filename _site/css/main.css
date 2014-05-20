@@ -54,6 +54,10 @@ html {
 
 p {
 	line-height: 1.7;
+	margin-bottom: 2em;
+}
+.short-description p{
+	margin-bottom: 1em;
 }
 
 a {
@@ -80,7 +84,7 @@ h5 {
 h3 {
 	font-size: 32px;
 }
-.program__short-description h3 {
+.short-description h3 {
 	font-size: 26px
 }
 
@@ -113,10 +117,12 @@ h6 {
 	margin-left: 0;
 	padding-left: 0;
 }
-.list-compact .list__item {
-	margin-bottom: 0;
-}
-
+	.list-compact .list__item {
+		margin-bottom: 0;
+	}
+		.list-compact .list__item p {
+			margin-bottom: 1em;
+		}
 .em {
 	font-family: 'Cousine', 'Open Sans', sans-serif;
 	
@@ -657,6 +663,18 @@ small {
 .coach .text {
 	font-size: 14px;
 }
+
+/* Programs pages 
+====================================== */
+.programs .short-description {
+	margin-top: 1.5em;
+}
+	.programs .short-description p {
+		/*margin-top: 1.5em;*/
+	}
+	.programs .short-description .banner-apply__title {
+		margin-bottom: 2em;
+	}
 
 /* FAQ section 
 =================== */
