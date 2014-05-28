@@ -341,10 +341,10 @@ small {
 .application {
 	border: 0.5em solid;
 	background-color: rgba(241,241,241,.7);
-	padding: 1em 0;
+	padding: 0.75em 0;
 	text-transform: uppercase;
 	text-align: center;
-	font-size: 18px;
+	font-size: 20px;
 }
 	.application p {
 		margin-bottom: 1em;
