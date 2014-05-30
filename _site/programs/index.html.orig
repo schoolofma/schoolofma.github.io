@@ -172,7 +172,11 @@
 							</div>
 							<div class="col-sm-12 col-md-7 col-lg-7 description">
 
+<<<<<<< HEAD
+								<h5 class="name">Abe Pazos <span class="sub web">/ <a href="http://hamoid.com/" target="_blank">hamoid.com</a></span></h5>
+=======
 								<h5 class="name">Abe Pazos <span class="sub web">/&nbsp;<a href="WWW.HAMOID.COM" target="_blank">hamoid.com</a></span></h5>
+>>>>>>> layout
 							</div>
 						</li>
 						<li class="row coach">

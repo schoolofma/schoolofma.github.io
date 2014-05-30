@@ -1,11 +1,102 @@
----
-layout: page
-title: Programs-2014
----
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/preview.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
+    <link href="/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width : 1281px)" href="/css/1200.css" /> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				<a href="/">
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				</a>
+			</header>
+		</div>
+
+		<div class="content__wrap">
+			<div class="row">
+				<div class="col-xs-12 col-sm-6 col-md-8 col-lg-9 ">
+
+					<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
 
 
 
-<section class="programs program__item">
+<nav class="navbar">
+    <ul class="row nav-list">
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
+            <div >
+                <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+            </div>
+        </li>
+        <li class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col nav-item__programs">
+            <div class="active" >
+            <a  href="/programs/" class="nav-link headline">Programs</a>
+            </div>
+            <!--
+            <div class="actual__wrap">
+                <ul class="actual">
+                    <li class="actual-item actual-01"><a href="/programs/july-2014-responsive-spaces/">07/2014 Responsive Spaces</a></li>
+                    <li class="actual-item  actual-02"><a href="/programs/august-2014-let's-get-physical/">08/2014 Let's Get Physical!</a></li>
+                </ul>
+            </div>
+            -->
+        </li>
+        <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col">
+            <div >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
+            </div>
+        </li>
+    </ul>
+</nav>
+				
+
+					<div class="row">
+						<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+
+							<section class="programs program__item">
 
 		<article class="program">
 			<h3 class="title">Responsive Spaces <a href="https://docs.google.com/forms/d/1ZlwObVR731vCtswdFUE1vqUVln0WrYRoBx9qZuZD2ao/viewform" class="apply danger" target="_blank">Join the program</a></h3>
@@ -20,7 +111,7 @@ title: Programs-2014
 			<p>We will work mainly with OpenFrameworks and Processing, but other platforms will also be incorporated such as Max/PureData and SuperCollider. Teachers and students will work together towards the production of individual or group projects and will have access to the equipment needed to create functioning responsive installations. Expect to play with code, be experimental and have fun! </p>
 
 			<div class="banner info">
-				<a href="{{ site.baseurl }}faq/" class="link info"><small>Please read the FAQ for more details about organizational questions</small></a>
+				<a href="/faq/" class="link info"><small>Please read the FAQ for more details about organizational questions</small></a>
 			</div>
 			
 			<h3>Plan</h3>
@@ -54,7 +145,7 @@ title: Programs-2014
 			
 				<li class="row coach">
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-bregman.jpg" class="pic">
+						<img src="/i/pic-bregman.jpg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 
@@ -64,7 +155,7 @@ title: Programs-2014
 				</li>
 				<li class="row coach">
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-astrid.jpg" class="pic">
+						<img src="/i/pic-astrid.jpg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 						
@@ -75,7 +166,7 @@ title: Programs-2014
 				</li>
 				<li class="row coach">
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-irina.jpeg" class="pic">
+						<img src="/i/pic-irina.jpeg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 						<h5 class="name"><a name="irina-spicaka">Irina Spicaka</a> <span class="sub web">/&nbsp;<a href="http://irina.spicaka.info" target="_blank">irina.spicaka.info</a></span></h5>
@@ -85,7 +176,7 @@ title: Programs-2014
 
 				<li class="row coach">
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-kris.jpg" class="pic">
+						<img src="/i/pic-kris.jpg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 
@@ -95,7 +186,7 @@ title: Programs-2014
 				</li>
 				<li class="row coach">	
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-deCourville.jpeg" class="pic">
+						<img src="/i/pic-deCourville.jpeg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 
@@ -105,11 +196,15 @@ title: Programs-2014
 				</li>
 				<li class="row coach">
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-abe.jpg" class="pic">
+						<img src="/i/pic-abe.jpg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 
+<<<<<<< HEAD
+						<h5 class="name"><a name="abe-pazos">Abe Pazos</a> <span class="sub web">/ <a href="http://hamoid.com/" target="_blank">hamoid.com</a></span></h5>
+=======
 						<h5 class="name"><a name="abe-pazos">Abe Pazos</a> <span class="sub web">/&nbsp;<a href="WWW.HAMOID.COM" target="_blank">hamoid.com</a></span></h5>
+>>>>>>> layout
 						<p class="text">Abe is the author of Fun Programming, a series of video tutorials that has helped thousands of people around the world to get started with programming and creative coding.
 
 						He studied computer science and graphic design, and resides between
@@ -122,7 +217,7 @@ title: Programs-2014
 				</li>
 				<li class="row coach">
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-castro.jpg" class="pic">
+						<img src="/i/pic-castro.jpg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 
@@ -143,7 +238,7 @@ title: Programs-2014
 				</li>
 				<li class="row coach">
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-sugrue.jpg" class="pic">
+						<img src="/i/pic-sugrue.jpg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 
@@ -153,7 +248,7 @@ title: Programs-2014
 				</li>
 				<li class="row coach">
 					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
-						<img src="{{ site.baseurl }}i/pic-votava.jpg" class="pic">
+						<img src="/i/pic-votava.jpg" class="pic">
 					</div>
 					<div class="col-sm-12 col-md-9 col-lg-9 description">
 						
@@ -173,3 +268,140 @@ title: Programs-2014
 		</article>
 		
 </section>
+
+						</div>
+						
+					</div>
+
+				</div>
+					
+				<div class="col-xs-12 col-sm-6 col-md-4 col-lg-3  col sidebar">
+					<section id="application" class="holder application">
+    <p>TWO&nbsp;ART&TECH</p>
+    <p><a href="http://schoolofma.org/programs/">SUMMER PROGRAMS</a></p>
+    <div style="color:#f0f0f0;background:#222;padding:0.25em 0;margin-bottom:1em;letter-spacing: 0.42ex;">EXTENDED</div>
+    <p>Deadline for submitting application <span style="font-weight: bold">May&nbsp;30,&nbsp;2014</span></p>
+    <p>APPLY&nbsp;TODAY!</p>
+    <p>Please use this&nbsp;<a href="https://docs.google.com/forms/d/1ZlwObVR731vCtswdFUE1vqUVln0WrYRoBx9qZuZD2ao/viewform">form</a>.</p>
+</section>
+
+<section id="contact" class="contact">
+    <h2 class="headline">Contact information</h2>
+    <ul class="contact-list">   
+        <li class="contact-item"><span class="icon icon-email"></span> <a href="mailto:info@schoolofma.org">info@schoolofma.org</a></li>
+        <li class="contact-item"><span class="icon icon-twitter"></span> <a href="https://twitter.com/schoolofmaaa">schoolofmaaa</a></li>
+        <li class="contact-item"><span class="icon icon-fb"></span> <a href="https://www.facebook.com/pages/School-of-Machines-Making-and-Make-Believe/736062943100977">School of Machines, Making&nbsp;&amp;&nbsp;Make-Believe</a></li>
+    </ul>
+</section>
+
+<div class="newsletter">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: transparent; 
+            clear:left; 
+            margin: 30px auto 0;
+        }
+
+        #mc_embed_signup form {
+            padding: 0;
+        }
+
+        #mc_embed_signup .field {
+            width: 100%;
+            float: left;
+        }
+
+        #mc_embed_signup label {
+            font-weight: normal;
+            padding: 0;
+        }
+        #mc_embed_signup input {
+            background: transparent;
+            border-color: #444;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom-width: 3px;
+            color: #444;
+        }
+        #mc_embed_signup input:focus {
+            border-color: #000;
+            outline: none;
+            background: #59a55c;
+            color: #222;
+        }
+        #mc_embed_signup input.email,
+        #mc_embed_signup input.button {
+            clear: none;                            
+            margin: 0;
+        }
+        #mc_embed_signup input.email {
+            float: left;
+            width: 76%;
+            min-width: 110px;
+        }
+        #mc_embed_signup input.button {
+            float: right;
+            font-weight: normal;
+            width: 18%;
+            min-width: 33px;
+            background: transparent;
+            border-radius: 0;
+            color: #444;
+            font-size: 40px;
+        }
+        #mc_embed_signup input.button:hover,
+        #mc_embed_signup input.button:focus {
+            color: #59a55c;
+            background: transparent;
+        }
+        #mc_embed_signup .sub {
+            font-size: 13px;
+            display: block;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form action="http://schoolofma.us8.list-manage2.com/subscribe/post?u=8a582affe02962d9e73f8ee6d&amp;id=d71088c8ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="clear">
+                <label for="mce-EMAIL">Subscribe to&nbsp;our&nbsp;newsletter</label>
+                <p class="sub">Receive updates about our&nbsp;programs and events</p>
+            </div>
+            <div class="field">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_8a582affe02962d9e73f8ee6d_d71088c8ff" value=""></div>
+                <input type="submit" value="⍄" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+        </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+</div>
+
+<!-- 
+<div class="em thanks">
+    <p class="sub">Hosted by&nbsp;<a href="http://www.thewye.de/" title="The WYE" target="_blank">The WYE</a>.</p>
+
+    <p class="sub">In collaboration with <a href="www.fablab-berlin.org" title="FabLab Berlin" target="_blank">FabLabBerlin</a> and <a href="http://www.opentechschool.org/" title="OpenTechSchool" target="_blank">OpenTechSchool</a>.</p>
+    
+    <p class="sub">With&nbsp;support&nbsp;from <a href="http://www.arthackday.net/" title="ArtHackDay" target="_blank">ArtHackDay</a>, <a href="http://retune.de/" title="Retune - creative technology platform berlin" target="_blank">Retune</a>, <a href="http://nand.io" title="Studio NAND" target="_blank">Studio NAND</a>, <a href="http://www.onformative.com/" title="Onformative" target="_blank">Onformative</a>, <a href="https://www.tinkersoup.de/" title="TinkerSoup" target="_blank">TinkerSoup</a>, <a href="http://www.geekettes.io/" title="Berlin Geekettes" target="_blank">Berlin Geekettes</a>, <a href="http://nkprojekt.de" title="NK" target="_blank">NK</a>, and <a href="http://createdigitalmotion.com/" title="Create Digital Motion" target="_blank">Create Digital Motion</a>.</p>
+</div>
+ -->
+
+				</div>
+				
+			</div>
+		</div>
+
+
+	</div><!-- /container -->
+
+    <div class="bg"><img src="/i/bg-testSmall.jpg"></div>
+
+</body>
+
+</html> 
