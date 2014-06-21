@@ -5,6 +5,6 @@ title: Hello World!
 
 # Hello World!
 
-88888
- <p>testing one, two, three</p>
+
+ <p>Yay, we have a blog! Blog posts coming soon.</p>
 			    
