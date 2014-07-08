@@ -10,4 +10,4 @@ title: Responsive Spaces-- Week One!
  
  <p>This week wouldn't have been the same without Anrick Bregman, S. Astrid Bin, Irina Spicaka, Krisjanis Rijnieks, So Kanno, Takahiro Yamaguchi, Victor Diaz, Abe Pazos, Arturo Castro, Farah / NK and our oh so lovely students from around the world! </p>
  
- <img src="https://raw.githubusercontent.com/schoolofma/schoolofma.github.io/master/i/weekOne.png" alt=">Week One in Pictures!" width="700" height="4000">
+ <img src="https://raw.githubusercontent.com/schoolofma/schoolofma.github.io/master/i/weekOne.png" alt="Week One in Pictures!" width="700" height="4000">
