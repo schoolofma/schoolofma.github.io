@@ -52,6 +52,9 @@ h5 {
 h6 {
 	font-size: 1em;
 }
+.mute {
+	color: #666;
+}
 
 
 /* Background */
@@ -714,3 +717,22 @@ small {
 .answer {
 	margin-bottom: 3em;
 }
+
+/* Blog
+===================================== */
+.post {
+	margin-bottom: 5em;
+	position: relative;
+}
+	.post:after {
+		content: '∞';
+		font-size: 2em;
+		display: block;
+		position: absolute;
+		bottom: -1.9em;
+		left: 50%;
+		margin-left: -0.5em;
+	}
+	.post h1 {
+		margin-bottom: 1em;
+	}
