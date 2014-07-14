@@ -14,4 +14,8 @@ This week wouldn't have been the same without Anrick Bregman, S. Astrid Bin, Iri
 [Week One in Pictures!](https://raw.githubusercontent.com/schoolofma/schoolofma.github.io/master/i/weekOne.png "Week One")
 -->
 
-<img src="https://raw.githubusercontent.com/schoolofma/schoolofma.github.io/master/i/RS_Week1_01.png" alt="Orlagh and Julia">
+
+          <div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="{{ site.baseurl }}i/RS_Week1_01.png" class="pic">
+					</div>
+					
