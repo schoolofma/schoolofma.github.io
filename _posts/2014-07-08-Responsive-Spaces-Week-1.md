@@ -3,10 +3,11 @@ layout: post
 title: Responsive Spaces-- Week One!
 ---
 
-# Responsive Spaces Week One
+# Responsive Spaces: The Beginning!
 
 Amazing first week at School of Machines, Making & Make-Believe Responsive Spaces program! What made it so amazing? All the lovely people, of course! People with a strong desire to learn, as well as instructors, guests and friends with a strong desire to teach and to share. This week wouldn't have been the same without: 
 
+<div>
 <ul><b>Anrick Bregman</b> (genuine human and believer in the power of story),</ul> 
 <ul><b>S. Astrid Bin</b> (gutsy interaction designer extraordinaire), </ul>
 <ul><b>Irina Spicaka / Krisjanis Rijnieks</b> (our favourite projection mapping power duo), </ul>
@@ -15,7 +16,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <ul><b>Abe Pazos</b> (one of our main instructors, and reorderer of bananas!), </ul>
 <ul><b>Farah / NK</b> (our lovely hosts for the last OTS Creative Code Stammtisch)</ul>
 <ul>and of course our oh so lovely students from around the world!</ul>
-
+</div>
 <!--
 
 [Week One in Pictures!](https://raw.githubusercontent.com/schoolofma/schoolofma.github.io/master/i/weekOne.png "Week One")
