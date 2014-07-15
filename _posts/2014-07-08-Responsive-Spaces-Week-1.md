@@ -18,10 +18,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <ul>and of course our oh so lovely students from around the world: <b>Brent, Diogo, Esteban, James, Soma, Julia, Kurt, Luca, Milos, Orlagh, Pere, and Vaishali!</b></ul>
 </div>
 <br></br>
-<!--
 
-[Week One in Pictures!](https://raw.githubusercontent.com/schoolofma/schoolofma.github.io/master/i/weekOne.png "Week One")
--->
 <div>
 <img src="{{ site.baseurl }}i/RS_Week1_11_s.jpg" class="pic">
 <img src="{{ site.baseurl }}i/RS_Week1_12_s.jpg" class="pic">
