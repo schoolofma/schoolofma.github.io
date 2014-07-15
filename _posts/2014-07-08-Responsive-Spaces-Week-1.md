@@ -21,6 +21,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 
 [Week One in Pictures!](https://raw.githubusercontent.com/schoolofma/schoolofma.github.io/master/i/weekOne.png "Week One")
 -->
+<div>
 <img src="{{ site.baseurl }}i/RS_Week1_11_s.jpg" class="pic">
 <img src="{{ site.baseurl }}i/RS_Week1_12_s.jpg" class="pic">
 <img src="{{ site.baseurl }}i/RS_Week1_08_s.jpg" class="pic">
@@ -34,5 +35,5 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <img src="{{ site.baseurl }}i/RS_Week1_14_s.jpg" class="pic">
 <img src="{{ site.baseurl }}i/RS_Week1_02_s.png" class="pic">
 <img src="{{ site.baseurl }}i/RS_Week1_16_s.jpg" class="pic">
-
+</div>
 
