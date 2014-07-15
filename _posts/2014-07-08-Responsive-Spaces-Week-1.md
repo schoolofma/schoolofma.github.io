@@ -11,8 +11,8 @@ This week wouldn't have been the same without:
 
 <ul>Anrick Bregman (genuine human and believer in the power of story),</ul> 
 <ul>S. Astrid Bin (gutsy interaction designer extraordinaire), </ul>
-<ul>Irina Spicaka and Krisjanis Rijnieks (our favourite projection mapping power duo), </ul>
-<ul>So Kanno and Takahiro Yamaguchi (our other favourite power duo, this one focused on drawing robots!), </ul>
+<ul>Irina Spicaka / Krisjanis Rijnieks (our favourite projection mapping power duo), </ul>
+<ul>So Kanno / Takahiro Yamaguchi (our other favourite power duo, this one focused on drawing robots!), </ul>
 <ul>Victor Diaz (he came up with camelwifi--what's not to love!), </ul>
 <ul>Abe Pazos (one of our main instructors, and reorderer of bananas!), </ul>
 <ul>Farah / NK (our lovely hosts for the last OTS Creative Code Stammtisch)</ul>
