@@ -15,7 +15,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <ul><b>Victor Diaz</b> (he came up with camelwifi--what's not to love!), </ul>
 <ul><b>Abe Pazos</b> (one of our main instructors, and reorderer of bananas!), </ul>
 <ul><b>Farah / NK</b> (our lovely hosts for the last OTS Creative Code Stammtisch)</ul>
-<ul>and of course our oh so lovely students from around the world: Brent, Diogo, Esteban, James, Soma, Julia, Kurt, Luca, Milos, Orlagh, Pere, and Vaishali!</ul>
+<ul>and of course our oh so lovely students from around the world: <b>Brent, Diogo, Esteban, James, Soma, Julia, Kurt, Luca, Milos, Orlagh, Pere, and Vaishali!</b></ul>
 </div>
 <!--
 
