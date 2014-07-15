@@ -15,5 +15,19 @@ This week wouldn't have been the same without Anrick Bregman, S. Astrid Bin, Iri
 -->
 
 
-<img src="{{ site.baseurl }}i/RS_Week1_01.png" class="pic">
-				
+<img src="{{ site.baseurl }}i/RS_Week1_01_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_02_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_03_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_04_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_05_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_06_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_07_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_08_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_10_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_11_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_12_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_13_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_14_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_15_s.png" class="pic">
+<img src="{{ site.baseurl }}i/RS_Week1_16_s.png" class="pic">
+
