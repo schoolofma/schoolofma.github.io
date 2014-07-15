@@ -3,8 +3,7 @@ layout: post
 title: Responsive Spaces-- Week One!
 ---
 
-<h1> Responsive Spaces:</h1>
-<h2>The Beginning!</h2>
+# Responsive Spaces: The Beginning!
 
 Amazing first week at School of Machines, Making & Make-Believe Responsive Spaces program! What made it so amazing? All the lovely people, of course! People with a strong desire to learn, as well as instructors, guests and friends with a strong desire to teach and to share. This week wouldn't have been the same without: 
 
