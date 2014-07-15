@@ -17,6 +17,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <ul><b>Farah / NK</b> (our lovely hosts for the last OTS Creative Code Stammtisch)</ul>
 <ul>and of course our oh so lovely students from around the world: <b>Brent, Diogo, Esteban, James, Soma, Julia, Kurt, Luca, Milos, Orlagh, Pere, and Vaishali!</b></ul>
 </div>
+<br>
 <!--
 
 [Week One in Pictures!](https://raw.githubusercontent.com/schoolofma/schoolofma.github.io/master/i/weekOne.png "Week One")
