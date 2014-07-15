@@ -9,6 +9,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 
 This week wouldn't have been the same without: 
 <li>
+
 <ul>Anrick Bregman (genuine human and believer in the power of story),</ul> 
 <ul>S. Astrid Bin (gutsy interaction designer extraordinaire), </ul>
 <ul>Irina Spicaka and Krisjanis Rijnieks (our favourite projection mapping power duo), </ul>
@@ -17,6 +18,7 @@ This week wouldn't have been the same without:
 <ul>Abe Pazos (one of our main instructors, and reorderer of bananas!), </ul>
 <ul>Farah / NK (our lovely hosts for the last OTS Creative Code Stammtisch)</ul>
 <ul>and of course our oh so lovely students from around the world!</ul>
+
 </li>
 <!--
 
