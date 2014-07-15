@@ -9,13 +9,13 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 
 This week wouldn't have been the same without: 
 
-<ul>Anrick Bregman (genuine human and believer in the power of story),</ul> 
-<ul>S. Astrid Bin (gutsy interaction designer extraordinaire), </ul>
-<ul>Irina Spicaka / Krisjanis Rijnieks (our favourite projection mapping power duo), </ul>
-<ul>So Kanno / Takahiro Yamaguchi (our other favourite power duo, this one focused on drawing robots!), </ul>
-<ul>Victor Diaz (he came up with camelwifi--what's not to love!), </ul>
-<ul>Abe Pazos (one of our main instructors, and reorderer of bananas!), </ul>
-<ul>Farah / NK (our lovely hosts for the last OTS Creative Code Stammtisch)</ul>
+<ul><em>Anrick Bregman</em> (genuine human and believer in the power of story),</ul> 
+<ul><em>S. Astrid Bin</em> (gutsy interaction designer extraordinaire), </ul>
+<ul><em>Irina Spicaka / Krisjanis Rijnieks</em> (our favourite projection mapping power duo), </ul>
+<ul><em>So Kanno / Takahiro Yamaguchi</em> (our other favourite power duo, this one focused on drawing robots!), </ul>
+<ul><em>Victor Diaz</em> (he came up with camelwifi--what's not to love!), </ul>
+<ul><em>Abe Pazos</em> (one of our main instructors, and reorderer of bananas!), </ul>
+<ul><em>Farah / NK</em> (our lovely hosts for the last OTS Creative Code Stammtisch)</ul>
 <ul>and of course our oh so lovely students from around the world!</ul>
 
 <!--
