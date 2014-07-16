@@ -20,19 +20,31 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <br>
 
 <div>
+<caption>Students take a walk through the neighborhood and visit the Berlin Wall on the first day of class.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_11_s.jpg" class="pic">
-<caption>Students visit the Berlin Wall on the first day of class.</caption>
+<caption>Hanging out in the park after lunch.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_12_s.jpg" class="pic">
+<caption>Anrick Bregman speaking about meaning, story and oculus rift.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_08_s.jpg" class="pic">
+<caption>Orlagh, Brent and Pere prepping their projection mapping presentation.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_04_s.png" class="pic">
+<caption>Julia and Orlagh eager to get their hands on Processing.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_01_s.png" class="pic">
+<caption>Irina and Krisjanis constrcuted this beautiful geometric structure for their projection mapping workshop.</caption>
 <img src="{{ site.baseurl }}i/projection.jpg" class="pic">
+<caption>Projection mapping workshop in progress!</caption>
 <img src="{{ site.baseurl }}i/projection02.JPG" class="pic">
+<caption>Irina and her School of MA crown!</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_03_s.png" class="pic">
+<caption>Students visiting the studio of So Kanno and Takahiro Yamaguchi.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_06_s.jpg" class="pic">
+<caption>Takahiro explains the making-of their latest drawing bot incarnation.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_07_s.jpg" class="pic">
+<caption>So demos another cool project of theirs involving stiched images and 123D Catch.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_14_s.jpg" class="pic">
+<caption>The amazing Victor Diaz gives an inspirational artist talk, encouraging experimentation, travel and whimsy!</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_02_s.png" class="pic">
+<caption>S. Astrid Bin is energetic and bad-ass, shared great tips about creating interactive work.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_16_s.jpg" class="pic">
 </div>
 
