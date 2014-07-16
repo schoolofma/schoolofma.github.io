@@ -42,7 +42,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <img src="{{ site.baseurl }}i/RS_Week1_07_s.jpg" class="pic">
 <caption>So demos another cool project of theirs involving stiched images and 123D Catch.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_14_s.jpg" class="pic">
-<caption>The amazing Victor Diaz gives an inspirational artist talk encouraging experimentation, non-sense and travel.</caption>
+<caption>The amazing Victor Diaz gives an inspirational artist talk encouraging experimentation, nonsense and travel.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_02_s.png" class="pic">
 <caption>S. Astrid Bin is energetic and bad-ass, sharing great tips about creating interactive work!</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_16_s.jpg" class="pic">
