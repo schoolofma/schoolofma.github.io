@@ -21,6 +21,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 
 <div>
 <img src="{{ site.baseurl }}i/RS_Week1_11_s.jpg" class="pic">
+<caption>Students visit the Berlin Wall on the first day of class.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_12_s.jpg" class="pic">
 <img src="{{ site.baseurl }}i/RS_Week1_08_s.jpg" class="pic">
 <img src="{{ site.baseurl }}i/RS_Week1_04_s.png" class="pic">
