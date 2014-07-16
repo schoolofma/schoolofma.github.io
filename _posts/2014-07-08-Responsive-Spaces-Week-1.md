@@ -12,7 +12,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <ul><b><a href="http://www.astridbin.com/" target="_blank">S. Astrid Bin</a></b> (gutsy interaction designer extraordinaire), </ul>
 <ul><b><a href="http://www.codebark.com/" target="_blank">Irina Spicaka / Krisjanis Rijnieks</a></b> (our favourite projection mapping power duo), </ul>
 <ul><b><a href="http://kanno.so" target="_blank">So Kanno</a> / <a href="http://yang02.org" target="_blank">Takahiro Yamaguchi</a></b> (our other favourite power duo, focused on drawing robots!), </ul>
-<ul><b>Victor Diaz</b> (he came up with camelwifi--what's not to love!), </ul>
+<ul><b><a href="http://victordiazbarrales.com/" target="_blank">Victor Diaz</a></b> (he came up with camelwifi--what's not to love!), </ul>
 <ul><b><a href="http://www.hamoid.com/" target="_blank">Abe Pazos</a></b> (one of our main instructors, and reorderer of bananas!), </ul>
 <ul><b><a href="http://nkprojekt.de" target="_blank">Farah / NK</a></b> (our lovely hosts for the last OTS Creative Code Stammtisch)</ul>
 <ul>and of course our oh so lovely students from around the world: <b>Brent, Diogo, Esteban, James, Soma, Julia, Julie, Kurt, Luca, Milos, Orlagh, Pere, and Vaishali!</b></ul>
