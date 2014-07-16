@@ -30,7 +30,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <img src="{{ site.baseurl }}i/RS_Week1_04_s.png" class="pic">
 <caption>Julia and Orlagh are crazy about Processing.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_01_s.png" class="pic">
-<caption>Irina and Krisjanis constructed this beautiful geometric structure for their projection mapping workshop.</caption>
+<caption>Irina and Krisjanis constructed this beautiful geometric structure for our projection mapping workshop.</caption>
 <img src="{{ site.baseurl }}i/projection.jpg" class="pic">
 <caption>Projection mapping workshop in progress!</caption>
 <img src="{{ site.baseurl }}i/projection02.JPG" class="pic">
@@ -42,9 +42,9 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <img src="{{ site.baseurl }}i/RS_Week1_07_s.jpg" class="pic">
 <caption>So demos another cool project of theirs involving stiched images and 123D Catch.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_14_s.jpg" class="pic">
-<caption>The amazing Victor Diaz gives an inspirational artist talk, encouraging experimentation, travel and whimsy!</caption>
+<caption>The amazing Victor Diaz gives an inspirational artist talk encouraging experimentation, travel and whimsy!</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_02_s.png" class="pic">
-<caption>S. Astrid Bin is energetic and bad-ass, shared great tips about creating interactive work.</caption>
+<caption>S. Astrid Bin is energetic and bad-ass, shared great tips about creating interactive work!</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_16_s.jpg" class="pic">
 </div>
 
