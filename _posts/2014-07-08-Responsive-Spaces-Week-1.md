@@ -28,7 +28,7 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <img src="{{ site.baseurl }}i/RS_Week1_08_s.jpg" class="pic">
 <caption>Orlagh, Brent and Pere prepping their projection mapping presentation.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_04_s.png" class="pic">
-<caption>Julia and Orlagh eager to get their hands on Processing.</caption>
+<caption>Julia and Orlagh are crazy about Processing.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_01_s.png" class="pic">
 <caption>Irina and Krisjanis constrcuted this beautiful geometric structure for their projection mapping workshop.</caption>
 <img src="{{ site.baseurl }}i/projection.jpg" class="pic">
