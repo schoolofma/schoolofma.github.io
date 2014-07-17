@@ -22,9 +22,9 @@ Amazing first week at School of Machines, Making & Make-Believe Responsive Space
 <div>
 <caption>Students take a walk through the neighborhood and visit the Berlin Wall on the first day of class.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_11_s.jpg" class="pic">
-<caption>Hanging out in the park after lunch.</caption>
+<caption>Bonding in the park.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_12_s.jpg" class="pic">
-<caption>Anrick Bregman speaking about meaning, story and oculus rift.</caption>
+<caption>Anrick Bregman speaking passionately about meaning, story and oculus rift.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_08_s.jpg" class="pic">
 <caption>Orlagh, Brent and Pere prepping their projection mapping presentation.</caption>
 <img src="{{ site.baseurl }}i/RS_Week1_04_s.png" class="pic">
