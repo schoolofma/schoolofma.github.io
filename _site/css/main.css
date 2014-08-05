@@ -525,7 +525,10 @@ small {
 	.contact-item:hover .icon-fb {
 		background-position: -47px -30px;
 	}
-
+/* Sidebar ================================ */
+.sidebar > section > .headline {
+	margin-top: 0;
+}
 /* ===========================================
 	Form elements */
 
