@@ -370,7 +370,7 @@ small {
 }
 	.application p {
 		margin-bottom: 1em;
-		padding: 0 1em;
+		padding: 0 0.25em;
 	}
 
 /* Navigation */
