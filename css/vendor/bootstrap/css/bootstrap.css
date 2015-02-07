@@ -27,6 +27,10 @@ section,
 summary {
   display: block;
 }
+.item > img{
+  filter: grayscale(100%);
+}
+}
 audio,
 canvas,
 progress,
