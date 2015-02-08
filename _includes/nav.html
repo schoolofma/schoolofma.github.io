@@ -11,9 +11,26 @@
                 <a class="nav-link headline nav-link__home" href="{{ site.baseurl }}">Home<span class="icon icon-home"></span></a>
             </div>
         </li>
+        <!--Spring2015-->
+                <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col nav-item__programs">
+            <div {% if location == 'programs' %}class="active" {% endif %}>
+            <a  href="{{ site.baseurl }}programs/" class="nav-link headline">Current</a>
+            </div>
+            
+            <div class="actual__wrap">
+                <ul class="actual">
+                    <li class="actual-item actual-01"><a href="{{ site.baseurl }}programs/spring-2015-fabricating-empathy/">Spring2015 Fabricating Empathy</a></li>
+                    
+                </ul>
+            </div>
+            
+        </li>
+
+        <!-- end Spring2015-->
+
         <li class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col nav-item__programs">
             <div {% if location == 'programs' %}class="active" {% endif %}>
-            <a  href="{{ site.baseurl }}programs/" class="nav-link headline">Past Programs</a>
+            <a  href="{{ site.baseurl }}programs/" class="nav-link headline">Past</a>
             </div>
             <!--
             <div class="actual__wrap">
