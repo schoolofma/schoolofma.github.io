@@ -164,6 +164,13 @@ a:hover {
 	}
 
 /* Typography / Emphasize elements ====================*/
+
+.additionalSpace {
+	padding: 0 1em 0 1em;
+	display: block;
+	
+}
+
 .banner {
 	margin: 2em 0;
 	text-align: center;
