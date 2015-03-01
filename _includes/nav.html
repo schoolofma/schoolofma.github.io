@@ -8,13 +8,13 @@
     <ul class="row nav-list">
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
             <div {% if location == '/' or page.layout == 'default' %}class="active" {% endif %}>
-                <a class="nav-link headline nav-link__home" href="{{ site.baseurl }}">Home<span class="icon icon-home"></span></a>
+                <small><a class="nav-link headline nav-link__home" href="{{ site.baseurl }}">Home<span class="icon icon-home"></span></a></small>
             </div>
         </li>
         <!--Spring2015-->
-                <li class="col-xs-12 col-sm-8 col-md-2 col-lg-2 col ">
+                <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
             <div {% if location == 'programs' %}class="active" {% endif %}>
-            <a  href="{{ site.baseurl }}programs" class="nav-link headline">Upcoming</a>
+            <small><a  href="{{ site.baseurl }}programs" class="nav-link headline">Upcoming</a></small>
             </div>
             <!--
             <div class="actual__wrap">
@@ -30,7 +30,7 @@
 
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
             <div {% if location == 'past-programs' %}class="active" {% endif %}>
-            <a  href="{{ site.baseurl }}past-programs" class="nav-link headline">Past</a>
+            <small><a  href="{{ site.baseurl }}past-programs" class="nav-link headline">Past</a></small>
             </div>
             <!--
             <div class="actual__wrap">
@@ -43,19 +43,19 @@
         </li>
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
             <div {% if location == 'faq' %}class="active" {% endif %}>
-            <a  href="{{ site.baseurl }}faq/" class="nav-link headline">FAQ</a>
+            <small><a  href="{{ site.baseurl }}faq/" class="nav-link headline">FAQ</a></small>
             </div>
         </li>
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
             <div {% if location == 'about' %}class="active" {% endif %}>
-            <a  href="{{ site.baseurl }}about/" class="nav-link headline">About</a>
+            <small><a  href="{{ site.baseurl }}about/" class="nav-link headline">About</a></small>
             </div>
         </li>
 
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
             <div {% if location == 'blog' %}class="active" {% endif %}>
                 <!-- <a  href="{{ site.baseurl }}blog/" class="nav-link headline">Blog</a> -->
-                <a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a>
+                <small><a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a></small>
             </div>
         </li> 
     </ul>
