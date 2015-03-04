@@ -407,7 +407,7 @@ small {
 	color: #c0c0c0;
 	display: block;
 	text-decoration: none;
-	border-bottom: 3px solid;
+	border-bottom: 3px transparent;
 }
 	.nav-link:hover {
 		text-decoration: none;
@@ -416,7 +416,7 @@ small {
 	text-decoration: none;
 	border-bottom: 0;
 	color: #000;
-	border-bottom: 3px solid;
+	border-bottom: 3px transparent;
 }
 .nav-link__home {
 	text-indent: -9878px;
