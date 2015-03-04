@@ -400,7 +400,7 @@ small {
 	color: #000;
 	display: block;
 	text-decoration: none;
-	border-bottom: 2px solid;
+	border-bottom: 2px transparent;
 }
 
 .nav-link {
