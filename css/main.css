@@ -400,14 +400,14 @@ small {
 	color: #000;
 	display: block;
 	text-decoration: none;
-	border-bottom: 2px transparent;
+	border-bottom: 2px solid;
 }
 
 .nav-link {
 	color: #c0c0c0;
 	display: block;
 	text-decoration: none;
-	border-bottom: 3px transparent;
+	border-bottom: 3px solid;
 }
 	.nav-link:hover {
 		text-decoration: none;
@@ -416,7 +416,7 @@ small {
 	text-decoration: none;
 	border-bottom: 0;
 	color: #000;
-	border-bottom: 3px transparent;
+	border-bottom: 3px solid;
 }
 .nav-link__home {
 	text-indent: -9878px;
