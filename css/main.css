@@ -539,8 +539,8 @@ small {
 	}
 /* Sidebar ================================ */
 .sidebar > section > .headline {
-	margin-top: 5%;
-	margin-bottom: 5%;
+	margin-top: 1;
+	margin-bottom: 1;
 }
 /* ===========================================
 	Form elements */
