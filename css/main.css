@@ -287,6 +287,13 @@ small {
 	margin-right:10;
 }
 
+.holder2 {
+	margin-bottom:1em;
+	margin-top:1em;
+	margin-left:10;
+	margin-right:10;
+}
+
 .media-holder {
 	margin: 2em 0;
 }
@@ -543,10 +550,6 @@ small {
 	margin-bottom: 0;
 }
 
-.sidebar > section2 > .headline {
-	margin-top: 0;
-	margin-bottom: 0;
-}
 /* ===========================================
 	Form elements */
 
