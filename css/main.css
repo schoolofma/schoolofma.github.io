@@ -141,6 +141,17 @@ a:hover {
 		.list-compact .list__item p {
 			margin-bottom: 1em;
 		}
+		
+.list-compact2 {
+	margin-left: 0;
+	padding-left: 0;
+}
+	.list-compact .list__item {
+		margin-bottom: 0;
+	}
+		.list-compact .list__item p {
+			margin-bottom: 1em;
+		}		
 .em {
 	font-family: 'Cousine', 'Open Sans', sans-serif;
 	
