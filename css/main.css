@@ -9,18 +9,19 @@ body {
 html,
 body  {
 	font-size: 100%;
-	font-family: 'Open Sans', 'Raleway', 'Merriweather', 'Lato', sans-serif;
+	font-family: Calibri, 'Merriweather', 'Lato', sans-serif;
 	font-weight: 400; 
 	font-size: 100%;
 }
 
 .wrap {
-	font-size: 1em;
+	font-size: 1.1em;
 }
 
 p {
 	line-height: 1.7;
 	margin-bottom: 2em;
+	margin-right: 4px;
 }
 .aside h2 {
 	font-size: 1.125em;
@@ -30,7 +31,7 @@ p {
 h3,
 h4,
 h5 {
-	font-family: 'Cousine', 'Open Sans', sans-serif;
+	font-family: Calibri, 'Merriweather','Cousine', 'Open Sans', sans-serif;
 	margin: 2em 0 1em;
 }
 
@@ -141,8 +142,19 @@ a:hover {
 		.list-compact .list__item p {
 			margin-bottom: 1em;
 		}
+		
+.list-compact2 {
+	margin-left: 0;
+	padding-left: 0;
+}
+	.list-compact .list__item {
+		margin-bottom: 0;
+	}
+		.list-compact .list__item p {
+			margin-bottom: 1em;
+		}		
 .em {
-	font-family: 'Cousine', 'Open Sans', sans-serif;
+	font-family: Calibri, 'Merriweather','Cousine', 'Open Sans', sans-serif;
 	
 }
 .thanks {
