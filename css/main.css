@@ -393,7 +393,6 @@ small {
 	border: 0.5em solid;
 	background-color: rgba(241,241,241,.7);
 	padding: 0.75em 0;
-	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.25em;
 }
@@ -406,7 +405,6 @@ small {
 	border: 0.5em solid;
 	background-color: rgba(241,241,241,.7);
 	padding: 0.75em 0;
-	text-transform: uppercase;
 	text-align: center;
 	font-size: 1.25em;
 }
