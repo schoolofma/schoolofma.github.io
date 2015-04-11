@@ -2,61 +2,39 @@
     Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
  -->
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
-
-
-<nav class="navbar">
-    <ul class="row nav-list">
+    <nav class="navbar">
+      <ul class="row nav-list">
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
-            <div {% if location == '/' or page.layout == 'default' %}class="active" {% endif %}>
-                <small><a class="nav-link headline nav-link__home" href="{{ site.baseurl }}">Home<span class="icon icon-home"></span></a></small>
-            </div>
+          <div {% if location == '/' or page.layout=='default' %}class="active" {% endif %}>
+            <small><a class="nav-link headline nav-link__home" href="{{ site.baseurl }}">Home<span class="icon icon-home"></span></a></small>
+          </div>
         </li>
         <!--Spring2015-->
-                <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
-            <div {% if location == 'programs' %}class="active" {% endif %}>
-            <small><a  href="{{ site.baseurl }}programs" class="nav-link headline">Upcoming</a></small>
-            </div>
-            <!--
-            <div class="actual__wrap">
-                <ul class="actual">
-                    <li class="actual-item actual-01"><a href="{{ site.baseurl }}programs/spring-2015-fabricating-empathy/">Spring2015 Fabricating Empathy</a></li>
-                    
-                </ul>
-            </div>
-            -->
-        </li>
-
-        <!-- end Spring2015-->
-
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
-            <div {% if location == 'past-programs' %}class="active" {% endif %}>
+          <div {% if location == 'programs' %}class="active" {% endif %}>
+            <small><a  href="{{ site.baseurl }}programs" class="nav-link headline">Upcoming</a></small>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div {% if location == 'past-programs' %}class="active" {% endif %}>
             <small><a  href="{{ site.baseurl }}past-programs" class="nav-link headline">Past</a></small>
-            </div>
-            <!--
-            <div class="actual__wrap">
-                <ul class="actual">
-                    <li class="actual-item actual-01"><a href="{{ site.baseurl }}programs/july-2014-responsive-spaces/">07/2014 Responsive Spaces</a></li>
-                    <li class="actual-item  actual-02"><a href="{{ site.baseurl }}programs/august-2014-let's-get-physical/">08/2014 Let's Get Physical!</a></li>
-                </ul>
-            </div>
-            -->
+          </div>
         </li>
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
-            <div {% if location == 'faq' %}class="active" {% endif %}>
+          <div {% if location == 'faq' %}class="active" {% endif %}>
             <small><a  href="{{ site.baseurl }}faq/" class="nav-link headline">FAQ</a></small>
-            </div>
+          </div>
         </li>
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
-            <div {% if location == 'about' %}class="active" {% endif %}>
+          <div {% if location == 'about' %}class="active" {% endif %}>
             <small><a  href="{{ site.baseurl }}about/" class="nav-link headline">About</a></small>
-            </div>
+          </div>
         </li>
-
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
-            <div {% if location == 'blog' %}class="active" {% endif %}>
-                <!-- <a  href="{{ site.baseurl }}blog/" class="nav-link headline">Blog</a> -->
-                <small><a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a></small>
-            </div>
-        </li> 
-    </ul>
-</nav>
+          <div {% if location=='blog' %}class="active" {% endif %}>
+            <small><a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a></small>
+          </div>
+        </li>
+      </ul>
+    </nav>

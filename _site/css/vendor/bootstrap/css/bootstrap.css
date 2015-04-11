@@ -10,6 +10,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
+img.desaturate { filter: grayscale(100%); }
 body {
   margin: 0;
 }
@@ -26,6 +27,11 @@ nav,
 section,
 summary {
   display: block;
+}
+.item > img{
+   -webkit-filter: grayscale(100%); 
+   filter: grayscale(100%); 
+}
 }
 audio,
 canvas,

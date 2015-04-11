@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>Programs-2014 | School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/preview4.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <!--link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width : 1281px)" href="/css/1200.css" /> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//my.hellobar.com/ada13edba4a6d798a9b2f20fcf654eeafa8ff440.js" type="text/javascript" charset="utf-8" async="async"></script>
+	<style type=text/css">@font-face {font-family:'Apercu Bold';src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot');src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.woff')format('woff'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.svg#923')format('svg');font-weight:bold;font-style:normal;}@font-face {font-family:'Apercu Regular';src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot');src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.woff')format('woff'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.svg#929')format('svg');font-weight:normal;font-style:normal;}</style>
+
+<!--p5.js scripts below-->
+<script src="http://p5js.org/js/p5.min.js"></script>
+<script src="http://p5js.org/js/p5.dom.js"></script>
+<script src="http://p5js.org/js/p5.sound.js"></script>
+<script src="http://p5js.org/js/render.js"></script>
+<script src="http://p5js.org/js/main.js"></script>
+
+ <!-- modernizer (not leveraged, yet) 
+    <script src="http://p5js.org/js/vendor/modernizr-2.6.2.min.js"></script>-->
+    <!-- jquery-->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="http://p5js.org/js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
+
+<!--p5.js scripts above-->
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				<a href="/">
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				</a>
+			</header>
+		</div>
+
+<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+    <nav class="navbar">
+      <ul class="row nav-list">
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
+          <div >
+            <small><a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a></small>
+          </div>
+        </li>
+        <!--Spring2015-->
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div >
+            <small><a  href="/programs" class="nav-link headline">Upcoming</a></small>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div class="active" >
+            <small><a  href="/past-programs" class="nav-link headline">Past</a></small>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
+          <div >
+            <small><a  href="/faq/" class="nav-link headline">FAQ</a></small>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
+          <div >
+            <small><a  href="/about/" class="nav-link headline">About</a></small>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
+          <div >
+            <small><a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a></small>
+          </div>
+        </li>
+      </ul>
+    </nav>
+
+<div class="content__wrap">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+          <section class="programs program__item">
+
+		<article class="program">
+			<h3>Responsive Spaces July 2014 Students</h3>
+			<ul class="coach-list">
+
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/brent.png" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="brent-dixon">Brent Dixon</a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">When Brent was a kid, he wanted to be a tractor. That didn’t work out, and now he’s a designer, musician, and educator based in Austin, TX. He's spent the last several years working with groups like Singularity University, TEDxAustin, Hackidemia, The Cooperative Food Empowerment Directive, The Filene Research Institute, and PBS Kids to create positive change though community, creativity, and tomfoolery.</p> 
+						<p class="text">He's currently researching interactive technology and music therapy at the University of Texas. You can check out some of his original music at http://brentdixon.bandcamp.com.</p					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/diogo.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="diogo-queirós">Diogo Queirós </a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">Diogo is from Portugal. His background is in graphic design, but his inspirations come from music and cinema. He worked in the field for many years, doing everything you can imagine (from corporate identities, product/packaging to web and video) for high-profile clients (from hospitals to wine makers). He then got to place, where the tools were blocking his ideas, so he decided to make a change and make his own. For almost a year he’s been learning all about coding and interactive platforms.</p> 
+						<p class="text">At this moment, his two main interests are: shaders (to express himself visually) and new experiences (finding new paradigms for the way we interact with our surroundings and ourselves).</p>
+
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/esteban.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+						<h5 class="name"><a name="esteban-almiron">Esteban Almiron</a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">Taseenb (Esteban Almiron) is a designer and developer based in Paris, with a background in art and cinema studies. He has worked for several companies in Milan and Paris, as director assistant, graphic designer and developer, but his obsessions always went far beyond communication and paying the rent.</p>
+						<p class="text">His thesis (University of Bologna, Italy) was based on the unexpected connections between mainstream cinema and the French philosophers criticism of our vision society: control, spectacle, feminism were the main subjects. In recent years, he’s started to develop a more artistic approach which has brought him closer to the digital art scene. Today he tries to rethink his ideas on art, design and how they interrelate by experimenting with code and digital media tools.</p					
+					</div>
+				</li>
+
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/James.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="james-kneafsey">James Kneafsey</a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">James is a semi-professional musician, creative coder/electronicist interested in things like: generative music, 3D scanning, augmented reality, making more music with fewer humans.</p					
+					</div>
+				</li>
+				<li class="row coach">	
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/SOMA.png" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="james-troup">James Troup</a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">James is a mild-mannered bohemian currently based in San Francisco with a background in computer science and a degree from Carnegie Mellon University.  After seven years of enterprise software development, his soul was nearly depleted, so in April he quit to focus on taking creative technology from a free-time hobby to a full-time lifestyle.</p> 
+						<p class="text">He has aspirations of making interactive public installations that encourage spontaneous human connection.  He has a penchant for geometry, greyscale, and hypnotic animations.  He works under the name Soma Holiday, and the plumber's sink is always broken at somaholiday.com.</p					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/julia.png" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="julia-nuesslein">Julia Nuesslein</a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">Julia Nuesslein was born in Germany and lives in Amsterdam, The Netherlands. She currently works as a (executive) festival producer for Dutch media art festivals Sonic Acts and FIBER where she tries to bring technology-driven, experimental art as a critical medium to as many people as possible.</p>
+						<p class="text">The interplay of art, technology and science has been her major focus for years. During her studies of new media and digital culture at Utrecht University, she researched the potential of participatory artworks to encourage the user to critically reflect. Today Julia aims to bring the theoretical and practical knowledge she has gained into real-life by creating and experimenting with code herself. Also, from now on, she loves math.</p>					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/julie_.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="julie-silverman">Julie Silverman</a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">Wanderer, dada enthusiast, and klutz, Julie is a UX Designer-at-large between San Francisco and Berlin. She collaborates on design and product strategy, conducts research, creates interaction and mental models, authors specs, and occasionally even ships flawless solutions. Once upon a time she used to paint, wrangle data, and code badly, activities that she misses dearly and is starting anew with gusto.</p>
+
+						<p class="text">Conceptually she’s exploring rhythm in visual and motion design for eliciting awkward and uncomfortable feelings in her audience, preferably at overwhelming scale. She is also very keen on squares. Follow her on twitter at @jssqrd</p>					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/Kurt.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="kurt-strong">Kurt Strong</a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">Kurt is an Advertising Creative meets Digital Art Director meets Creative Tech. He’s worked with big brands, small brands, and a few charities as well. He was the lead creative for Sony Playstation (NZ) and Apple (AUS/NZ) while at TBWA. Kurt is attempting to marry creativity with technology in interesting ways.
+						Currently in Europe to extend his programming knowledge to help bring these to life, he’s looking to develop interesting ideas in the real world through interactive experiences.</p>					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/luca.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="luca-zerbinati">Luca Zerbinati</a> <span class="sub web">/&nbsp;<a href="" target="_blank"></a></span></h5>
+						<p class="text">Luca Zerbinati was born in Italy and graduated in communication from the University of Padua. He has a technical background in system and network administration and he is passionate about experimenting with the alternative reuse of tech and electronic devices. He is now interested in exploring the overlap between digital and physical. At the moment he is living in Berlin.</p>					
+					</div>
+				</li>
+					<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/milos.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="milos-roglic">Milos Roglic</a> <span class="sub web">/&nbsp;<a href="" title="" target="_blank"></a></span></h5>
+						<p class="text">Milos Roglic is Freelance Software Developer/Designer based in Belgrade, Serbia. He holds a degree in Software Engineering from Faculty of Electrical Engineering University of Belgrade and specializes in game development, computer vision, algorithmic animation and generative art. He worked six years as ActionScript/Java Developer making casual games and interactive flash websites and applications. Portoflio soon at milosroglic.me.</p>
+
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/orlagh.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="orlagh-obrien">Orlagh O'Brien</a> <span class="sub web">/&nbsp;<a href="" title="" target="_blank"></a></span></h5>
+						<p class="text">With 15 years experience in graphic design, Orlagh's interests in meditation and awareness fed into an MA project about emotions and the body. Currently based in Cork, Ireland, she is interested in exploring how people describe their own subjective experiences using alternative surveys (pulseofthepeople.ie), to make a time capsule of the heart. She's joining the School of Machines to develop her creative practice and to just be in Berlin for a little.</p>
+
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pere.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="pere-amengual-gomila">Pere Amengual Gomila</a> <span class="sub web">/&nbsp;<a href="" title="" target="_blank"></a></span></h5>
+						<p class="text">Pere recorded his first experimental electronic music tracks in the early 80′s, in a style somewhat between industrial and cut-up. Later on he also did some more rhythmic and commercial stuff. He’s a diplomate on PA and Audio Systems by the Universitat de Valencia and currently studying for a Degree in Multimedia at Universitat Oberta de Catalunya. His main interests are Sound Design (mainly Analog modulars and the Kyma System), Interactive Systems and 3D Generative Video.</p>
+
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/Vaishali.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="vaishali-dhanoa">Vaishali Dhanoa</a> <span class="sub web">/&nbsp;<a href="" title="" target="_blank"></a></span></h5>
+						<p class="text">Vaishali is a software engineer in the field of computer vision and image processing, a field she is really passionate about. So far, she’s made apps using kinect. She loves to make creative apps for students to improve the conceptual learning of various subjects, though her focus is mainly in physics (topics such as electromagnetism). While this area is hard  to visualise, she keeps looking to various areas of mathematics and other subjects to enable better understanding of the concepts.</p>
+
+					</div>
+				</li>
+				
+			</ul>
+			<h3 class="title">Responsive Spaces</h3>
+			<ul class="list list-compact em warning">
+				<li class="list__item"><p>/ 30 June - 25 July 2014</p></li>
+				<li class="list__item"><p>/ four weeks, full-time </p></li>
+				<li class="list__item"><p>/ €&nbsp;1250 </p></li>
+			</ul>
+			
+			<p>How can we create meaningful interactive experiences or tell stories with code? This course will focus on creative coding and interactivity in the context of responsive spaces. The goal is to explore the creative and expressive possibilities of new technologies and digital tools and sensors while gaining a foundation in creative coding (algorithmic animation, computer vision, audio analysis and synthesis, projection mapping, networks, and 3D graphics).</p>
+
+			<p>We will work mainly with OpenFrameworks and Processing, but other platforms will also be incorporated such as Max/PureData and SuperCollider. Teachers and students will work together towards the production of individual or group projects and will have access to the equipment needed to create functioning responsive installations. Expect to play with code, be experimental and have fun! </p>
+
+			<div class="banner info">
+				<a href="/faq/" class="link info"><small>Please read the FAQ for more details about organizational questions</small></a>
+			</div>
+			
+			<h3>Plan</h3>
+			<p>Throughout the program, there will be time for interesting exercises, collaborations, and even outside excursions — it will be summertime in Berlin, after all!  Not only that, we’ll also have guest speakers and artist talks alongside the base classes and workshops.</p>
+			<p>The program begins at 10am every morning with an Core Programming course which runs a few hours long, followed by a lunch break, collaborative worktime and an afternoon lab session. Some days there will be more on the schedule particularly the first two weeks. Four weeks will go by quickly and we want to provide as much content and opportunities for creative hands-on learning as possible!</p>
+			<p>We will be doing group check-ins so that students can voice where they would like more help and focus. Fridays will be a bit more experimental with guest lectures and other outside activities. We will provide as many opportunities for engagement as possible, with creative exercises and group activities. We believe in learning by doing and in having fun!</p>
+			<h4>1st week</h4>
+			<p>Getting familiar with your tools: the basics of programming. It’s also the time for everyone to get to know each other and to explore ideas and concepts surrounding art, technology, interactivity, and storytelling.  Along with core coding classes, we’ll examine and explore questions about the purpose of technology in art.  What kinds of conceptual expression are made possible through programming? How can interactivity be used to tell your stories? Main instructors during this first week will be <a href="#arturo-castro">Arturo Castro</a>, <a href="#abe-pazos">Abe Pazos</a>, <a href="#anrick-bregman">Anrick Bregman</a>, <a href="#astrid-bin">S. Astrid Bin</a>, and <a href="#raphaël-de-courville">Raphaël de Courville</a>.</p>
+			<h4>2nd & 3rd weeks</h4>
+			<p>Main focus will be on getting more hands-on with tools like Processing and openFrameworks.  By week three, we'll be delving more into Interactive aspects of programming and animation. We’ll also explore using sensors to detect the world around you, and delve into sound synthesis with frameworks like Max/MSP, Pure Data, and SuperCollider. Main instructors during this time will be Abe Pazos, Arturo Castro, and Chris Sugrue.  We’ll also be joined for a hands-on workshop by heart chamber orchestra mastermind <a href="#peter-pure-votava">Peter Votava</a>!</p>
+		
+			<h4>4th week</h4>
+			<p>The final week is dedicated to advanced interaction and further development of projects, both collaborative and individual, to be showcased at the final event.</p>
+
+			<!--
+			<h4>Additional workshops</h4>
+			<p>Note: This list of workshops is currently incomplete.</p>
+			<ul class="list">
+				<li class="list__item">
+					<p>Projection mapping using Madmapper <small>/ <a href="#irina-spicaka">Irina Spicaka</a> and <a href="#krisjanis-rijnieks" title="">Krisjanis Rijnieks</a></small></p>
+				</li>
+				<li class="list__item">
+					<p>GRL Light Rider <small>/ <a href="http://www.graffitiresearchlab.de/" title="Graffiti Research Lab Germany">Graffiti Research Lab Germany</a> crew</small></p>
+					<p class="sub">Here we will have an opportunity to join them and the Light Rider, tagging the streets of Berlin. Yay!</p>
+					-->
+			</ul>
+
+
+			<h4>Instructors</h4>
+			<ul class="coach-list">
+			
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-bregman.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="anrick-bregman">Anrick Bregman</a> <span class="sub web">/&nbsp;<a href="http://www.anrick.com/" target="_blank">anrick.com</a></span></h5>
+						<p class="text">Anrick is interactive director at unit9 and part of the arts collective Tango&Hawaii. He creates commercial and experimental content for the browser and the smart phone, built on a dialogue between the viewer and the story. His work has been recognised by the Webbys, One Show awards, Cannes Lions, FWA, Davey Awards, at the D&AD, amongst others. He spoke at OFFF2011, Wave Festival in Rio de Janeiro, Berghs College of Communication and Internet Week Europe.</p					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-astrid.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+						
+						<h5 class="name"><a name="astrid-bin">S. Astrid Bin</a> <span class="sub web">/&nbsp;<a href="http://www.astridbin.com/" target="_blank">astridbin.com</a></span></h5>
+						<p class="text">S. Astrid Bin&nbsp;is&nbsp;an&nbsp;interdisciplinary artist, designer and&nbsp;creative technologist. Her&nbsp;work examines the&nbsp;poetry in&nbsp;everyday things and&nbsp;the connections between people and&nbsp;their environments. She&nbsp;also folds technology into the&nbsp;fabric of&nbsp;the&nbsp;work she&nbsp;makes. She works two&nbsp;dimensionally (works on&nbsp;paper, text pieces, photography, printed projects, interfaces), three dimensionally (installation, art&nbsp;in&nbsp;public spaces, and&nbsp;reactive objects), and&nbsp;four dimensionally (sound, video, performance and&nbsp;interactive works). As&nbsp;an&nbsp;art&nbsp;and&nbsp;technology researcher, she applies an&nbsp;art-based approach to&nbsp;design and&nbsp;engineering problems spanning interfaces, public space, new&nbsp;uses for&nbsp;games, the&nbsp;role of&nbsp;fun in&nbsp;the things we&nbsp;use, and re-imagining the&nbsp;music performing and&nbsp;listening experience.</p>
+						
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-irina.jpeg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+						<h5 class="name"><a name="irina-spicaka">Irina Spicaka</a> <span class="sub web">/&nbsp;<a href="http://irina.spicaka.info" target="_blank">irina.spicaka.info</a></span></h5>
+						<p class="text">Irina Spicaka is a media artist looking for deconstruction of the typical rectangular screen by using projection mapping as her form of expression. Applying mathematical logic, geometry and visual programming tools for communicating audio and visual experiences. Works as a graphic designer and runs Creative Coding for Live Audio and Visuals platform (<a href="http://www.cc4av.info" target="_blank">cc4av.info</a>).</p					
+					</div>
+				</li>
+
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-kris.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="krisjanis-rijnieks">Krisjanis Rijnieks</a> <span class="sub web">/&nbsp;<a href="http://www.rijnieks.lv/" target="_blank">rijnieks.lv</a></span></h5>
+						<p class="text">Krisjanis Rijnieks (rijnieks.lv) has background in painting, works with digital interactive media and is mainly interested in combining generative graphics with projection mapping techniques and electronics. Also one of Creative Coding for Live Audio and Visuals platform (<a href="http://www.cc4av.info" target="_blank">cc4av.info</a>) fonders and workshop holders as well as runs a small company CodeBark (<a href="http://www.codebark.com" target="_blank">codebark.com</a>) that works with different kind of digital media projects.</p					
+					</div>
+				</li>
+				<li class="row coach">	
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-deCourville.jpeg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="raphaël-de-courville">Raphaël de Courville</a> <span class="sub web">/&nbsp;<a href="http://vimeo.com/sableraf/" target="_blank"></a></span></h5>
+						<p class="text">Raphael is a French graphic designer and artist, who has exhibited installations at venues such as Brighton's White Night (UK), the Lausanne City Festival (Switzerland), and the International Graphic Design Festival of Chaumont (France). He is a member of the Graffiti Research Lab Germany and co-founder of the Berlin Creative Code Jam, a monthly creative coding event. He currently works as a computational designer and researcher at ART+COM.</p					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-abe.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="abe-pazos">Abe Pazos</a> <span class="sub web">/&nbsp;<a href="http://www.hamoid.com/" target="_blank">hamoid.com</a></span></h5>
+						<p class="text">Abe is the author of Fun Programming, a series of video tutorials that has helped thousands of people around the world to get started with programming and creative coding.
+
+						He studied computer science and graphic design, and resides between
+						Helsinki, Berlin and Mallorca. He is one of the organizers of a biweekly
+						creative coding event in Berlin.
+
+						As an artist Abe produces still and animated generative pieces and art
+						installations.</p>					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-castro.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="arturo-castro">Arturo Castro</a> <span class="sub web">/&nbsp;<a href="http://arturocastro.net/" target="_blank">arturocastro.net</a></span></h5>
+						<p class="text">Arturo Castro is an artist, educator and engineer currently based in
+								Berlin. He is one of the core developers of the open source toolkit for
+								artists and designers openFrameworks. In the past he's worked with
+								Reactable Systems developing the software for the renown musical
+								instrument. Currently he works on his own and collaborates with other
+								artists and technologists on projects usually in the field of
+								interactive installations.</p>
+								<p class="text">
+								He's main interests are related with open source culture in the context
+								of artistic practices and technology literacy and his work has been
+								exhibited in museums like Maison d'Ailleurs in Switzerland, the London
+								Design Museum or Moscow's Multimedia Art Museum among others.</p					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-sugrue.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+
+						<h5 class="name"><a name="chris-surgue">Chris Sugrue</a> <span class="sub web">/&nbsp;<a href="http://csugrue.com/" target="_blank">csugrue.com</a></span></h5>
+						<p class="text">Chris Sugrue is an artist, designer and programmer. She develops creative digital works including interactive installations, audiovisual performances and algorithmic animations.</p					
+					</div>
+				</li>
+				<li class="row coach">
+					<div class="col-sm-12 col-md-3 col-lg-3 pic-holder">
+						<img src="/i/pic-votava.jpg" class="pic">
+					</div>
+					<div class="col-sm-12 col-md-9 col-lg-9 description">
+						
+						<h5 class="name"><a name="peter-pure-votava">Peter "Pure" Votava</a> <span class="sub web">/&nbsp;<a href="http://musicwithmachines.org/" title="Peter Votava" target="_blank">musicwithmachines.org/</a></span></h5>
+						<p class="text">Peter Votava produces and&nbsp;performs electronic music under his&nbsp;moniker Pure since beginning of&nbsp;the&nbsp;90s. Since 1998 he&nbsp;uses the&nbsp;programming environment Max&nbsp;as&nbsp;an&nbsp;important tool in&nbsp;his&nbsp;artistic work.</p>
+						<p class="text">He&nbsp;co-developed the&nbsp;Heart Chamber Orchestra for&nbsp;12&nbsp;classical trained musicians. Using their heartbeats, the&nbsp;musicians control a&nbsp;computer composition and&nbsp;visualization environment. They read and&nbsp;play a&nbsp;real-time score from laptop screens placed in&nbsp;front of&nbsp;them.</p>
+						<p class="text">In&nbsp;various collaborations like Prszr and&nbsp;Bolder he&nbsp;combines his&nbsp;passion for&nbsp;the&nbsp;gloomier sides of&nbsp;music with his&nbsp;interest in&nbsp;audio software programming for&nbsp;computer based live performances using a&nbsp;mix&nbsp;of&nbsp;electro-acoustic composition, sound synthesis, and&nbsp;live electronics.</p>
+					
+					</div>
+				</li>
+			</ul>
+
+
+
+		</article>
+		
+</section>
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  col sidebar">
+      <!-- Here is a block for screaming out about something --> 
+
+<section id="application" class="holder application">
+ <!-- <div style="color:#f0f0f0;background:#222;padding:0.25em 0;margin-bottom:1em;letter-spacing: 0.42ex;"></div> -->
+	<!--
+	<p><a href="https://docs.google.com/forms/d/1D8ejtJC9BvtFPRzMIaTwq8eIYSUgL4ZfcrQvIcEsTmc/viewform" class="apply danger" target="_blank">FABRICATING<br />EMPATHY</a></p>
+	<p>APPLY&nbsp;TODAY!</p>
+	-->
+	<!--p>Please use this&nbsp;<a href="https://docs.google.com/forms/d/1D8ejtJC9BvtFPRzMIaTwq8eIYSUgL4ZfcrQvIcEsTmc/viewform" class="apply danger" target="_blank">form</a>.</p-->
+	<!--p>Accepting<br> Applications&nbsp;Now for Interventions: Art, Technology, & Social Practice, our&nbspten-week Summer&nbspprogram in Berlin!</p-->
+	<p><a href="https://docs.google.com/forms/d/1zqDgEkYJE30JTPIf1oPrBcqHcc8I41HcE5pLVJQdImw/viewform" class="apply danger" target="_blank">Accepting Applications Now</a><br>for Interventions:<br> Art, Technology, Social &nbsp; Practice, our ten-week Summer program in Berlin<br><span style="display:inline-block">Jun 8</span> - <span style="display:inline-block">Aug 14</span></p>
+	<p><strong>Limited amount of early bird applications accepted before April 20!</strong></p>
+	<!--
+	<p>More details here:</p>
+	<p><a href="http://us8.campaign-archive2.com/?u=8a582affe02962d9e73f8ee6d&id=ac303a3088&e=dc775def3e" class="apply danger" target="_blank">[latest newsletter]</a></p>
+     	<!--<p>Sign up for our&nbspnewsletter below</p>-->
+ </section>
+ 
+ <section id="application" class="holder application">
+     <p>We're committed to diversity in the truest sense. Our spring program boasts 70% women and participants from 13 countries. <br>If you'd like to sponsor a scholarship for a student from an under-represented background, please <br><a href="mailto:info@schoolofma.org" class="apply danger" target="_blank">get in touch</a></p>
+     <!--
+     <p><small>At&nbsp;the&nbsp;School, we&nbsp;value&nbsp;diversity! In&nbsp;that&nbsp;spirit, we're&nbsp;pleased to announce&nbsp;a limited number&nbsp;of partial need-&nbsp;based scholarships will&nbsp;be&nbsp;available to&nbsp;applicants who&nbsp;demonstrate financial&nbsp;need.</small></p>
+     <p><small>Please indicate on your&nbsp;application if you'd&nbsp;like&nbsp;to&nbsp;be considered&nbsp;for a&nbsp;scholarship.</small></p>
+ 	-->
+ 	
+ </section>
+
+
+ 
+
+<section id="contact" class="contact">
+    <h2 class="headline">Contact information</h2>
+    <ul class="contact-list">   
+        <li class="contact-item"><span class="icon icon-email"></span> <a href="mailto:info@schoolofma.org">info@schoolofma.org</a></li>
+        <li class="contact-item"><span class="icon icon-twitter"></span> <a href="https://twitter.com/schoolofmaaa">schoolofmaaa</a></li>
+        <li class="contact-item"><span class="icon icon-fb"></span> <a href="https://www.facebook.com/pages/School-of-Machines-Making-and-Make-Believe/736062943100977">School of Machines, Making&nbsp;&amp;&nbsp;Make-Believe</a></li>
+        
+    </ul>
+</section>
+
+<div class="newsletter">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: transparent; 
+            clear:left; 
+            margin: 30px auto 0;
+        }
+
+        #mc_embed_signup form {
+            padding: 0;
+        }
+
+        #mc_embed_signup .field {
+            width: 100%;
+            float: left;
+        }
+
+        #mc_embed_signup label {
+            font-weight: normal;
+            padding: 0;
+        }
+        #mc_embed_signup input {
+            background: transparent;
+            border-color: #444;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom-width: 3px;
+            color: #444;
+        }
+        #mc_embed_signup input:focus {
+            border-color: #000;
+            outline: none;
+            background: #59a55c;
+            color: #222;
+        }
+        #mc_embed_signup input.email,
+        #mc_embed_signup input.button {
+            clear: none;                            
+            margin: 0;
+        }
+        #mc_embed_signup input.email {
+            float: left;
+            width: 76%;
+            min-width: 110px;
+        }
+        #mc_embed_signup input.button {
+            float: right;
+            font-weight: normal;
+            width: 18%;
+            min-width: 33px;
+            background: transparent;
+            border-radius: 0;
+            color: #444;
+            font-size: 40px;
+        }
+        #mc_embed_signup input.button:hover,
+        #mc_embed_signup input.button:focus {
+            color: #59a55c;
+            background: transparent;
+        }
+        #mc_embed_signup .sub {
+            font-size: 13px;
+            display: block;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form action="http://schoolofma.us8.list-manage2.com/subscribe/post?u=8a582affe02962d9e73f8ee6d&amp;id=d71088c8ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="clear">
+                <h2 class="headline">Subscribe to our newsletter</h2>
+                <!--label for="mce-EMAIL">Subscribe to&nbsp;our&nbsp;newsletter</label-->
+                <p class="sub">Receive updates about our&nbsp;programs and events</p>
+            </div>
+            <div class="field">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_8a582affe02962d9e73f8ee6d_d71088c8ff" value=""></div>
+                <input type="submit" value="⍄" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+        </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+</div>
+
+<!-- 
+<div class="em thanks">
+    <p class="sub">Hosted by&nbsp;<a href="http://www.thewye.de/" title="The WYE" target="_blank">The WYE</a>.</p>
+
+    <p class="sub">In collaboration with <a href="www.fablab-berlin.org" title="FabLab Berlin" target="_blank">FabLabBerlin</a> and <a href="http://www.opentechschool.org/" title="OpenTechSchool" target="_blank">OpenTechSchool</a>.</p>
+    
+    <p class="sub">With&nbsp;support&nbsp;from <a href="http://www.arthackday.net/" title="ArtHackDay" target="_blank">ArtHackDay</a>, <a href="http://retune.de/" title="Retune - creative technology platform berlin" target="_blank">Retune</a>, <a href="http://nand.io" title="Studio NAND" target="_blank">Studio NAND</a>, <a href="http://www.onformative.com/" title="Onformative" target="_blank">Onformative</a>, <a href="https://www.tinkersoup.de/" title="TinkerSoup" target="_blank">TinkerSoup</a>, <a href="http://www.geekettes.io/" title="Berlin Geekettes" target="_blank">Berlin Geekettes</a>, <a href="http://nkprojekt.de" title="NK" target="_blank">NK</a>, and <a href="http://createdigitalmotion.com/" title="Create Digital Motion" target="_blank">Create Digital Motion</a>.</p>
+</div>
+ -->
+
+    </div>
+  </div>
+</div>
+</div><!-- /container -->
+    <div class="bg"><img src="/i/meandyou_summer_o_.jpg"  ></div>
+
+</body>
+
+</html> 
+
