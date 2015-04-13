@@ -130,10 +130,7 @@ a:hover {
   list-style: none;
 }
 
-.list__item p {
-  /*margin-bottom: 0;*/
-}
-
+.list-left,
 .list-compact {
   margin-left: 0;
   padding-left: 0;
@@ -150,14 +147,6 @@ a:hover {
 .list-compact2 {
   margin-left: 0;
   padding-left: 0;
-}
-
-.list-compact .list__item {
-  margin-bottom: 0;
-}
-
-.list-compact .list__item p {
-  margin-bottom: 1em;
 }
 
 .em {
@@ -642,6 +631,12 @@ small {
 }
 /* ===========================================
 	Pages */
+
+.titlecard {
+  background-image: url(../i/interventions_desat.jpg);
+  width: 793px;
+  height: 325px;
+}
 
 .logo-list {
   list-style: none;

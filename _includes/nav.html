@@ -5,7 +5,7 @@
     <nav class="navbar">
       <ul class="row nav-list">
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
-          <div {% if location == '/' or page.layout=='default' %}class="active" {% endif %}>
+          <div {% if location == '' or page.layout=='default' %}class="active" {% endif %}>
             <small><a class="nav-link headline nav-link__home" href="{{ site.baseurl }}">Home<span class="icon icon-home"></span></a></small>
           </div>
         </li>
