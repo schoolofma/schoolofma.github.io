@@ -130,6 +130,13 @@ a:hover {
   list-style: none;
 }
 
+.list__item2 {
+  margin-bottom: 1em;
+  margin-left: 4em;
+  margin-right: 4em;
+  list-style: none;
+}
+
 .list-left,
 .list-compact {
   margin-left: 0;
