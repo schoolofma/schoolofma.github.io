@@ -508,9 +508,6 @@ small {
   background: -126px -30px url(/i/icons.png) no-repeat;
 }
 
-.nav-link__home .icon-home2 {
-  background: -126px -30px url(/i/instagram-icon_sm.png) no-repeat;
-}
 
 
 .nav-item__programs {
@@ -623,7 +620,7 @@ small {
   margin-top: 0;
 }
 
-.contact-item .icon-instagram {
+.contact-item .icon-instagram2 {
   background-position: -47px 0;
   top: 3px;
   margin-top: 0;
