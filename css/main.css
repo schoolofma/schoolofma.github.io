@@ -589,6 +589,18 @@ small {
   margin-top: -10px;
 }
 
+.contact-item .icon2 {
+  background-image: url(/i/instagram-icon_sm.png);
+  background-repeat: no-repeat;
+  display: block;
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  margin-top: -10px;
+}
+
 .contact-item .icon-email {
   background-position: -71px 0;
 }
