@@ -4,18 +4,20 @@
 {% capture location %}{{ page.url | remove_first:'/' | split:'/' | first }}{% endcapture %}
     <nav class="navbar">
       <ul class="row nav-list">
+
+        <!--Spring2015-->
+        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div {% if location == 'programs' %}class="active" {% endif %}>
+            <small><a  href="{{ site.baseurl }}programs" class="nav-link headline">Upcoming</a></small>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
           <div {% if location == '' or page.layout=='default' %}class="active" {% endif %}>
             <small><a class="nav-link headline nav-link__home" href="{{ site.baseurl }}">Home<span class="icon icon-home"></span></a></small>
           </div>
         </li>
-        <!--Spring2015-->
-        <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
-          <div {% if location == 'programs' %}class="active" {% endif %}>
-            <small><a  href="{{ site.baseurl }}programs" class="nav-link headline">About</a></small>
-          </div>
-        </li>
-        <!-- end Spring2015-->
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
           <div {% if location == 'past-programs' %}class="active" {% endif %}>
             <small><a  href="{{ site.baseurl }}past-programs" class="nav-link headline">Past</a></small>
@@ -28,7 +30,7 @@
         </li>
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
           <div {% if location == 'about' %}class="active" {% endif %}>
-            <small><a  href="{{ site.baseurl }}about/" class="nav-link headline">The Story</a></small>
+            <small><a  href="{{ site.baseurl }}about/" class="nav-link headline">About</a></small>
           </div>
         </li>
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
@@ -38,3 +40,5 @@
         </li>
       </ul>
     </nav>
+
+
