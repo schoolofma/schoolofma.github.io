@@ -7,7 +7,7 @@
 
         <!--Spring2015-->
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
-          <div {% if location == 'programs' %}class="active" {% endif %}>
+          <div {% if location == '' %}class="active" {% endif %}>
             <small><a class="nav-link headline nav-link__home" href="{{ site.baseurl }}programs">Home<span class="icon icon-home"></span></a></small>
             
           </div>
@@ -15,7 +15,7 @@
         <!-- end Spring2015-->
 
         <li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col">
-          <div {% if location == '' or page.layout=='default' %}class="active" {% endif %}>
+          <div {% if location == 'programs' or page.layout=='default' %}class="active" {% endif %}>
             <small><a  href="{{ site.baseurl }}" class="nav-link headline">About</a></small>
           </div>
         </li>
