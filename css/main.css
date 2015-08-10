@@ -269,7 +269,7 @@ small {
 /* Typography / Color empathise */
 
 .warning {
-  color: #1c97be;
+  color: #12929f;
   /* blue */
 }
 
@@ -278,7 +278,7 @@ small {
 }
 
 .warning a:hover {
-  color: #1c97be;
+  color: #12929f;
 }
 
 .info {
@@ -315,7 +315,7 @@ small {
 
 .col {
   padding: 25px;
-  background: rgba(241, 241, 241, 0.91);
+  background: rgba(241, 241, 241, 0.86);
   color: #222;
 }
 
