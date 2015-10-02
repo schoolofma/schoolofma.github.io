@@ -294,7 +294,7 @@ small {
 }
 
 .danger {
-  color: #cc6f9b;
+  color: #cb4216;
 }
 
 .danger a {
@@ -399,18 +399,18 @@ small {
 
 .header .line-3 {
   font-size: 48px;
-  color: #6f5d75;
+  color: #0e8b8d;
 }
 
 .header .line-4 {
   font-size: 64px;
-  color: #6f5d75;
+  color: #0e8b8d;
 }
 
 .header .line-5 {
   font-size: 36px;
   position: relative;
-  color: #cc6f9b;
+  color: #d2481b;
 }
 
 .header .amp {
