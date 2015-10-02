@@ -315,7 +315,7 @@ small {
 
 .col {
   padding: 25px;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.75);
   color: #222;
 }
 
@@ -474,7 +474,7 @@ small {
 }
 
 .nav-link {
-  color: #6B6363;
+  color: #A99F9F;
   display: block;
   text-decoration: none;
   border-bottom: 3px solid;
