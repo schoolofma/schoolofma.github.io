@@ -17,7 +17,6 @@ show_drafts: nil
 limit_posts: 0
 highlighter: pygments
 
-relative_permalinks: true
 
 paginate_path: 'page:num'
 paginate:      10
