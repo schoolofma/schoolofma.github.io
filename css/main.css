@@ -315,7 +315,7 @@ small {
 
 .col {
   padding: 25px;
-  background: rgba(231, 217, 217, 1);
+  background: rgba(249, 249, 249, .75);
   color: #222;
 }
 
