@@ -32,7 +32,7 @@ h3,
 h4,
 h5 {
   font-family: Lato, Calibri, 'Merriweather', 'Cousine', 'Open Sans', sans-serif;
-  margin: 2em 0 1em;
+  margin: 2em 20px 1em;
 }
 
 h3 {
@@ -844,6 +844,7 @@ small {
   width: 100%;
   display: block;
   margin-bottom: 1em;
+  margin-left: 20px;
 }
 
 .coach .text {
