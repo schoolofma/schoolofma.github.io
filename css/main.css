@@ -19,8 +19,8 @@ body {
 p {
   line-height: 1.7;
   margin-bottom: 2em;
-  margin-left: 10px;
-  margin-right: 10px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
 .aside h2 {
@@ -248,7 +248,7 @@ small {
 }
 
 .title {
-  margin: 0.5em 10px;
+  margin: 0.5em 20px;
   position: relative;
 }
 
