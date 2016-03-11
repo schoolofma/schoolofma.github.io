@@ -313,7 +313,7 @@ small {
 .wrap {
   position: relative;
   z-index: 1;
-  max-width: 1200px;
+  max-width: 1400px;
   width: 80%;
   color: #fff;
 }
