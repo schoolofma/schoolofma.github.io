@@ -26,9 +26,8 @@ p {
 
 hr {
     border: none;
-    height: 1px;
+    height: 1.5px;
     /* Set the hr color */
-    color: #000; /* old IE */
     background-color: #333; /* Modern Browsers */
 }
 
