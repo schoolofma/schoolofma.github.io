@@ -23,6 +23,10 @@ p {
   margin-right: 20px;
 }
 
+p.img-caption {
+  font-size: 0.8em;
+  margin-top: -15px;
+}
 
 hr {
     border: none;
@@ -169,6 +173,15 @@ a:hover {
 .list-compact2 {
   margin-left: 0;
   padding-left: 0;
+}
+
+.list-bullets {
+  list-style: disc;
+  margin-left: 40px;
+}
+
+.list-bullets .list__item {
+  list-style: inherit;
 }
 
 .em {
