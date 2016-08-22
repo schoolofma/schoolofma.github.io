@@ -177,7 +177,7 @@ a:hover {
 
 .list-bullets {
   list-style: disc;
-  margin-left: 40px;
+  margin-left: 0;
 }
 
 .list-bullets .list__item {
