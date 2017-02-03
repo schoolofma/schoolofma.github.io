@@ -458,6 +458,15 @@ small {
   font-size: 1.25em;
 }
 
+.application2 {
+  color: #FFF;
+  border: 0.2em solid;
+  background-color: rgba(47, 74, 43, 0);
+  padding: 0em 0;
+  text-align: center;
+  font-size: 1.25em;
+}
+
 .application p {
   margin-bottom: 1em;
   padding: 0px 0em;
