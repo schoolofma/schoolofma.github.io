@@ -331,12 +331,12 @@ small {
   position: relative;
   z-index: 1;
   max-width: 1400px;
-  width: 80%;
+  width: 84%;
   color: #fff;
 }
 
 .col {
-  padding: 35px;
+  padding: 30px 20px;
   background: rgba(249, 249, 249, .86);
   color: #222;
 }
