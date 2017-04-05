@@ -501,18 +501,20 @@ small {
   color: #000;
   display: block;
   text-decoration: none;
-  border-bottom: 2px solid;
-}
-
-.nav-link {
   color: #A99F9F;
-  display: block;
   text-decoration: none;
   border-bottom: 3px solid;
 }
 
 .nav-link:hover {
   text-decoration: none;
+}
+
+.nav-link.headline {
+	font-size: 1em;
+	height: 3em;
+  display: block;
+  padding-bottom: 0;
 }
 
 .active .nav-link {
