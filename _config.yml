@@ -36,10 +36,12 @@ safe:        false
 detach:  false
 port:        4000
 host:        0.0.0.0
-baseurl:     "/"
 show_dir_listing: false
-url:         http://schoolofma.org
-lsi:         false
+baseurl: "/" # the subpath of your site, e.g. /blog
+url: "http://schoolofma.org" # the base hostname & protocol for your site, e.g. http://example.com
+# url:         http://localhost:4000
+# lsi:         false
+
 
 maruku:
   use_tex:    false
