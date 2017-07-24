@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>Virtual Fictions | School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/postcard.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <!--link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="http://schoolofma.org/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width : 1281px)" href="/css/1200.css" /> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//my.hellobar.com/ada13edba4a6d798a9b2f20fcf654eeafa8ff440.js" type="text/javascript" charset="utf-8" async="async"></script>
+	<style type=text/css">@font-face {font-family:'Apercu Bold';src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot');src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.woff')format('woff'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.svg#923')format('svg');font-weight:bold;font-style:normal;}@font-face {font-family:'Apercu Regular';src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot');src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.woff')format('woff'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.svg#929')format('svg');font-weight:normal;font-style:normal;}</style>
+
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				
+			</header>
+		</div>
+
+<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+    <nav class="navbar">
+      <ul class="row nav-list">
+
+        <!--Spring2015-->
+        <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1 col">
+          <div >
+            <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        <li class="col-xs-9 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/programs" class="nav-link headline">Programs</a>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/community" class="nav-link headline">Community</a>
+          </div>
+        </li>
+        
+        <!--li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div >
+            <a  href="/past-programs" class="nav-link headline">Past Programs</a>
+          </div>
+        </li-->
+
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/about/" class="nav-link headline">About</a>
+          </div>
+        </li>
+        
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a>
+          </div>
+        </li>
+
+          <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="https://schoolofmaprojects.tumblr.com/" class="nav-link headline">Projects</a>
+          </div>
+        </li>
+       
+       <li class="col-xs-6 col-sm-3 col-md-1 col-lg-1 col">
+          <div >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+
+<div class="content__wrap">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+          <section class="programs program__item">
+  <article class="program">
+<!--h4 class="title">Elsewhere: Exploring Storytelling and -making in the age of Virtual Reality
+</h4-->
+
+             <img src="/i/virtualFiction_04.jpg" class="pic">
+
+
+             <p class="text"><strong style="font-weight: bold;" >Are there new and deeper meanings to be found in 360° immersive storytelling?</strong></p>
+
+    
+
+
+            <ul class="list list-compact em warning">
+      <li class="list__item">
+        <p>
+          / 1 August - 26 August 2016
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / four weeks, full-time in Berlin, Germany
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / 10-15 participants accepted, rolling admissions
+        </p>
+      </li> 
+       <li class="list__item">
+        <p>
+          / Based in <a href="http://acudmachtneu.de" class="apply danger" target="_blank">ACUD MACHT NEU</a>
+        </p>   
+        </li> 
+
+    </ul>
+</br>
+    <h3 class="title"><a href="https://docs.google.com/forms/d/1Y_m47qpUs6PagfKG14ypBuyDPdZp3923Qh44iX1af74/viewform?usp=send_form" class="apply danger" target="_blank">APPLY</a></h3></br>
+
+
+
+<p class="text">Acting out ideas in the real world is an important part of testing the conceptual, critical or aesthetic potential for projects in many disciplines. Fiction can be a useful tool when trying to learn the limits of a new set of ideas, and provides a platform to prototype concepts which can result in positive, unexpected outcomes. </p>
+
+<p class="text">By building real structures around ideas we can immerse ourselves in a specific situation, discover new lines of enquiry, encounter happy accidents and think through making: all are elements of a design process that will enrich and engage the maker and the audience.</p>
+
+<img src="/i/VF_01_BW.jpg" class="pic">
+
+
+<h4 class="title">Course Description</h4>
+
+    
+
+ <p class="text"><strong style="font-weight: bold;" >This program offers a hands-on course in storymaking and storytelling.  Working as an experimental film unit,​ over the course of four weeks, w​e will speculate around the cultural and social impacts that the advances in virtual reality may have on society, forming narratives centred around personal visions of virtual worlds.
+We will build a collection of experimental 360° films, each presenting different immersive experiences and stories within imagined virtual realities.</strong></p>
+
+<p class="text">The films will be informed by our investigation into virtual reality itself as an emerging and complicated technology. Narratives will form around characters and situations which probe at what it means for virtual reality to become mainstream for future entertainment, education and other forms of escape.</p>
+
+<p class="text">By developing these films, our objective will be to​ uncover and experiment with techniques for making new narrative experiences. U​tilising dedicated film camera equipment and editing software, combined with the physical prototyping of props, we will test out new forms for fiction and transport our imagination into the make­-believe. </p>
+
+<!-- carousel stuff -->
+
+          
+            
+            
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+             
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+              <li data-target="#carousel" data-slide-to="3"></li>
+              <li data-target="#carousel" data-slide-to="4"></li>
+              <li data-target="#carousel" data-slide-to="5"></li>
+              <li data-target="#carousel" data-slide-to="6"></li>
+              <li data-target="#carousel" data-slide-to="7"></li>
+
+             
+            </ol>
+           
+
+
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox" >
+             
+              
+              <div class="item active ">
+                <img src="/i/VF003.jpg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/VF004.jpg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/VF005.jpg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/VF006.jpg" class="pic">
+              </div>
+               <div class="item  ">
+                <img src="/i/VF007.jpg" class="pic">
+              </div>
+           
+               <div class="item ">
+                <img src="/i/VF008.jpg" class="pic">
+              </div>
+               <div class="item ">
+                <img src="/i/VF002.jpg" class="pic">
+              </div>
+               <div class="item  ">
+                <img src="/i/VF011.jpg" class="pic">
+              </div>
+             
+            </div>
+           
+            <!-- Controls -->
+            
+            <a class="left carousel-control " href="#carousel" role="button" data-slide="prev" style="opacity:0;" >
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control " href="#carousel" role="button" data-slide="next" style="opacity:0;">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            
+          </div>
+      
+          <!-- END Carousel -->
+
+
+ <h4 class="title">What will we do?</h4>
+
+<p class="text">We will build physical scenes and craft narratives for making 360° films and real time experiences: to transport an audience from one reality to another. F​ictional scenarios will be made by developing short stories and characters based around different virtual worlds. Dedicated props, 1:1 scale sets, found locations and other artefacts will also play an important part of the storytelling process.</p>
+
+  <p class="text">We will explore how to develop and make films for new, wider perspectives where everything is in sight and the camera is embodied by the viewer ­ investigating the technical and creative potential of 360° camera technology. </p>
+
+  <p class="text">By experimenting with techniques, interactions and considerations particular to this medium we can explore the shift from the real to the virtual, developing immersive atmospheres to craft anticipation, suspense and surprise. A​range of practical skills rooted in filmmaking will be addressed, from special effects to screenplay ­ which will enable participants to gain confidence in creating nuanced, fictional worlds. </p>
+
+  <p class="text">The ultimate goal for the workshop is to produce engaging and exciting narrative experiences with 360° video to be shared with the world as part of a special screening in Berlin and also on online platforms. </p>
+
+  <p class="text">An example of 360° filmmaking:</p>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/Tf0aU4RKCmM" frameborder="0" allowfullscreen></iframe>
+
+
+    <h4 class="title">Who is this program for?</h4>
+
+<p class="text">This program is aimed at people working in creative disciplines who are interested developing their skills and knowledge for communicating ideas through storytelling. It adopts methods of design fiction: using narrative elements to envision and explain complex proposals and concepts.</p>
+
+<p class="text">This program is for anyone who is interested in getting hands­-on with 360° video technology and wants to critically explore issues and themes surrounding virtual reality. O​ur motivation will be to use film and narrative experience to consider the wider cinematic, psychological and cultural issues of immersive virtuality.</p>
+
+<p class="text">The studio will be a playful environment to collaborate with likeminded people, to develop interesting concepts and physically prototype ideas. T​here are no specific requirements for certain skills, ho​wever a keen interest in making and storytelling with art and design is important to bring to Berlin.</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/uBlXB3AAVaI?start=411" frameborder="0" allowfullscreen></iframe>
+
+<div>
+<h4 class="title">Course Outline</h4>
+
+<p><strong style="font-weight: bold;" >Week 1:</strong> VR technology overview with industry professionals. Contextual research and workshops for design fictions, with field trips to studios and organisations working with VR.</p>
+
+ 
+
+<p><strong style="font-weight: bold;" >Week 2:</strong> Developing concepts and stories in response to contextual research, alongside dedicated storytelling and making workshops. Prototyping narratives, scripts and test shoots with cameras and editing software. First iteration of props.  </p>
+
+<p><strong style="font-weight: bold;" >Week 3:</strong> Resolve scenarios, build sets, make props and costumes, preparations for 'official shoot'. Production of final outcomes.</p>
+
+
+
+<p><strong style="font-weight: bold;" >Week 4:</strong> Complete filming and post-production. Screening of films in public event.</p>
+
+ 
+</div>
+
+
+
+<h5 class="title">Pricing</h5>
+
+ <ul class="list list-compact ">
+      
+      
+        <li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" >Regular Price:</strong></br>
+          €1900 (artists/students/freelancers), <br>€2200 (professionals)
+        </p>   
+        </li> 
+
+    </ul> 
+</br>
+    <h3 class="title"><a href="https://docs.google.com/forms/d/1Y_m47qpUs6PagfKG14ypBuyDPdZp3923Qh44iX1af74/viewform?usp=send_form" class="apply danger" target="_blank">APPLY</a></h3>
+
+
+
+    
+
+    <section class="programs program__item">
+
+    <article class="program">
+      <h3>Instructors</h3>
+      <ul class="coach-list">
+
+        <li class="row coach">
+              <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+                <img src="/i/pic-bregman.jpg" class="pic">
+              </div>
+              <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+                <h5 class="name">Anrick Bregman <span class="sub web">/&nbsp;<a href="http://www.anrick.com/" target="_blank">anrick.com</a></span></h5>
+                <p class="text">Anrick is an award-winning interactive filmmaker working at the intersection of storytelling and experiential technology. He's currently focused on exploring Virtual Reality, and is generally interested in how narrative and technology can complement each other.</p>
+                <p class="text">Anrick is a director with Unit9 in London as well as a member of the World Building Institute. His work has been recognised by the FWA, by the Webbys, the One Show Awards, Cannes Lions, SXSW, New Media Film Festival and at the D&AD, among others.</p>
+              </div>
+            </li>
+          
+            
+          <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-popper.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Joseph Popper <span class="sub web">/ <a href="http://www.josephpopper.net/" target="_blank">josephpopper.net/</a></span></h5>
+            <p class="text">Joseph Popper is an artist and designer who examines space travel and other human technological endeavours by imagining future narratives and simulating fictional experiences. His works depart from developments of the emerging present and seek to project toward things to come. He employs handcrafted imagery and built environments where everyday objects, simple materials and found locations transform into props and stages for playful, critical fictions.</p> 
+
+            <p class="text">His recent exhibitions include "They Used To Call It The Moon" at the BALTIC Centre for Contemporary Art (Gateshead) and a commission for HOUSE 2015 Festival (Brighton & Hove). Joseph is currently an associate lecturer in the department of Design Interactions at the Royal College of Art and is also a visiting lecturer for various arts universities in the UK and Europe.</p> 
+      
+          </div>
+
+ 
+
+
+
+
+        </li>
+            <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic_nic2.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Nicholas Mortimer <span class="sub web">/ <a href="http://www.nicholasmortimer.net" target="_blank">nicholasmortimer.net</a></span></h5>
+            <p class="text">Nicholas Mortimer brings together cultural studies of media and technology, historical research and theory to explore relations between perceptions of reality, systems of control, and the blurred boundaries of fact and fiction. Within this enquiry there is particular interest in how narratives can be formed to highlight the way in which technological advancements, both  past and present have operated as  catalysts of endeavour, expectation and failure.</p>
+
+            <p class="text">Current work is exploring the extent to which histories of technology can be used to reflect on the outcomes of an expanded computational world. The enquiry seeks to explore the new spaces created between data and knowledge, speed and attention, spaces which are home to changing behaviours enabled by technology of all kinds.  </p>
+
+            <p class="text">The outcome of projects combine; detailed scenography with multilayered narratives to create studies of people and places operating in closed systems, often performing cyclical tasks or banal speculative obsessions which act as absurdist reflections on current or future issues. </p>
+                         
+          </div>
+        </li>
+
+        <h3>Program Guests</h3>
+        <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-kim2.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Kim-Leigh Pontin <span class="sub web">/ <a href="http://design-inklings.tumblr.com/" target="_blank">More Info</a></span></h5>
+            <p class="text">As an artist and designer, my work speculates about the future of entertainment and the implications of prolonged technological immersion.</p>
+
+            <p class="text">Through multi-layered narrative experiences that transition thoughtfully between live performance, blended and virtual reality, I look at the tyranny of measurement and its effect on those measured.</p>          
+          </div>
+        </li>
+
+  
+
+
+          </ul>
+
+
+            
+            </article>
+
+
+</section>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  col sidebar">
+      <!-- Here is a block for screaming out about something --> 
+
+
+<section id="application" class="holder application">
+
+					
+
+					<p><strong style="font-weight: bold;" >
+
+</br><a href="http://schoolofma.org/programs/" class="apply danger" target="_blank">SUMMER  2017 </br>PROGRAMS</a></p>
+					
+					
+				
+					
+
+ </section>
+
+<section id="application" class="holder application">
+
+					
+
+					<p><strong style="font-weight: bold;" >RELATED LINKS</strong></p>
+				
+
+				<a href="https://medium.com/the-cube/25-thoughts-on-virtual-reality-filmmaking-35fa386b6afb#.ggk9m9m5b" target="_blank">25 Thoughts On</br> Virtual Reality Filmmaking</a></br></br>
+
+				<a href="http://www.theguardian.com/technology/2014/nov/20/virtual-reality-art-future-games" target="_blank">What a virtual reality art show</br> could say about the</br> future of games </a></br></br>
+
+
+
+
+<a href="https://www.youtube.com/watch?v=Tf0aU4RKCmM" target="_blank">Hello play! presents</br> “THE FUTURE OF MUSIC”</a></br>
+
+
+ </section>
+ 
+
+
+
+
+
+
+
+ 
+
+<section id="contact" class="contact">
+    <h2>CONTACT INFORMATION</h2>
+    <ul class="contact-list">   
+        <li class="contact-item"><span class="icon icon-email"></span> <a href="mailto:info@schoolofma.org">info@schoolofma.org</a></li>
+        <li class="contact-item"><span class="icon icon-twitter"></span> <a href="https://twitter.com/schoolofmaaa">schoolofmaaa</a></li>
+        <li class="contact-item"><span class="icon icon-fb"></span> <a href="https://www.facebook.com/pages/School-of-Machines-Making-and-Make-Believe/736062943100977">School of Machines, Making&nbsp;&amp;&nbsp;Make-Believe</a></li>
+        <li class="contact-item"><span class="icon2 icon-instagram2"></span> <a href="https://instagram.com/schoolofma/" >  schoolofma</a></li>
+    </ul>
+</section>
+
+<div class="newsletter">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: transparent; 
+            clear:left; 
+            margin: 30px auto 0;
+        }
+
+        #mc_embed_signup form {
+            padding: 0;
+        }
+
+        #mc_embed_signup .field {
+            width: 100%;
+            float: left;
+        }
+
+        #mc_embed_signup label {
+            font-weight: normal;
+            padding: 0;
+        }
+        #mc_embed_signup input {
+            background: transparent;
+            border-color: #444;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom-width: 3px;
+            color: #444;
+        }
+        #mc_embed_signup input:focus {
+            border-color: #000;
+            outline: none;
+            background: #59a55c;
+            color: #222;
+        }
+        #mc_embed_signup input.email,
+        #mc_embed_signup input.button {
+            clear: none;                            
+            margin: 0;
+        }
+        #mc_embed_signup input.email {
+            float: left;
+            width: 76%;
+            min-width: 110px;
+        }
+        #mc_embed_signup input.button {
+            float: right;
+            font-weight: normal;
+            width: 18%;
+            min-width: 33px;
+            background: transparent;
+            border-radius: 0;
+            color: #444;
+            font-size: 40px;
+        }
+        #mc_embed_signup input.button:hover,
+        #mc_embed_signup input.button:focus {
+            color: #59a55c;
+            background: transparent;
+        }
+        #mc_embed_signup .sub {
+            font-size: 13px;
+            display: block;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form action="http://schoolofma.us8.list-manage2.com/subscribe/post?u=8a582affe02962d9e73f8ee6d&amp;id=d71088c8ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="clear">
+                <h2 class="headline">Subscribe to our newsletter</h2>
+                <!--label for="mce-EMAIL">Subscribe to&nbsp;our&nbsp;newsletter</label-->
+                <p class="sub">Receive updates about our&nbsp;programs and events</p>
+            </div>
+            <div class="field">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_8a582affe02962d9e73f8ee6d_d71088c8ff" value=""></div>
+                <input type="submit" value="⍄" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+        </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+</div><!-- /container -->
+    <div class="bg"><img src="/i/school004.jpg"  ></div>
+
+</body>
+
+</html> 
+

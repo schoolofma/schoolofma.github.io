@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>Internet, Deconstructed | School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/postcard.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <!--link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="http://schoolofma.org/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width : 1281px)" href="/css/1200.css" /> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//my.hellobar.com/ada13edba4a6d798a9b2f20fcf654eeafa8ff440.js" type="text/javascript" charset="utf-8" async="async"></script>
+	<style type=text/css">@font-face {font-family:'Apercu Bold';src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot');src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.woff')format('woff'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.svg#923')format('svg');font-weight:bold;font-style:normal;}@font-face {font-family:'Apercu Regular';src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot');src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.woff')format('woff'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.svg#929')format('svg');font-weight:normal;font-style:normal;}</style>
+
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				<a href="/">
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				</a>
+			</header>
+		</div>
+
+<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+    <nav class="navbar">
+      <ul class="row nav-list">
+
+        <!--Spring2015-->
+        <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1 col">
+          <div >
+            <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        <li class="col-xs-9 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/programs" class="nav-link headline">Programs</a>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/community" class="nav-link headline">Community</a>
+          </div>
+        </li>
+        
+        <!--li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div >
+            <a  href="/past-programs" class="nav-link headline">Past Programs</a>
+          </div>
+        </li-->
+
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/about/" class="nav-link headline">About</a>
+          </div>
+        </li>
+        
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a>
+          </div>
+        </li>
+
+          <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="https://schoolofmaprojects.tumblr.com/" class="nav-link headline">Projects</a>
+          </div>
+        </li>
+       
+       <li class="col-xs-6 col-sm-3 col-md-1 col-lg-1 col">
+          <div >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+
+<div class="content__wrap">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+          <section class="programs program__item">
+  <article class="program">
+
+    <a href="http://schoolofma.org/online/"><img src="/i/onlineOpen.jpg" class="pic"></a><br>
+
+
+<h5 class="title">How It Works</h5>
+       <p class="text">Welcome to our online courses! Soon we will create an FAQ for these programs. For now, it's important to note that these online classes will be taking place over the course of four weeks, for two hours each week. Plan in an extra hour for homework and you'll be set!</p>
+
+       <p class="text">Classes are live meaning that you can directly interact with the instructor as well as with the other participants from around the world. Classes will also be recorded for playback in case you are unable to attend for any reason. More info coming soon! For specific questions, please email info[at]schoolofma.org</p>
+            
+            </article>
+
+
+</section>
+
+</br>
+<hr>
+</br>
+
+<section class="programs program__item">
+  <article class="program">
+
+            <a href="http://schoolofma.org/online/"><img src="/i/internetDecons.jpg" class="pic"></a><br>
+
+            <p class="text"><strong style="font-weight: bold;" >How many times a day  do we accept, without negotiating, the everyday demands inscribed in the  design of user interfaces? What rhetoric hides the apparent neutrality  of its design? How does the data we generate  through an interface transform and encode our social and intimate  sphere?  </strong> </p>
+
+
+            <ul class="list list-compact em warning">
+      <li class="list__item">
+        <p> 
+          / Live Online class begins 22. May, ends 12. June
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / Every Monday, 7pm-9pm, GMT +1
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / 20 participants accepted
+        </p>
+      </li> 
+       
+
+    </ul>
+    </br>
+    <h3 class="title"><a href="https://www.eventbrite.com/e/the-internet-deconstructed-tickets-32659682991" class="apply danger" target="_blank">Sign-up</a></h3></br>
+
+
+
+ <h4 class="title">Course Description</h4></br>
+
+    <p class="text">Most of our life transactions are mediated by interfaces. Nevertheless, far from being neutral entities, interfaces exercise a great deal of power over its users, representing one of the major anti-democratic governance entities in our society. In this program we will look into the ways interfaces are affecting us as a global society and will collectively think on ways to democratize them. Interfaces for the people! </p>
+
+<img src="/i/interface.jpg" class="pic">
+    
+
+<p class="text">This program seeks to critically reveal, analyze, and connect the complex  network of agents that converge on the configuration of the Graphic User  Interface (GUI). During this four week course we will creatively reveal,  deconstruct, and re-articulate the material and immaterial elements that  make up the GUI in order to reflect on its role and influence within  the social, political, economic, cultural and emotional spheres of the  networked society. </p>
+
+<img src="/i/facebooklikes.jpg" class="pic">
+
+
+
+
+<p class="text">The main purpose of the program is to  provide students with the theoretical background on UI design along with technical skills, such as basic HTML and CSS, to explore, develop and  test disruptive methodologies as we strive to incorporate democratic values within  Interfaces.</p>
+
+
+<img src="/i/cyberbunker.jpg" class="pic">
+
+
+    <h4 class="title">Who is this course for?
+</h4>
+
+<p class="text">
+This program is for artists, designers, writers, makers, coders, journalists and researchers interested in understanding, exploring, and disrupting networks and interfaces. We will also investigate the underlying intentions of user interfaces, and how UI designs demonstrate the latent political, socioeconomic, emotional, and cultural opinions of their designers from both a theoretical and hands-on perspective.</p>
+
+<p class="text">During the program we will reveal
+the underlying narratives embedded in everyday interfaces,
+such as Facebook and Google, in order to reveal to what extent they
+sculpt and govern our realities in silent ways.</p>
+
+<img src="/i/DEFOOOOOOOOOOOREST.jpg" class="pic">
+
+<div></br>
+<h4 class="title">Course Outline</h4>
+
+<p class="text"><h5>Week 1</h5> 
+<p class="text"><strong style="font-weight: bold;" >Beyond the Interface I: Internet infrastructures, Data flows & Geopolitics.  </strong> During this week we will reveal the main infrastructures and actors (companies and agencies) that configure the Internet and will explore how the data is traveling across the world.</p>
+
+<p class="text"><strong style="font-weight: bold;">
+Keywords:</strong>  internet backbone, data forensics, net neutrality, internet geopolitics.
+</p>
+
+<h5>Week 2</h5>
+<p class="text"><strong style="font-weight: bold;" >Beyond the Interface II: Online surveillance and commodification of Data.  </strong> In this session we will show how the data that we generate through interfaces is being tracked, harvested and commodified. We will look into the methodologies and tools used by many corporations and agencies that silently access and use the information we produce in daily basis. </p>
+
+<p class="text"><strong style="font-weight: bold;">
+Keywords:</strong> online tracking, data brokers, profiling.
+</p>
+
+<h5>Week 3</h5>
+<p class="text"><strong style="font-weight: bold;" >Interface materiality: The environmental impact of code. </strong> During this session we will learn how code is constructing web interfaces. We will look closely to HTML and CSS and explain how this languages work. At the same time, we will look into the environmental impact of interfaces in order to understand how its footprint could be dramatically reduced through code.</p>
+
+<p class="text"><strong style="font-weight: bold;">
+Keywords:</strong> code & ideology, HTML, CSS, data & CO2, sustainability.
+</p>
+
+<h5>Week 4</h5>
+<p class="text">In the last week of the program we will discuss how graphic interface design is homogenizing behavior in a global a scale and the several consequences of this process. On the other hand we will experiment with simple disruptive methodologies to intervene the interface design of the most used websites globally in order to subvert such cultural homogenization.</p>
+<p class="text"><strong style="font-weight: bold;">
+Keywords: </strong>interface governance, corporative design, community design, CSS, HTML. 
+
+</p>
+</div>
+
+
+<img src="/i/chanel-bots.jpg" class="pic">
+
+
+<h5 class="title">Pricing</h5>
+
+ <ul class="list list-compact ">
+      
+
+       <li class="list__item">
+       
+          <p class="text"><strong style="font-weight: bold;" ></strong>
+          €120 (artists/students/freelancers) <br>€170 (professionals)
+        </p>   
+        </li> 
+
+    </ul> 
+</br>
+
+<h3 class="title"><a href="https://www.eventbrite.com/e/the-internet-deconstructed-tickets-32659682991" class="apply danger" target="_blank">Sign-up</a></h3></br>
+
+
+
+    <section class="programs program__item">
+
+    <article class="program">
+      <h3>Instructor</h3>
+      <ul class="coach-list">
+          
+            
+          <li class="row coach">
+        <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+          <img src="/i/Joana_Moll.jpg" class="pic">
+        </div>
+        <div class="col-sm-12 col-md-7 col-lg-7 description">
+          <h5 class="name">Joana Moll <br><span class="sub web">/&nbsp;<a href="http://www.janavirgin.com" target="_blank">janavirgin.com</a></span></h5>
+            <p class="text">Joana is an artist and a researcher from Barcelona. Her work critically explores the way post-capitalist narratives affect the alphabetization of machines, humans and ecosystems. Her main research topics include Internet materiality, surveillance, online tracking, critical interfaces and language. She has lectured, performed and exhibited her work in different museums, art centers, universities, festivals and publications around the world. Furthermore she is the co-founder of the Critical Interface Politics Research Group at HANGAR [Barcelona], co-founder of The Institute for the Advancement of Popular Automatisms and member of the Scientific and Artistic Committee of the Antiatlas des Frontières. She is currently a visiting lecturer at Escola Superior d'Art de Vic [Barcelona] and Potsdam Universität. 
+
+</p>          
+          </div>
+        </li>
+  
+          </ul>
+
+
+
+            
+            </article>
+
+
+</section>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  col sidebar">
+      <!-- Here is a block for screaming out about something --> 
+
+
+
+
+<section id="application" class="holder application">
+
+					
+
+					
+
+<p><strong style="font-weight: bold;" >
+
+</br><a href="http://schoolofma.org/augmented-ear/" class="apply danger" target="_blank">Materials, Binaural Sound,</br>Sensorial Experiences</br>Join Our Two Week</br> Intensive Program</br></a></p>
+				
+				
+					
+
+ </section>
+
+
+
+
+
+<section id="application" class="holder application">	
+
+<p><strong style="font-weight: bold;" >
+
+</br><a href="http://schoolofma.org/august2017/" class="apply danger" target="_blank">This August</br> Design Experiences </br>through Performance,</br> Machine Learning,</br> and Fabrication.</a></p>
+
+ </section>
+
+
+
+
+
+ 
+ <section id="application" class="holder application">
+     </br><p>We're committed to diversity in the truest sense. Our last few programs boast 60%+ women and participants from 13+ countries.</p>	<p><strong style="font-weight: bold;" >Women and persons from </br>LGBTQ+ and other<br>under-represented communities</br> in the tech field</br> highly encouraged to apply!</strong></p><br>	
+ </section>
+
+
+
+
+ 
+
+<section id="contact" class="contact">
+    <h2>CONTACT INFORMATION</h2>
+    <ul class="contact-list">   
+        <li class="contact-item"><span class="icon icon-email"></span> <a href="mailto:info@schoolofma.org">info@schoolofma.org</a></li>
+        <li class="contact-item"><span class="icon icon-twitter"></span> <a href="https://twitter.com/schoolofmaaa">schoolofmaaa</a></li>
+        <li class="contact-item"><span class="icon icon-fb"></span> <a href="https://www.facebook.com/pages/School-of-Machines-Making-and-Make-Believe/736062943100977">School of Machines, Making&nbsp;&amp;&nbsp;Make-Believe</a></li>
+        <li class="contact-item"><span class="icon2 icon-instagram2"></span><a href="https://instagram.com/schoolofma/" >  schoolofma</a></li>
+    </ul>
+</section>
+
+<div class="newsletter">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: transparent; 
+            clear:left; 
+            margin: 30px auto 0;
+        }
+
+        #mc_embed_signup form {
+            padding: 0;
+        }
+
+        #mc_embed_signup .field {
+            width: 100%;
+            float: left;
+        }
+
+        #mc_embed_signup label {
+            font-weight: normal;
+            padding: 0;
+        }
+        #mc_embed_signup input {
+            background: transparent;
+            border-color: #444;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom-width: 3px;
+            color: #444;
+        }
+        #mc_embed_signup input:focus {
+            border-color: #000;
+            outline: none;
+            background: #59a55c;
+            color: #222;
+        }
+        #mc_embed_signup input.email,
+        #mc_embed_signup input.button {
+            clear: none;                            
+            margin: 0;
+        }
+        #mc_embed_signup input.email {
+            float: left;
+            width: 76%;
+            min-width: 110px;
+        }
+        #mc_embed_signup input.button {
+            float: right;
+            font-weight: normal;
+            width: 18%;
+            min-width: 33px;
+            background: transparent;
+            border-radius: 0;
+            color: #444;
+            font-size: 40px;
+        }
+        #mc_embed_signup input.button:hover,
+        #mc_embed_signup input.button:focus {
+            color: #59a55c;
+            background: transparent;
+        }
+        #mc_embed_signup .sub {
+            font-size: 13px;
+            display: block;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form action="http://schoolofma.us8.list-manage2.com/subscribe/post?u=8a582affe02962d9e73f8ee6d&amp;id=d71088c8ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="clear">
+                <h2 class="headline">Subscribe to our newsletter</h2>
+                <!--label for="mce-EMAIL">Subscribe to&nbsp;our&nbsp;newsletter</label-->
+                <p class="sub">Receive updates about our&nbsp;programs and events</p>
+            </div>
+            <div class="field">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_8a582affe02962d9e73f8ee6d_d71088c8ff" value=""></div>
+                <input type="submit" value="⍄" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+        </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+</div><!-- /container -->
+    <div class="bg"><img src="/i/school004.jpg"  ></div>
+
+</body>
+
+</html> 
+

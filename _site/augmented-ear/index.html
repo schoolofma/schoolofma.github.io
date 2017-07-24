@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>Augmented Ear | School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/postcard.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <!--link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="http://schoolofma.org/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width : 1281px)" href="/css/1200.css" /> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//my.hellobar.com/ada13edba4a6d798a9b2f20fcf654eeafa8ff440.js" type="text/javascript" charset="utf-8" async="async"></script>
+	<style type=text/css">@font-face {font-family:'Apercu Bold';src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot');src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.woff')format('woff'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.svg#923')format('svg');font-weight:bold;font-style:normal;}@font-face {font-family:'Apercu Regular';src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot');src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.woff')format('woff'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.svg#929')format('svg');font-weight:normal;font-style:normal;}</style>
+
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				
+			</header>
+		</div>
+
+<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+    <nav class="navbar">
+      <ul class="row nav-list">
+
+        <!--Spring2015-->
+        <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1 col">
+          <div >
+            <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        <li class="col-xs-9 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/programs" class="nav-link headline">Programs</a>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/community" class="nav-link headline">Community</a>
+          </div>
+        </li>
+        
+        <!--li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div >
+            <a  href="/past-programs" class="nav-link headline">Past Programs</a>
+          </div>
+        </li-->
+
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/about/" class="nav-link headline">About</a>
+          </div>
+        </li>
+        
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a>
+          </div>
+        </li>
+
+          <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="https://schoolofmaprojects.tumblr.com/" class="nav-link headline">Projects</a>
+          </div>
+        </li>
+       
+       <li class="col-xs-6 col-sm-3 col-md-1 col-lg-1 col">
+          <div >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+
+<div class="content__wrap">
+  <div class="row">
+    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+          <section class="programs program__item">
+  <article class="program">
+
+
+            <img src="/i/ear3.jpg" class="pic">
+
+            <p class="text"><strong style="font-weight: bold;" >How can we expand our soundscape horizons through experimentation with different materials? How can that translate to and affect our perception of sound in virtual worlds? </strong> </p>
+
+
+            <ul class="list list-compact em warning">
+      <li class="list__item">
+        <p>
+          / 24. July - 4. August 2017 (Two-week Formal class)*
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / 7. August - 17. August 2017 (Two-week optional Residency for class participants)*
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / up to four weeks, full-time in Berlin, Germany
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / Up to 10 participants accepted
+        </p>
+      </li> 
+       <li class="list__item">
+        <p>
+          / Based in <a href="http://acudmachtneu.de" class="apply danger" target="_blank">ACUD MACHT NEU</a>
+        </p>   
+        </li> 
+
+    </ul>
+    </br>
+    <h3 class="title"><a href="https://goo.gl/forms/2W8MyyjoNL1eYurC2" class="apply danger" target="_blank">APPLY</a></h3></br>
+
+</article>
+
+
+</section>
+
+
+
+
+ <section class="programs">
+    
+
+    
+
+    <div class="row">
+      
+        
+
+      <div class="col-sm-12 col-md-12 col-lg-6">
+
+
+        <article class="program short-description">
+       
+   
+      
+
+       <h4 class="title">Course Description
+</h4>
+
+<p class="text">*Note: This program has evolved into a half lecture course, half residency program. In addition to attending our two-week intensive course, you have the option to continue your work here in a two-week intensive residency as you work towards the creation of a final project for exhibition.</p> 
+
+
+    <p class="text">Augmented Ear Reality is a workshop led by sound artist Antoine Bertin and visual artist Helene Combal-Weiss. They meet in the design practice of sensorial experiences. Their hybrid creations merge auditory and tactile senses in the completion of objects, installation and participative experiments.</p> 
+
+    
+
+    <p class="text">Leading an exploration of materials, shapes, human body, binaural recordings, interactive audio, and listening practices, participants are taken on a journey to reveal new and unexpected sensations. </p>
+
+
+
+      <p class="text">Our listening reality is intimate, tactile, spatial, social and temporal. Using creative, analog and digital means of bending the sense of hearing, students are invited to explore the idea of a sound-driven virtual reality. Listening through the ear, listening through skin, listening through bones: through the creation of wearable ‘ear accessories’, the group will devise original strategies of blurring the boundary between the virtual and the real.</p>
+
+      <p class="text">This workshop will take you from the inticacies of the ear to the surface of the skin and the resonance of spaces on a journey through the new possibilities in sound experience design that have emerged through the boom of virtual reality. </p>
+
+
+      
+<h4 class="title">Pricing</h4>
+
+ <ul class="list list-compact ">
+      
+
+       
+         
+        <li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" >Intensive Two-week Course Fee*</strong></br>
+          €675 (artists/students/freelancers) <br>€775 (professionals)
+        </p>   
+        </li> 
+        <li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" >Two-week Residency Fee*</strong></br>
+          €200 (artists/students/freelancers) <br>€250 (professionals)
+        </p>   
+        </li> 
+        <!--li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" ></strong></br>
+          *Includes materials, use of space and professional mentorship
+        </p>   
+        </li--> 
+
+
+    </ul> 
+
+
+      </div>
+
+
+<div class="col-sm-12 col-md-12 col-lg-6">
+
+       
+        
+   
+      
+
+      <h4 class="title">After taking this course, you'll walk away with skills in
+</h4></br>
+
+-Binaural recording techniques and 360 audio mixing</br>
+-Interactive sound design with basic Max/MSP skills</br>
+-Tactile audio: Skin, Bones and Organ vibrations. </br>
+-Ultradirectional audio technique</br>
+-Molding of ears and body parts. Alginate, Silicone. 
+-Explore the architecture and mysteries of the hearing apparatus. 
+-Create your own binaural recording rig (dummy ears)</br>
+-Playing with the vibrational and acoustic properities of an exotic range of natural or synthetic materials, shapes and structures for the design of innovative wearable listening devices. </br>
+-An amazing network and community of like-minded creative beings and potential future collaborators in the field of sound installation, virtual reality sound design, audio experience design. </br>
+-An independent creative project for online portfolio and public exhibition</br>
+
+<h4 class="title">Course Outline</h4>
+
+
+<p><strong style="font-weight: bold;" >Two-week Intensive Course:</strong> Introductions, concepts, narratives, play, and critical discourse.</br>
+
+
+ Binaural Field Recording Techniques</br>Molding and Casting of your own silicone ear</br>Binaural sound recording</br>Ambisonic sound recording and decoding</br>Alginate based Silicone Ear making</br>Tactile Sound Electroacoustics</br>Exploration of vibration through materials</br>Multichannel Tactile audio practice</br>Material acoustics, aesthetics and listening interface design</br>360 sound mixing techniques</br>Immersive listening experience design</br>Facebook 360 workflow</br>Sound Artistic process and project making</br>Recording and Mixing of original compositions</br>Innovative Listening Interface Making</br>Speculative documentation of individual creations</br>Feedback session</br></br>
+
+
+
+
+<strong style="font-weight: bold;" >Two week residency:</strong> </br>Research, preparation, and making of piece for final exhibition show.</br>
+
+
+
+      <h4 class="title">Who is this program for?
+</h4>
+
+<p class="text">This workshop is geared toward artists, designers, musicians, and anyone interested in experimenting with tactile materials, and the possibilities of storytelling with perception and 3D sound.</p>
+
+
+
+
+      </div>
+
+
+
+    </div>
+
+   
+    
+    
+</section>
+
+<div class="em thanks"></div>
+
+        
+
+
+<style type="text/css">
+
+  .embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+  } 
+
+  .embed-container iframe, 
+  .embed-container object, 
+  .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width:100%; 
+    height: 100%; 
+  }
+</style>
+
+<div class="embed-container">
+  <iframe src="https://player.vimeo.com/video/147574752" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+
+
+
+
+               
+
+
+<!-- carousel stuff -->
+
+          
+            
+            
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+             
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+              <li data-target="#carousel" data-slide-to="3"></li>
+              <li data-target="#carousel" data-slide-to="4"></li>
+              <li data-target="#carousel" data-slide-to="5"></li>
+              <li data-target="#carousel" data-slide-to="6"></li>
+              
+
+             
+            </ol>
+           
+
+
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox" >
+             
+              
+              <div class="item active ">
+                <img src="/i/SALOME_4_1000.jpeg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/LISE_3_1000.png" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/DIANE_1_1000.jpeg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/CHAHNEZ_2_1000.jpeg" class="pic">
+              </div>
+               <div class="item  ">
+                <img src="/i/KEVIN_5_1000.jpeg" class="pic">
+              </div>
+           
+               <div class="item ">
+                <img src="/i/CECILE_1000.jpeg" class="pic">
+              </div>
+               <div class="item ">
+                <img src="/i/CELINE_1_1000.jpeg" class="pic">
+              </div>
+               
+             
+            </div>
+           
+            <!-- Controls -->
+            
+            <a class="left carousel-control " href="#carousel" role="button" data-slide="prev" style="opacity:0;" >
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control " href="#carousel" role="button" data-slide="next" style="opacity:0;">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            
+          </div>
+      
+          <!-- END Carousel -->
+
+
+
+<h4>Highlights from instructors previous work</h4></br>
+
+
+          <section class="programs">
+    
+
+    
+
+    <div class="row">
+      
+        
+
+      <div class="col-sm-12 col-md-12 col-lg-6">
+
+
+        <article class="program short-description">
+
+        <style type="text/css">
+
+  .embed-container { 
+    position: relative; 
+    padding-bottom: 56.25%; 
+    height: 0; 
+    overflow: hidden; 
+    max-width: 100%; 
+    height: auto; 
+  } 
+
+  .embed-container iframe, 
+  .embed-container object, 
+  .embed-container embed { 
+    position: absolute; 
+    top: 0; 
+    left: 0; 
+    width:100%; 
+    height: 100%; 
+  }
+</style>
+       
+   
+      
+
+
+
+    
+
+<div class="embed-container">
+  <iframe src="https://player.vimeo.com/video/140057053" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<p class="text"><strong style="font-weight: bold;" >In the Eyes of the Animal</strong> For this project Antoine Bertin in collaboration with Marshmallow Laser Feast created a virtual reality experience with binaural sound design. It enables users to encounter a forrest in a brand new way.  A 360º film, it is an artistic interpretation of the sensory perspectives of three species natural to the site.</p>
+
+
+
+<div class='embed-container'>
+  <iframe src="https://www.youtube.com/embed/5zb4_bm9Z0U" frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+ <p class="text"><strong style="font-weight: bold;" >Through the Ears of the Bats</strong> This collaboration between Antoine Bertin and Marshmallow Laser Feast is an audio instillation that allows users to experience echolocation and hear the world from the perspective of bats.</p>
+
+
+
+<div class="embed-container">
+  <iframe src='https://player.vimeo.com/video/162758921' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<p class="text"><strong style="font-weight: bold;" >Of Insects and Men</strong> Helene Combal-Weiss along with Studio Marlene Huissoud created this sculptural artifact made from honeybee bio resin and glass. This project is an exploration into how natural and industrial materials can compliment one another and potentially influence the future of craft-making. 
+</p>
+
+
+
+
+
+
+      </div>
+
+
+<div class="col-sm-12 col-md-12 col-lg-6">
+
+       
+        
+
+
+<div class="embed-container">
+  <iframe src='https://player.vimeo.com/video/31729324' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+ <p class="text"><strong style="font-weight: bold;" >Parasite</strong> Video piece by Helene Combal-Weiss in collaboration with Hélène Kugelberg, Artur Turkuli, and Sebastian Buchholz. Weiss writes, "A parasite is known as «the one who eats at the table of another one». Hybrid systems offer various possibilities of symbiosis and ambiguous combinations."
+</p>
+
+
+
+
+<div class="embed-container">
+  <iframe src='https://player.vimeo.com/video/30060202' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+</div>
+
+<p class="text"><strong style="font-weight: bold;" >Extracommon</strong> Video piece by Helene Combal-Weiss
+        with Joost Dingemans, Kees de Haan, and Wout Stroucken. This work showcases how even a simple video can be made interesting with editing techniques. </p>
+
+              
+
+      </div>
+
+
+
+    </div>
+
+   
+    
+    
+</section>
+            
+
+
+
+
+</br></br>
+<h3 class="title"><a href="https://goo.gl/forms/2W8MyyjoNL1eYurC2" class="apply danger" target="_blank">APPLY</a></h3></br>
+    
+
+    <section class="programs program__item">
+
+    <article class="program">
+      <h3>Instructor</h3>
+      <ul class="coach-list">
+          
+            
+          <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-antoine.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Antoine Bertin <span class="sub web">/ <a href="http://www.antoinebertin.org/" target="_blank">antoinebertin.org/</a></span></h5>
+            <p class="text">Antoine Bertin is an artist who listens his way around the boundaries between documentary and fiction, the poetic and the political, the living and the artificial. </p>
+
+              <p class="text">His work consists of audio narratives combining elements of broadcast, walk, sculpture and publication. Weaving technology together with storytelling, he is curious about our relationship with the environment, the ‘unreachable’ and the idea of progress.</p>
+
+              <p class="text">Born in 1985, trained as a sound engineer at ENS Louis Lumière and graduating with an MA in Sound Art from London College of Communication, Antoine currently works in London, Brussels and Paris.</p>          
+          </div>
+        </li>
+        <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-helene.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Hélène Combal-Weiss <span class="sub web">/ <a href="http://helene-combal-weiss.com/" target="_blank">helene-combal-weiss.com/</a></span></h5>
+            <p class="text">French designer and video artist, Helene Combal- Weiss leads an approach to visual media like she does with materials and techniques. She explores and experiments on their possibilities to create illusions and reveal narratives.  </p>
+
+              <p class="text">Her work spans accross disciplines such as moving image, scenography, product, fashion design and curation. She’s been part of the design of experience studio team of Nelly Ben Hayoun, worked with Bart Hess and co-founded the design driven film studio IMMATTERS. She is an active member of the french community based project Bureau Pilote.</p>
+      
+          </div>
+        </li>
+
+
+  
+          </ul>
+
+          <h3 class="title"><a href="http://schoolofma.org/programs" class="apply danger" target="_blank">BACK TO PROGRAMS</a></h3></br>
+
+
+            
+            </article>
+
+
+</section>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</div>
+</div><!-- /container -->
+    <div class="bg"><img src="/i/school004.jpg"  ></div>
+
+</body>
+
+</html> 
+
