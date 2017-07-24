@@ -1,0 +1,538 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>Fabricating VR | School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/postcard.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <!--link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width : 1281px)" href="/css/1200.css" /> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//my.hellobar.com/ada13edba4a6d798a9b2f20fcf654eeafa8ff440.js" type="text/javascript" charset="utf-8" async="async"></script>
+	<style type=text/css">@font-face {font-family:'Apercu Bold';src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot');src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.woff')format('woff'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.svg#923')format('svg');font-weight:bold;font-style:normal;}@font-face {font-family:'Apercu Regular';src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot');src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.woff')format('woff'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.svg#929')format('svg');font-weight:normal;font-style:normal;}</style>
+
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				<a href="/">
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				</a>
+			</header>
+		</div>
+
+<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+    <nav class="navbar">
+      <ul class="row nav-list">
+
+        <!--Spring2015-->
+        <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1 col">
+          <div >
+            <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        <li class="col-xs-9 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/programs" class="nav-link headline">Programs</a>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/community" class="nav-link headline">Community</a>
+          </div>
+        </li>
+        
+        <!--li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div >
+            <a  href="/past-programs" class="nav-link headline">Past Programs</a>
+          </div>
+        </li-->
+
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/about/" class="nav-link headline">About</a>
+          </div>
+        </li>
+        
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a>
+          </div>
+        </li>
+
+          <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="https://schoolofmaprojects.tumblr.com/" class="nav-link headline">Projects</a>
+          </div>
+        </li>
+       
+       <li class="col-xs-6 col-sm-3 col-md-1 col-lg-1 col">
+          <div >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+
+<div class="content__wrap">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+          <section class="programs program__item">
+  <article class="program">
+
+
+            <img src="/i/fabricatingVR_.jpg" class="pic">
+
+            <p class="text"><strong style="font-weight: bold;" >What happens when we reimagine and learn to construct new experiences in virtual headsets?</strong> </p>
+
+
+            <ul class="list list-compact em warning">
+      <li class="list__item">
+        <p>
+          / 5 June - 30 June 2017
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / four weeks, full-time in Berlin, Germany
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / 10-15 participants accepted
+        </p>
+      </li> 
+       <li class="list__item">
+        <p>
+          / Based in <a href="http://acudmachtneu.de" class="apply danger" target="_blank">ACUD MACHT NEU</a>
+        </p>   
+        </li> 
+
+    </ul>
+    </br>
+    <h3 class="title"><a href="https://goo.gl/forms/Mra19EUs3ajjFFN52" class="apply danger" target="_blank">APPLY</a></h3></br>
+
+
+
+<p class="text">
+  Now and again, a "new" VR headset is introduced into the world. For the most part, give or take a bevelled edge here or there, each one looks not too unlike its predecesors.</p>
+
+ <p class="text">While, of course, what counts are the innards of these headsets and the software underneath the hood, what we inevitably *see* around us is a sea of same, or as artist/environmental engineer, Tega Brain, so poetically proclaimed, <a href="http://somethingsomethingendofmen.tumblr.com/" class="apply danger" target="_blank">Something Something End of Men</a>. </p>
+
+
+  <p class="text">In this four-week program we'll set out to question the validity that corporations get to define what our future societies will look like, in a creative and playful attempt to see what we might discover on the other side.
+
+
+
+ </p>
+
+ <img src="/i/Antoine_ITEOTA.jpg" class="pic">
+
+
+
+ <h4 class="title">Course Description
+</h4>
+
+    <p class="text">This course will introduce students to the fundamentals of sculpture, fabrication, and design fiction methodologies in order to reimagine headsets and the role of sculpture within virtual reality for purposes of entertainment and critical discourse.</p> 
+
+
+
+      <img src="/i/leo005.jpg" class="pic">
+
+
+      <p class="text">Using a hands-on approach, we will investigate the creative and expressive possibilities and aesthetics of virtual and mixed realities.</p> 
+
+      <img src="/i/leo004.jpg" class="pic">
+
+        <p class="text">Inhabiting a fictional narrative, students will dream up inventive ideas for new viewing experiences through sculpture and VR headset design and with the aid of instructors and other professionals, learn the proper tools and processes needed to create and communicate their own visions of the future to an outside world.</p>
+
+
+        <img src="/i/leo003.jpg" class="pic">
+
+
+        <p class="text">Starting with basic prototyping through to advanced fabrication techniques, we will work through the entire process of design from initial narrative and conception through rough prototyping. At program's end, we will present a fully documented exhibition of our final objects.</p>
+  
+
+    <h4 class="title">Who is this program for?
+</h4>
+
+<p class="text">This workshop is geared toward artists, architects, designers, and anyone interested in traditional sculpture and fabrication techniques to make and build their own unique objects for viewing virtual and mixed reality experiences. </p>
+
+<img src="/i/leo002.jpg" class="pic">
+
+
+<h4 class="title">After taking this course, you'll walk away with
+</h4>
+
+
+
+<p>Hands-on experience and techniques for creating scultures</p>
+<p>A deeper understanding of digital fabrication tools and techniques, including lasercutting, 3D printing, and CNC, as necessary</p>
+<p>Experience with 3D modelling software such as Mudbox and Rhino</p>
+<p>Working knowledge of conceptual design techniques</p>
+<p>Self-created documentation of your working process from concept to final project</p>
+<p>An amazing network and community of like-minded creative beings and potential future collaborators</p>
+
+
+<img src="/i/leo006.jpg" class="pic">
+
+
+<div>
+<h4 class="title">Course Outline</h4>
+
+<p><strong style="font-weight: bold;" >Week 1:</strong> Introductions, concepts, narratives, play, and critical discourse. Intro to sculpture, forming, modelling, 3D.</br>
+
+<strong style="font-weight: bold;" >Week 2:</strong> Understanding design concepts (Speculative/Critical design, Design fiction), prototyping, lasercutting, 3D printing</br>
+
+
+
+<strong style="font-weight: bold;" >Week 3:</strong> Continuation of week two, experimentation, working towards final projects</br>
+
+<strong style="font-weight: bold;" >Week 4:</strong> Development and fabrication of final projects for exhibition</p>
+</div>
+
+
+<style>.embed-container { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; } .embed-container iframe, .embed-container object, .embed-container embed { position: absolute; top: 0; left: 0; width:"840" ; height: "472"; }</style><div class='embed-container'><iframe src='https://player.vimeo.com/video/118765017' frameborder='0' webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div>
+
+
+
+
+
+<h5 class="title">Pricing</h5>
+
+ <ul class="list list-compact ">
+      
+
+       <!--li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" >Super early fee until 14. April*</strong></br>
+          €1250 (artists/students/freelancers) <br>€1550 (professionals)
+        </p>   
+        </li--> 
+        <li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" >Early fee until 1. May*</strong></br>
+          €1350 (artists/students/freelancers) <br>€1650 (professionals)
+        </p>   
+        </li> 
+        <li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" >Regular Fee*</strong></br>
+          €1550 (artists/students/freelancers) <br>€1850 (professionals)
+        </p>   
+        </li> 
+        <li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" ></strong></br>
+          Special fee for residents of Germany: 10% if registered by May 1st.</br>
+          *Includes materials, use of space and professional mentorship
+        </p>   
+        </li>  
+
+
+    </ul> 
+</br>
+<h3 class="title"><a href="https://goo.gl/forms/Mra19EUs3ajjFFN52" class="apply danger" target="_blank">APPLY</a></h3></br>
+    
+
+    <section class="programs program__item">
+
+    <article class="program">
+      <h3>Instructor</h3>
+      <ul class="coach-list">
+
+      <li class="row coach">
+              <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+                <img src="/i/andrew_alt.jpg" class="pic">
+              </div>
+              <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+                <h5 class="name">Andrew Friend <span class="sub web">/&nbsp;<a href="http://www.andrewfriend.co.uk/" target="_blank">andrewfriend.co.uk/</a></span></h5>  
+                    <p class="text">Andrew Friend is an artist and designer who’s work explores experience, and the relationship between people, landscape, and their desires. He is interested in the extraordinary, fantastic and desirable (or indeed undesirable) experiences and outcomes that may result from these interactions. His work spans a range of media, through narrative and drawings to large scale physical objects designed to promote, facilitate, and question these experiences, examining relationships between the known and unknown, the real and imagined in the individual quest to harness the sublime.
+                    </p>
+                    <p class="text">His work has been exhibited and published internationally at institutions including The National Museum of China, Beijing,  Welcome Collection, London,  & Art Centre, Los Angeles, USA, in 2015 he was awarded the Arte Laguna Prize, (Land art division), Venice Italy. Andrew is currently studio leader and associate lecturer in the department of Spatial Practices, Central St Martins, University of the Arts London.
+
+                    </p>    
+              </div>
+            </li>
+
+          
+            
+          <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/leo.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Leo Castaneda <span class="sub web">/ <a href="http://leocastaneda.format.com" target="_blank">leocastaneda.format.com</a></span></h5>
+            <p class="text">Leo Castaneda (born Cali, Colombia 1988) is an artist based in Miami and New York working in the intersection of painting and virtual reality. He uses these among other mediums such as drawing, interactive sculpture, and animation to analyze and deconstruct the structures of video-games, and how these structures relate to those of Art and the world at large. </p>   
+
+            <p class="text">Castaneda received his BFA from Cooper Union in 2010, and in 2014 received his MFA at Hunter College. In 2014 Castaneda received a scholarship from the Cisneros Foundation to attend SOMA Summer in Mexico City.  He has also attended a semester abroad in Universitat de Barcelona, Spain, and studied in New World School of the Arts in Miami.  </p>          
+          </div>
+        </li>
+<li class="row coach">
+              <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+                <img src="/i/pic-marcela.jpg" class="pic">
+              </div>
+              <div class="col-sm-12 col-md-7 col-lg-7 description">
+                <h5 class="name">Marcela Godoy <span class="sub web">/&nbsp;<a href="http://godoymarcela.com/category/all-projects" title="Marcela Godoy" target="_blank">godoymarcela.com</a></span></h5>
+             
+
+
+     
+            <p class="text">Marcela Godoy is a designer and maker. She graduated as an architect in 2007, worked as an adjunct instructor and teaching assistant in three different schools of architecture in Chile, teaching architecture, physics and structures. </p>
+
+            <p class="text">In 2010 she moved to New York, where she went on to get an MPS in the Interactive Telecommunication Program from New York University (NYU ITP). Since then, she has been experimenting with making toys, wearables, mechanisms and physical computing projects. After she graduated, she worked at YesYesNo, a company that specializes in interactive art installations. She was in charge of building and designing the physical aspects of the company's projects, and produced digital and physical 3D models, prototyped and fabricated unique pieces. </p>
+            
+            <p class="text">Marcela Godoy is currently a pre-doctoral fellow in the Interactive Media Arts department at the New York University of Shanghai, and she teaches Interaction Lab, one of the foundation courses of the university's curriculum. </p>
+
+             
+      
+          </div>
+        </li>
+        <h3>Guest Lecturer</h3>
+      <ul class="coach-list">
+
+      <li class="row coach">
+              
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-antoine.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Antoine Bertin <span class="sub web">/ <a href="http://www.antoinebertin.org/" target="_blank">antoinebertin.org/</a></span></h5>
+            <p class="text">Antoine Bertin is an artist who listens his way around the boundaries between documentary and fiction, the poetic and the political, the living and the artificial. </p>
+
+              <p class="text">His work consists of audio narratives combining elements of broadcast, walk, sculpture and publication. Weaving technology together with storytelling, he is curious about our relationship with the environment, the ‘unreachable’ and the idea of progress.</p>
+
+              <p class="text">Born in 1985, trained as a sound engineer at ENS Louis Lumière and graduating with an MA in Sound Art from London College of Communication, Antoine currently works in London, Brussels and Paris.</p>          
+          </div>
+        </li>
+
+
+        
+
+  
+          </ul>
+
+          <h3 class="title"><a href="http://schoolofma.org/programs" class="apply danger" target="_blank">BACK TO PROGRAMS</a></h3></br>
+
+
+            
+            </article>
+
+
+</section>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  col sidebar">
+      <!-- Here is a block for screaming out about something --> 
+
+
+
+
+<section id="application" class="holder application">
+
+					
+
+					
+
+<p><strong style="font-weight: bold;" >
+
+</br><a href="http://schoolofma.org/augmented-ear/" class="apply danger" target="_blank">Materials, Binaural Sound,</br>Sensorial Experiences</br>Join Our Two Week</br> Intensive Program</br></a></p>
+				
+				
+					
+
+ </section>
+
+
+
+
+
+<section id="application" class="holder application">	
+
+<p><strong style="font-weight: bold;" >
+
+</br><a href="http://schoolofma.org/august2017/" class="apply danger" target="_blank">This August</br> Design Experiences </br>through Performance,</br> Machine Learning,</br> and Fabrication.</a></p>
+
+ </section>
+
+
+
+
+
+ 
+ <section id="application" class="holder application">
+     </br><p>We're committed to diversity in the truest sense. Our last few programs boast 60%+ women and participants from 13+ countries.</p>	<p><strong style="font-weight: bold;" >Women and persons from </br>LGBTQ+ and other<br>under-represented communities</br> in the tech field</br> highly encouraged to apply!</strong></p><br>	
+ </section>
+
+
+
+
+ 
+
+<section id="contact" class="contact">
+    <h2>CONTACT INFORMATION</h2>
+    <ul class="contact-list">   
+        <li class="contact-item"><span class="icon icon-email"></span> <a href="mailto:info@schoolofma.org">info@schoolofma.org</a></li>
+        <li class="contact-item"><span class="icon icon-twitter"></span> <a href="https://twitter.com/schoolofmaaa">schoolofmaaa</a></li>
+        <li class="contact-item"><span class="icon icon-fb"></span> <a href="https://www.facebook.com/pages/School-of-Machines-Making-and-Make-Believe/736062943100977">School of Machines, Making&nbsp;&amp;&nbsp;Make-Believe</a></li>
+        <li class="contact-item"><span class="icon2 icon-instagram2"></span><a href="https://instagram.com/schoolofma/" >  schoolofma</a></li>
+    </ul>
+</section>
+
+<div class="newsletter">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: transparent; 
+            clear:left; 
+            margin: 30px auto 0;
+        }
+
+        #mc_embed_signup form {
+            padding: 0;
+        }
+
+        #mc_embed_signup .field {
+            width: 100%;
+            float: left;
+        }
+
+        #mc_embed_signup label {
+            font-weight: normal;
+            padding: 0;
+        }
+        #mc_embed_signup input {
+            background: transparent;
+            border-color: #444;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom-width: 3px;
+            color: #444;
+        }
+        #mc_embed_signup input:focus {
+            border-color: #000;
+            outline: none;
+            background: #59a55c;
+            color: #222;
+        }
+        #mc_embed_signup input.email,
+        #mc_embed_signup input.button {
+            clear: none;                            
+            margin: 0;
+        }
+        #mc_embed_signup input.email {
+            float: left;
+            width: 76%;
+            min-width: 110px;
+        }
+        #mc_embed_signup input.button {
+            float: right;
+            font-weight: normal;
+            width: 18%;
+            min-width: 33px;
+            background: transparent;
+            border-radius: 0;
+            color: #444;
+            font-size: 40px;
+        }
+        #mc_embed_signup input.button:hover,
+        #mc_embed_signup input.button:focus {
+            color: #59a55c;
+            background: transparent;
+        }
+        #mc_embed_signup .sub {
+            font-size: 13px;
+            display: block;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form action="http://schoolofma.us8.list-manage2.com/subscribe/post?u=8a582affe02962d9e73f8ee6d&amp;id=d71088c8ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="clear">
+                <h2 class="headline">Subscribe to our newsletter</h2>
+                <!--label for="mce-EMAIL">Subscribe to&nbsp;our&nbsp;newsletter</label-->
+                <p class="sub">Receive updates about our&nbsp;programs and events</p>
+            </div>
+            <div class="field">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_8a582affe02962d9e73f8ee6d_d71088c8ff" value=""></div>
+                <input type="submit" value="⍄" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+        </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+</div><!-- /container -->
+    <div class="bg"><img src="/i/school004.jpg"  ></div>
+
+</body>
+
+</html> 
+

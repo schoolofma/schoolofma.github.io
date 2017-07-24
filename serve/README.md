@@ -1,4 +1,0 @@
-schoolofma.github.io
-====================
-
-website
