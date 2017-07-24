@@ -452,6 +452,19 @@ small {
 }
 
 .application {
+<<<<<<< HEAD
+	border: 0.5em solid;
+	background-color: rgba(241,241,241,.7);
+	padding: 0.75em 0;
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 1.25em;
+}
+	.application p {
+		margin-bottom: 1em;
+		padding: 0 0.25em;
+	}
+=======
   border: 0.5em solid;
   background-color: rgba(47, 74, 43, 0);
   padding: 0.75em 0;
@@ -467,6 +480,7 @@ small {
   text-align: center;
   font-size: 1.25em;
 }
+>>>>>>> master
 
 .application p {
   margin-bottom: 1em;
