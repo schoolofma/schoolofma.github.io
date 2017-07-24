@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>The Neural Aesthetic | School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/postcard.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <!--link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width : 1281px)" href="/css/1200.css" /> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//my.hellobar.com/ada13edba4a6d798a9b2f20fcf654eeafa8ff440.js" type="text/javascript" charset="utf-8" async="async"></script>
+	<style type=text/css">@font-face {font-family:'Apercu Bold';src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot');src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.woff')format('woff'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.svg#923')format('svg');font-weight:bold;font-style:normal;}@font-face {font-family:'Apercu Regular';src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot');src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.woff')format('woff'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.svg#929')format('svg');font-weight:normal;font-style:normal;}</style>
+
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				
+			</header>
+		</div>
+
+<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+    <nav class="navbar">
+      <ul class="row nav-list">
+
+        <!--Spring2015-->
+        <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1 col">
+          <div >
+            <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        <li class="col-xs-9 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/programs" class="nav-link headline">Programs</a>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/community" class="nav-link headline">Community</a>
+          </div>
+        </li>
+        
+        <!--li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div >
+            <a  href="/past-programs" class="nav-link headline">Past Programs</a>
+          </div>
+        </li-->
+
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/about/" class="nav-link headline">About</a>
+          </div>
+        </li>
+        
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a>
+          </div>
+        </li>
+
+          <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="https://schoolofmaprojects.tumblr.com/" class="nav-link headline">Projects</a>
+          </div>
+        </li>
+       
+       <li class="col-xs-6 col-sm-3 col-md-1 col-lg-1 col">
+          <div >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+
+<div class="content__wrap">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+          <section class="programs program__item">
+  <article class="program">
+<!--h4 class="title">The Neural Aesthetic: Machine Learning for Artists</h4-->
+
+            <img src="/i/neuralAesthetic4.jpg" class="pic">
+
+<p class="text"><strong style="font-weight: bold;" >How can a deeper understanding of machine learning affect our relationships with machines and with each other?</strong> </p>
+
+            <ul class="list list-compact em warning">
+      <li class="list__item">
+        <p>
+          / 4 July - 29 July 2016
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / four weeks, full-time in Berlin, Germany
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / 10-15 participants accepted
+        </p>
+      </li> 
+       <li class="list__item">
+        <p>
+          / Based in <a href="http://acudmachtneu.de" class="apply danger" target="_blank">ACUD MACHT NEU</a>
+        </p>   
+        </li> 
+  
+    </ul>
+  </br>
+    <h3 class="title"><a href="https://docs.google.com/forms/d/17EWi0EV3gFg1Zx0_5VrpObHGf4sWgElgURdtkYF3goY/viewform?usp=send_form" class="apply danger" target="_blank">APPLY</a></h3></br>
+
+
+
+
+<p class="text">Machine learning is a branch of artificial intelligence concerned with the design of data-driven programs which autonomously demonstrate intelligent behavior in a variety of domains.</p>
+
+  <p class="text">Machine learning systems are all around us. When you deposit a check, scan your fingerprint, or post a picture on social media, autonomous algorithms are deployed on the spot to sift through and make sense of your constant interactions with our technology.</p>
+
+  <p class="text">Machine learning silently underpins the fabric of our digital infrastructure, discriminating spam e-mail and banking fraud, making light-speed transactions in the global financial market, recommending music and films for customers to buy, deciding what search results are relevant to your queries, and countless more of the daily interactions with electronic media that we take for granted. </p>
+
+<p class="text">Machine learning is the backbone that powers self-driving cars, content recommendation in social media, face identification in digital forensics, and countless other high-level tasks. It has gained rapid interest from the digital arts community, with the recent appearance of numerous artistic hacks of scientific research, such as Deepdream, Stylenet, NeuralTalk, and others.</p>
+
+<p class="text">Creative re-appropriation of these techniques is necessary to refocus machine learning's influence on those things which we care about. Artistic metaphors help clarify that which is otherwise shrouded by layers of academic jargon, making these highly specialized subjects more accessible to everyday people. Taking such an approach, we can repurpose these academic tools and harness their capabilities for creative expression and empowerment.
+
+</p>
+
+<iframe src="https://player.vimeo.com/video/139123754" width="500" height="263" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+ <h4 class="title">Course Description
+</h4>
+
+    <p class="text">This course will introduce students to the field of machine learning as a subject for artistic practice and interdisciplinary research.  </p>
+
+<p class="text">Students will gain a practical and conceptual understanding of machine learning methods through the lens of creative subversion. Simple and deep neural networks will be introduced, analyzed, and applied within various artistic contexts. </p>
+
+<p class="text">Throughout the program, students will learn to program self-adapting musical instruments (using Wekinator), generative poems, and machine-hallucinated visual and sound art, mediated by intelligent algorithms. We'll examine the ethical and sociocultural dimensions of machine learning, and discuss the coming issues which are sure to be preceded by the ever-increasing integration of these thinking machines into our daily lives.</p>
+
+
+<!-- carousel stuff -->
+
+          
+            
+            
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+            <!-- Indicators -->
+             
+            <ol class="carousel-indicators">
+              <li data-target="#carousel" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel" data-slide-to="1"></li>
+              <li data-target="#carousel" data-slide-to="2"></li>
+              <li data-target="#carousel" data-slide-to="3"></li>
+              <li data-target="#carousel" data-slide-to="4"></li>
+              <li data-target="#carousel" data-slide-to="5"></li>
+              <li data-target="#carousel" data-slide-to="6"></li>
+
+            </ol>
+           
+
+
+
+            <!-- Wrapper for slides -->
+            <div class="carousel-inner" role="listbox" >
+             
+              <div class="item active ">
+                <img src="/i/ml_01.jpg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/ml_02.jpg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/ml_03.jpg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/ml_04.jpg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/ml_05.jpg" class="pic">
+              </div>
+              <div class="item ">
+                <img src="/i/ml_06.jpg" class="pic">
+              </div>
+               <div class="item  ">
+                <img src="/i/ml_07.jpg" class="pic">
+              </div>
+           
+
+             
+            </div>
+           
+            <!-- Controls -->
+            
+            <a class="left carousel-control " href="#carousel" role="button" data-slide="prev" style="opacity:0;" >
+              <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            <a class="right carousel-control " href="#carousel" role="button" data-slide="next" style="opacity:0;">
+              <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+            
+          </div>
+      
+          <!-- END Carousel -->
+
+
+
+<h4 class="title">Who is this program for?
+</h4>
+
+<p class="text">This course is aimed at people working in creative disciplines who wish to learn about machine intelligence and how to apply it in their own fields. It is *not* aimed at scientists or engineers who are seeking a rigorous technical course on machine learning -- plenty of such classes already exist. Instead, no specialized knowledge of mathematics or computer science is assumed or expected of students, and we will build up our understanding of the subject from elementary building blocks, imagination, analogy, and metaphor. This course is more practical than it is theoretical; we are interested less in proving theorems and equations, and more into hacking existing tools for making machines that do interesting things. </p>
+
+<p class="text">People of diverse backgrounds and interests will all find something to take away from this class. If you are a journalist interested in the socioeconomic ramifications of increased automation, a musician wanting to manipulate your instruments with data streams, a designer wishing to imbue your craft with machine artifacts, or you’re just plain old fascinated by the age-old philosophical dilemma of cognition, this class is for you.
+</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/yc5CL5EoPqg" frameborder="0" allowfullscreen></iframe>
+
+
+<h4 class="title">Course Outline</h4>
+<div>
+<p><strong style="font-weight: bold;" >Week 1:</strong> Introductory Lectures</br>
+
+<strong style="font-weight: bold;" >Week 2:</strong> Neural networks and real-time performance applications, Wekinator</br>
+
+
+<strong style="font-weight: bold;" >Week 3:</strong> Deep learning, convolutional neural networks, and open questions</br>
+
+
+<strong style="font-weight: bold;" >Week 4:</strong> Course projects and special topics</p>
+
+</div>
+     
+
+ 
+
+<h5 class="title">Pricing</h5>
+
+
+ <ul class="list list-compact ">
+      
+      
+        <li class="list__item">
+        <p>
+          <strong style="font-weight: bold;" ></strong></br>
+          €1550 (artists/students/freelancers) <br>€2050 (professionals)
+        </p>   
+        </li> 
+
+    </ul> 
+    </br>
+ <h3 class="title"><a href="https://docs.google.com/forms/d/17EWi0EV3gFg1Zx0_5VrpObHGf4sWgElgURdtkYF3goY/viewform?usp=send_form" class="apply danger" target="_blank">APPLY</a></h3>  
+
+
+    
+
+    <section class="programs program__item">
+
+    <article class="program">
+      <h3>Instructors</h3>
+      <ul class="coach-list">
+          
+            
+          <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-gene.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Gene Kogan <span class="sub web">/ <a href="http://www.genekogan.com" target="_blank">genekogan.com</a></span></h5>
+            <p class="text">Gene Kogan is an artist and programmer who is interested in generative systems and the application of emerging technology into artistic and expressive contexts. He writes code for live music, performance, and visual art. He contributes to open-source software projects and gives workshops and demonstrations on topics related to code and art.</p>
+
+<p class="text">He is a contributor to openFrameworks, Processing, and p5.js, an adjunct professor at Bennington College and ITP-NYU, and a former resident at Eyebeam.
+</p>          
+          </div>
+        </li>
+            <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-fiebrinkR.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Rebecca Fiebrink <span class="sub web">/ <a href="http://www.doc.gold.ac.uk/~mas01rf/Rebecca_Fiebrink_Goldsmiths/welcome.html" target="_blank">More info</a></span></h5>
+            <p class="text">Dr. Rebecca Fiebrink is a Lecturer at Goldsmiths, University of London. She designs new ways for humans to interact with computers in creative practice, and she is the developer of the Wekinator software for interactive machine learning. This software has been downloaded thousands of times and used by world-renowned composers and artists including Laetitia Sonami, Phoenix Perry, Dan Trueman, Michelle Nagai, and Anne Hege to make new musical instruments and interactive experiences.  </p>
+
+            <p class="text">She has worked with companies including Microsoft Research, Sun Microsystems Research Labs, Imagine Research, and Smule, where she helped to build the #1 iTunes app "I am T-Pain.” She is the creator of a massively open online course (MOOC) titled “Machine Learning for Musicians and Artists,” offered by Kadenze.  She holds a PhD in Computer Science from Princeton University. Prior to moving to Goldsmiths, she was an Assistant Professor at Princeton University, where she co-directed the Princeton Laptop Orchestra.</p>         
+          </div>
+        </li>
+          </ul>
+
+          <h3 class="title"><a href="http://schoolofma.org/programs" class="apply danger" target="_blank">BACK TO PROGRAMS</a></h3></br>
+
+
+            
+            </article>
+
+
+</section>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  col sidebar">
+      <!-- Here is a block for screaming out about something --> 
+<section id="application" class="holder application">
+
+					
+
+					
+
+<p><strong style="font-weight: bold;" >
+
+</br><a href="http://schoolofma.org/programs/" class="apply danger" target="_blank">SUMMER  2017 </br>PROGRAMS</a></p>
+
+
+
+ </section>
+
+<section id="application" class="holder application">
+
+					
+
+					
+
+<p><strong style="font-weight: bold;" >
+
+</br><a href="http://schoolofma.org/online/" class="apply danger" target="_blank">ONLINE CLASSES </br>NOW OPEN FOR</br>ENROLLMENT</a></br></p>
+				
+				
+					
+
+ </section>
+
+
+<section id="application" class="holder application">
+
+					
+
+					<p><strong style="font-weight: bold;" >RELATED LINKS</strong></p>
+
+<a href="http://www.cbsnews.com/news/orchestra-music-symphonologie-by-artificial-intelligence-human-composers/" target="_blank">AI Assisted Orchestra Music </a></br></br>
+				
+				<a href="http://www.musicfromtext.com/2016-debates.html" target="_blank">TransProse: Translating Literature into Music</a></br></br>
+
+<a href="https://www.youtube.com/watch?v=LY7x2Ihqjmc" target="_blank">Sunspring | A Sci-Fi Short Film With AI Generated Script</a></br></br>
+				
+
+
+
+				<a href="https://medium.com/@genekogan/machine-learning-for-artists-e93d20fdb097#.fo1pty76z" target="_blank">Machine Learning for Artists </a></br></br>
+
+<a href="https://medium.com/@ArtificialExperience/creativeai-9d4b2346faf3#.drm1yj6vl" target="_blank">Creative AI </a></br></br>
+
+<a href="https://medium.com/the-physics-arxiv-blog/when-a-machine-learning-algorithm-studied-fine-art-paintings-it-saw-things-art-historians-had-never-b8e4e7bf7d3e#.u5cmmuiny" target="_blank">When a Machine Learning Algorithm Studied Fine Art Paintings </a></br></br>
+
+<a href="https://medium.com/the-physics-arxiv-blog/when-a-machine-learning-algorithm-studied-fine-art-paintings-it-saw-things-art-historians-had-never-b8e4e7bf7d3e#.u5cmmuiny" target="_blank">How Computers Experience Art  </a></br>
+
+
+ </section>
+ 
+
+
+
+
+
+
+
+ 
+
+<section id="contact" class="contact">
+    <h2>CONTACT INFORMATION</h2>
+    <ul class="contact-list">   
+        <li class="contact-item"><span class="icon icon-email"></span> <a href="mailto:info@schoolofma.org">info@schoolofma.org</a></li>
+        <li class="contact-item"><span class="icon icon-twitter"></span> <a href="https://twitter.com/schoolofmaaa">schoolofmaaa</a></li>
+        <li class="contact-item"><span class="icon icon-fb"></span> <a href="https://www.facebook.com/pages/School-of-Machines-Making-and-Make-Believe/736062943100977">School of Machines, Making&nbsp;&amp;&nbsp;Make-Believe</a></li>
+        <li class="contact-item"><span class="icon2 icon-instagram2"></span> <a href="https://instagram.com/schoolofma/" >  schoolofma</a></li>
+    </ul>
+</section>
+
+<div class="newsletter">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: transparent; 
+            clear:left; 
+            margin: 30px auto 0;
+        }
+
+        #mc_embed_signup form {
+            padding: 0;
+        }
+
+        #mc_embed_signup .field {
+            width: 100%;
+            float: left;
+        }
+
+        #mc_embed_signup label {
+            font-weight: normal;
+            padding: 0;
+        }
+        #mc_embed_signup input {
+            background: transparent;
+            border-color: #444;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom-width: 3px;
+            color: #444;
+        }
+        #mc_embed_signup input:focus {
+            border-color: #000;
+            outline: none;
+            background: #59a55c;
+            color: #222;
+        }
+        #mc_embed_signup input.email,
+        #mc_embed_signup input.button {
+            clear: none;                            
+            margin: 0;
+        }
+        #mc_embed_signup input.email {
+            float: left;
+            width: 76%;
+            min-width: 110px;
+        }
+        #mc_embed_signup input.button {
+            float: right;
+            font-weight: normal;
+            width: 18%;
+            min-width: 33px;
+            background: transparent;
+            border-radius: 0;
+            color: #444;
+            font-size: 40px;
+        }
+        #mc_embed_signup input.button:hover,
+        #mc_embed_signup input.button:focus {
+            color: #59a55c;
+            background: transparent;
+        }
+        #mc_embed_signup .sub {
+            font-size: 13px;
+            display: block;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form action="http://schoolofma.us8.list-manage2.com/subscribe/post?u=8a582affe02962d9e73f8ee6d&amp;id=d71088c8ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="clear">
+                <h2 class="headline">Subscribe to our newsletter</h2>
+                <!--label for="mce-EMAIL">Subscribe to&nbsp;our&nbsp;newsletter</label-->
+                <p class="sub">Receive updates about our&nbsp;programs and events</p>
+            </div>
+            <div class="field">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_8a582affe02962d9e73f8ee6d_d71088c8ff" value=""></div>
+                <input type="submit" value="⍄" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+        </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+</div><!-- /container -->
+    <div class="bg"><img src="/i/school004.jpg"  ></div>
+
+</body>
+
+</html> 
+

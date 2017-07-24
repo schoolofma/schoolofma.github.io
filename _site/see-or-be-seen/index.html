@@ -1,0 +1,493 @@
+<!DOCTYPE html>
+	<!--[if IE 7]><html lang="ru" class="no-js is-ie7 oldie"><![endif]-->
+	<!--[if IE 8]><html lang="ru" class="no-js is-ie8 oldie"><![endif]-->
+	<!--[if gt IE 8]><!--> 
+<html lang="en" class="no-js"><!--<![endif]-->
+
+<head>
+	<meta charset="UTF-8">
+    <title>Computer Vision | School of Machines, Making & Make-Believe</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Facebook -->
+    <meta property="og:title" content="School of Machines, Making & Make-Believe" /> 
+    <!-- <meta property="og:description" content="Go for imaginative and non-sensical exploration of art and technology." />  --> 
+    <meta property="og:image" content="/i/postcard.jpg" /> 
+    <!-- Fonts -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=PT Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Tangerine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Cousine' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato|Merriweather+Sans' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
+    <!-- Bootstrap -->
+    <!--link href="/css/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen"-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+    <link href="/css/main.css" rel="stylesheet" rel="stylesheet" media="screen">
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width : 1281px)" href="/css/1200.css" /> 
+    <link rel="stylesheet" type="text/css" media="only screen and (min-width: 481px) and (max-width: 768px)" href="/css/768.css" />
+    <link rel="stylesheet" type="text/css" media="only screen and (max-width: 480px)" href="/css/480.css" />
+    <script src="//code.jquery.com/jquery-1.11.2.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="//my.hellobar.com/ada13edba4a6d798a9b2f20fcf654eeafa8ff440.js" type="text/javascript" charset="utf-8" async="async"></script>
+	<style type=text/css">@font-face {font-family:'Apercu Bold';src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot');src:url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.woff')format('woff'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/a3psWEdqcUcAA17s8cyy1goH/BYjr5lvfP3TT0BXJbp9QMJCIBVibdyiB7CohjGDmEf3sSzQVqkqYtLuA09tMnlDDwY8k+tOA8C1QsQV8GXsdw.svg#923')format('svg');font-weight:bold;font-style:normal;}@font-face {font-family:'Apercu Regular';src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot');src:url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.eot?')format('embedded-opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.woff')format('woff'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.ttf')format('opentype'),url('http://f.fontdeck.com/f/1/UTYwU3NPYUEAA74L50H8vEK1zx6C9enKWRHVgL0ORGiuDSSFaq56QFEBDL65gqz/nSu9/4byyQJjeN2UQsuYgvL09/qSIWQiVeaJTvdiM+sKRA.svg#929')format('svg');font-weight:normal;font-style:normal;}</style>
+
+	
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <!-- Google Analytics -->
+    <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-50102025-1', 'schoolofma.org');
+        ga('send', 'pageview');
+    </script>
+</head>
+
+<body>
+
+	<div class="container-fluid wrap">
+
+		<div class="row">
+			<header class="col-sm-12 col-md-12 col-lg-12 header">
+				
+				<h1 class="pull-right title"><span class="line line-1">School</span> <span class="line line-2"><span class="symbol s-01">o</span><span class="symbol s-02">f</span></span> <span class="line line-3">machines,</span> <span class="line line-4">making</span> <span class="line line-5"><span class="amp">&</span> make&ndash;believe</span></h1>
+				
+			</header>
+		</div>
+
+<!-- 
+    Solution: http://pixelcog.com/blog/2013/jekyll-from-scratch-core-architecture/#building_site_navigation
+ -->
+
+    <nav class="navbar">
+      <ul class="row nav-list">
+
+        <!--Spring2015-->
+        <li class="col-xs-3 col-sm-2 col-md-1 col-lg-1 col">
+          <div >
+            <a class="nav-link headline nav-link__home" href="/">Home<span class="icon icon-home"></span></a>
+          </div>
+        </li>
+        <!-- end Spring2015-->
+        <li class="col-xs-9 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/programs" class="nav-link headline">Programs</a>
+          </div>
+        </li>
+        <li class="col-xs-12 col-sm-5 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/community" class="nav-link headline">Community</a>
+          </div>
+        </li>
+        
+        <!--li class="col-xs-12 col-sm-12 col-md-2 col-lg-2 col ">
+          <div >
+            <a  href="/past-programs" class="nav-link headline">Past Programs</a>
+          </div>
+        </li-->
+
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="/about/" class="nav-link headline">About</a>
+          </div>
+        </li>
+        
+        <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="http://blog.schoolofma.org/" class="nav-link headline">Blog</a>
+          </div>
+        </li>
+
+          <li class="col-xs-6 col-sm-3 col-md-2 col-lg-2 col">
+          <div >
+            <a  href="https://schoolofmaprojects.tumblr.com/" class="nav-link headline">Projects</a>
+          </div>
+        </li>
+       
+       <li class="col-xs-6 col-sm-3 col-md-1 col-lg-1 col">
+          <div >
+            <a  href="/faq/" class="nav-link headline">FAQ</a>
+          </div>
+        </li>
+
+      </ul>
+    </nav>
+
+<div class="content__wrap">
+  <div class="row">
+    <div class="col-xs-12 col-sm-6 col-md-8 col-lg-8 ">
+      <div class="row">
+        <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12 col">
+          <section class="programs program__item">
+  <article class="program">
+<!--h4 class="title">See or be Seen: Computer Vision for Artists, Designers and Creators
+</h4-->
+
+            <img src="/i/seeOrBeSeen7.jpg" class="pic">
+
+            <p class="text"><strong style="font-weight: bold;" >How can we reappropriate pervasive surveillance technology in ways that empower people? How can we use these same technologies as tools to express ourselves creatively? </strong> </p>
+
+
+            <ul class="list list-compact em warning">
+      <li class="list__item">
+        <p>
+          / 6 June - 1 July 2016
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / four weeks, full-time in Berlin, Germany
+        </p>
+      </li>
+      <li class="list__item">
+        <p>
+          / 10-15 participants accepted
+        </p>
+      </li> 
+       <li class="list__item">
+        <p>
+          / Based in <a href="http://acudmachtneu.de" class="apply danger" target="_blank">ACUD MACHT NEU</a>
+        </p>   
+        </li> 
+
+    </ul>
+    </br>
+    <h3 class="title"><a href="https://docs.google.com/forms/d/1knDP4JrFGsVBWqxQWedikf5oEJyc30fjr3LXwr7v-bE/viewform?usp=send_form" class="apply danger" target="_blank">APPLY</a></h3></br>
+
+
+
+<p class="text">
+  Computer vision is a responsive, interactive, and exciting tool for realising creative vision.
+  From tracking body movements to face detection and pixel manipulation, computer vision is a rich area that opens up many new possibilities. Low cost cameras and open source platforms now make this field much more accessible allowing us to introduce powerful algorithmic approaches to our creative endeavors. </p>
+
+  <p class="text">These kinds of technologies are also pervasive in our daily lives and understanding their inner workings will allow us to challenge and play with them in creative and subversive ways.
+
+ </p>
+
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QJ-uUnsFdxg" frameborder="0" allowfullscreen></iframe>
+
+ <h4 class="title">Course Description
+</h4>
+
+    <p class="text">This course will introduce students to the fundamentals of computer vision and image processing for creative projects and critical discourse.</p> 
+
+    <p class="text">Computer Vision is an area of research centered on how algorithms can extract information from images. This was originally done using still images, later video and now includes 3D data from cameras with 3D sensors. </p>
+
+   <iframe  width="640" height="360" src="https://player.vimeo.com/video/145874219" frameborder="0" allowfullscreen></iframe>
+
+      <p class="text">Computer vision has found application in many areas: the military, video games,  police surveillance, robotics, etc. For artists and designers, computer vision can bring interactivity to works allowing reaction to body movement and motion, and allowing for the creation of new forms of imagery.</p> 
+
+        <p class="text">Through the exploration of these technologies for creative purposes we’ll have the opportunity to see how these algorithms may be used for privacy and surveillance and what problems it might pose to use them within different contexts. In a time when access to cameras and sharing of imagery is commonplace, the possibility of analyzing or manipulating images allows for new forms of commentary and creativity.</p>
+
+    <p class="text">This course will be taught using Openframeworks.</p>
+
+    <iframe src="https://player.vimeo.com/video/74124094" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+    <h4 class="title">Who is this program for?
+</h4>
+
+<p class="text">This workshop is geared toward anyone involved in creative projects (designers, makers, artists, musicians, performers etc.) that want to begin incorporating computer vision into their work or practice. The course approaches computer vision from an introductory level, however a basic knowledge of programming (in any language/platform) is encouraged.</p>
+
+<iframe src="https://player.vimeo.com/video/133608604?color=99cd4f" width="500" height="281" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+<h4 class="title">After taking this course, you'll walk away with
+</h4>
+
+
+
+<p>Hands-on experience making interactive audio/visual works using openframeworks</p>
+<p>A deeper understanding of the technologies behind surveillance and how you can 
+intercept and engage with them in creative and subversive ways</p>
+<p>An independent creative project for exhibition</p>
+
+
+<iframe src="https://player.vimeo.com/video/118563635" width="640" height="360" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+
+<div>
+<h4 class="title">Course Outline</h4>
+
+<p><strong style="font-weight: bold;" >Week 1:</strong> Introductory Lectures (guest speakers tbd)</br>
+
+<strong style="font-weight: bold;" >Week 2:</strong> Basic techniques for computer vision using OpenCv and openFrameworks</br>
+
+<strong style="font-weight: bold;" >Week 3:</strong> 3D cameras and related algorithms</br>
+
+<strong style="font-weight: bold;" >Week 4:</strong> Projects for final exhibition</p>
+</div>
+
+
+
+
+
+<h5 class="title">Pricing</h5>
+
+ <ul class="list list-compact ">
+      
+
+       <li class="list__item">
+       
+          <strong style="font-weight: bold;" ></strong></br>
+          €1550 (artists/students/freelancers) <br>€2050 (professionals)
+        </p>   
+        </li> 
+
+    </ul> 
+</br>
+<h3 class="title"><a href="https://docs.google.com/forms/d/1knDP4JrFGsVBWqxQWedikf5oEJyc30fjr3LXwr7v-bE/viewform?usp=send_form" class="apply danger" target="_blank">APPLY</a></h3>
+    
+
+    <section class="programs program__item">
+
+    <article class="program">
+      <h3>Instructor</h3>
+      <ul class="coach-list">
+          
+            
+          <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-sugrue.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Chris Sugrue <span class="sub web">/ <a href="http://csugrue.com/" target="_blank">csugrue.com</a></span></h5>
+            <p class="text">Chris Sugrue is an artist and programmer developing interactive installations, audio-visual performances and experimental interfaces. Her works experiment with technology in playful and curious ways and investigate topics such as artificial life, eye-tracking and optical illusions. She has exhibited internationally in such festivals and galleries as Ars Electronica, Sónar Festival, Pixel Gallery, Medialab-Prado, Matadero Madrid, and La Noche En Blanco Madrid.</p>
+
+              <p class="text">Sugrue’s interactive installation, Delicate Boundaries received an honorary mention from Vida Art and Artificial Life Awards and first prize from Share Festival. In 2009, she collaborated to help develop the EyeWriter, a low-cost eye controlled drawing tool for ALS patients. The EyeWriter was honored with Design of the Year award for interactive category, the Future Everything Award, and a Golden Nica from Ars Electronica.</p>
+
+              <p class="text">Sugrue holds a Masters of Fine Arts in Design and Technology from Parsons School of Design. She has worked as a creative engineer at the Ars Electronica Futurelab where she was the lead interaction developer for a stereoscopic interactive dance performance with artist and choreographer Klaus Obermaier. Sugrue was the recipient of a year-long fellowship at the Eyebeam Art and Technology Center in New York, and has held artist residencies with Hangar in Barcelona, La Casa De Velázquez in Madrid and Harvestworks in New York. She has taught courses in the Design and Technology department at Parsons School of Design, the Interface Culture program at the KunstUniversität in Linz, Austria, and numerous workshops on visual and creative programming.</p>          
+          </div>
+        </li>
+        <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-adam.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Adam Harvey <span class="sub web">/ <a href="https://ahprojects.com/" target="_blank">ahprojects.com</a></span></h5>
+            <p class="text">Adam Harvey is a Berlin-based artist and researcher whose work explores the impacts of surveillance technologies. His previous projects include CV Dazzle, camouflage from computer vision; Stealth Wear, 'Anti-Drone' fashion; and the Privacy Gift Shop, an online marketplace for countersurveillance art. His work has been widely covered in the media including 60 Minutes, The New York Times, BBC, and the Air Force Times. </p>
+
+              <p class="text">Harvey has taught a course on the pervasiveness of surveillance technologies at New York University; was an inaugural member of NEW INC, the New Museum's art incubator program. He is currently developing a computer vision toolkit for the artist Trevor Paglen and developing new products for the Privacy Gift Shop.</p>
+      
+          </div>
+        </li>
+
+<li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-mo.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Mauritius Seeger <span class="sub web">/ <a href="http://www.morishuz.com/drmo/about/" target="_blank">morishuz.com</a></span></h5>
+            <p class="text">Mauritius Seeger is a programmer and video artist, also  interested in photography, live video performances, and interactive art. In the past has worked in the fields such as physics, optics, image processing, computer vision and machine learning. His recent work has focused on interactive media installations, projections, displays and art projects. </p>
+      
+          </div>
+        </li>
+
+        <h3>Program Guests</h3>
+        <li class="row coach">
+          <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+            <img src="/i/pic-gene.jpg" class="pic">
+          </div>
+          <div class="col-sm-12 col-md-7 col-lg-7 description">
+
+            <h5 class="name">Gene Kogan <span class="sub web">/ <a href="http://www.genekogan.com" target="_blank">genekogan.com</a></span></h5>
+            <p class="text">Gene Kogan is an artist and programmer who is interested in generative systems and the application of emerging technology into artistic and expressive contexts. He writes code for live music, performance, and visual art. He contributes to open-source software projects and gives workshops and demonstrations on topics related to code and art.</p>
+
+            <p class="text">He is a contributor to openFrameworks, Processing, and p5.js, an adjunct professor at Bennington College and ITP-NYU, and a former resident at Eyebeam.
+            </p>          
+          </div>
+        </li>
+        <li class="row coach">
+              <div class="col-sm-12 col-md-5 col-lg-5 pic-holder">
+                <img src="/i/grlBerlin.jpg" class="pic">
+              </div>
+              <div class="col-sm-12 col-md-7 col-lg-7 description">
+                <h5 class="name">Graffiti Research Lab Germany <span class="sub web">/&nbsp;<a href="http://www.graffitiresearchlab.de/" target="_blank">graffitiresearchlab.de/</a></span></h5>
+                <p class="text">Graffiti Research Lab Germany (GRLG) is a collective of hackers, coders, artists and vandals who consider themselves activists that use technology as a tool for intervention in the public space.</p>
+              </div>
+            </li>
+  
+          </ul>
+
+
+            
+            </article>
+
+
+</section>
+
+
+        </div>
+      </div>
+    </div>
+    <div class="col-xs-12 col-sm-6 col-md-4 col-lg-4  col sidebar">
+      <!-- Here is a block for screaming out about something --> 
+
+
+<section id="application" class="holder application">
+
+					
+
+					<p><strong style="font-weight: bold;" >
+
+</br><a href="http://schoolofma.org/programs/" class="apply danger" target="_blank">SUMMER  2017 </br>PROGRAMS</a></p>
+					
+					
+
+					
+				
+					
+
+ </section>
+
+<section id="application" class="holder application">
+
+					
+
+					<p><strong style="font-weight: bold;" >RELATED LINKS</strong></p>
+				
+
+				<a href="http://www.eyewriter.org" target="_blank">The Eyewriter</a></br></br>
+
+				<a href="http://flong.com/texts/essays/essay_cvad/" target="_blank">Computer Vision for Artists and Designers: Pedagogic Tools and Techniques for Novice Programmers </a></br></br>
+
+<a href="https://medium.com/the-physics-arxiv-blog/computer-vision-algorithms-detect-human-figures-in-cubist-art-e82995bb42a0#.sf2bl0ar4" target="_blank">Computer Vision Algorithms Detect Human Figures In Cubist Art</a></br></br>
+
+
+<a href="hhttps://en.wikipedia.org/wiki/Computer_vision" target="_blank">Computer Vision on Wikipedia</a></br>
+
+
+ </section>
+ 
+
+
+
+
+
+
+
+ 
+
+<section id="contact" class="contact">
+    <h2>CONTACT INFORMATION</h2>
+    <ul class="contact-list">   
+        <li class="contact-item"><span class="icon icon-email"></span> <a href="mailto:info@schoolofma.org">info@schoolofma.org</a></li>
+        <li class="contact-item"><span class="icon icon-twitter"></span> <a href="https://twitter.com/schoolofmaaa">schoolofmaaa</a></li>
+        <li class="contact-item"><span class="icon icon-fb"></span> <a href="https://www.facebook.com/pages/School-of-Machines-Making-and-Make-Believe/736062943100977">School of Machines, Making&nbsp;&amp;&nbsp;Make-Believe</a></li>
+        <li class="contact-item"><span class="icon2 icon-instagram2"></span> <a href="https://instagram.com/schoolofma/" >  schoolofma</a></li>
+    </ul>
+</section>
+
+<div class="newsletter">
+    <!-- Begin MailChimp Signup Form -->
+    <link href="//cdn-images.mailchimp.com/embedcode/slim-081711.css" rel="stylesheet" type="text/css">
+    <style type="text/css">
+        #mc_embed_signup {
+            background: transparent; 
+            clear:left; 
+            margin: 30px auto 0;
+        }
+
+        #mc_embed_signup form {
+            padding: 0;
+        }
+
+        #mc_embed_signup .field {
+            width: 100%;
+            float: left;
+        }
+
+        #mc_embed_signup label {
+            font-weight: normal;
+            padding: 0;
+        }
+        #mc_embed_signup input {
+            background: transparent;
+            border-color: #444;
+            border-top: 0;
+            border-left: 0;
+            border-right: 0;
+            border-bottom-width: 3px;
+            color: #444;
+        }
+        #mc_embed_signup input:focus {
+            border-color: #000;
+            outline: none;
+            background: #59a55c;
+            color: #222;
+        }
+        #mc_embed_signup input.email,
+        #mc_embed_signup input.button {
+            clear: none;                            
+            margin: 0;
+        }
+        #mc_embed_signup input.email {
+            float: left;
+            width: 76%;
+            min-width: 110px;
+        }
+        #mc_embed_signup input.button {
+            float: right;
+            font-weight: normal;
+            width: 18%;
+            min-width: 33px;
+            background: transparent;
+            border-radius: 0;
+            color: #444;
+            font-size: 40px;
+        }
+        #mc_embed_signup input.button:hover,
+        #mc_embed_signup input.button:focus {
+            color: #59a55c;
+            background: transparent;
+        }
+        #mc_embed_signup .sub {
+            font-size: 13px;
+            display: block;
+        }
+        /* Add your own MailChimp form style overrides in your site stylesheet or in this style block.
+        We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
+    </style>
+    <div id="mc_embed_signup">
+        <form action="http://schoolofma.us8.list-manage2.com/subscribe/post?u=8a582affe02962d9e73f8ee6d&amp;id=d71088c8ff" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+            <div class="clear">
+                <h2 class="headline">Subscribe to our newsletter</h2>
+                <!--label for="mce-EMAIL">Subscribe to&nbsp;our&nbsp;newsletter</label-->
+                <p class="sub">Receive updates about our&nbsp;programs and events</p>
+            </div>
+            <div class="field">
+                <input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+                <!-- real people should not fill this in - do not remove this or risk form bot signups-->
+                <div style="position: absolute; left: -5000px;"><input type="text" name="b_8a582affe02962d9e73f8ee6d_d71088c8ff" value=""></div>
+                <input type="submit" value="⍄" name="subscribe" id="mc-embedded-subscribe" class="button">
+            </div>
+        </form>
+    </div>
+
+    <!--End mc_embed_signup-->
+</div>
+
+
+
+    </div>
+  </div>
+</div>
+</div><!-- /container -->
+    <div class="bg"><img src="/i/school004.jpg"  ></div>
+
+</body>
+
+</html> 
+

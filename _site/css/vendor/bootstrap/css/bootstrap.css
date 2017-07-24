@@ -3066,3 +3066,9 @@ button.close {
     display: none !important;
   }
 }
+
+.panel-default > .panel-heading-custom {
+    color: inherit;
+    text-decoration: none; 
+    font-size: 20px;
+}
