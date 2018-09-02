@@ -374,7 +374,7 @@ small {
 .header .title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  color: #FFEFEF;
+  color: #D14E4E;
   letter-spacing: .05ex;
   margin-right: 5%;
   text-transform: uppercase;
@@ -422,18 +422,18 @@ small {
 
 .header .line-3 {
   font-size: 48px;
-  color: #ABAAAA;
+  color: #F8F8F8;
 }
 
 .header .line-4 {
   font-size: 64px;
-  color: #84C5CB;
+  color: #46ACB6;
 }
 
 .header .line-5 {
   font-size: 36px;
   position: relative;
-  color: #D8A1D7;
+  color: #F586E0;
 }
 
 .header .amp {
