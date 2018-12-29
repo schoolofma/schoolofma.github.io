@@ -374,7 +374,7 @@ small {
 .header .title {
   font-family: 'Open Sans', sans-serif;
   font-weight: 800;
-  color: ##DDC5C7;
+  color: #FFF;
   letter-spacing: .05ex;
   margin-right: 5%;
   text-transform: uppercase;
@@ -422,7 +422,7 @@ small {
 
 .header .line-3 {
   font-size: 48px;
-  color: #F8F8F8;
+  color: ##DDC5C7;
 }
 
 .header .line-4 {
